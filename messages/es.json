@@ -1,0 +1,140 @@
+{
+  "brand": "活力足 LivelyFoot",
+  "nav": { "home": "Inicio", "services": "Tarifas", "about": "Tratamientos", "contact": "Contacto" },
+  "home": {
+    "hero_title": "Despierta tu cuerpo desde dentro",
+    "hero_subtitle": "Esperamos ofrecerle los servicios de masaje y cuidado más profesionales",
+    "hero_cta": "Ver servicios",
+    "treatments_title": "Tratamientos profesionales",
+    "treatments_subtitle": "Descubre el plan de cuidado que mejor se adapta a ti — rejuvenece desde el interior."
+  },
+  "treatments": {
+    "foot_reflex": {
+      "name": "Reflexología podal",
+      "description": "Estimula las zonas reflejas de ambos pies para regular los órganos correspondientes de todo el cuerpo. Mejora eficazmente la circulación sanguínea, alivia la pesadez de piernas y mejora la calidad del sueño — la mejor opción para los urbanitas ocupados."
+    },
+    "body_acupoint": {
+      "name": "Acupresión corporal completa",
+      "description": "Dirigido al dolor de hombros, cuello y espalda causado por malas posturas prolongadas. Los terapeutas utilizan presión digital y técnicas de amasamiento para localizar con precisión los puntos de acupuntura, liberando profundamente los músculos tensos y desbloqueando los meridianos."
+    },
+    "lymph": {
+      "name": "Masaje de drenaje linfático",
+      "description": "Utiliza técnicas suaves y rítmicas para guiar el flujo linfático y acelerar el metabolismo del exceso de líquidos y desechos. Ayuda a reducir la hinchazón corporal, reforzar la función inmunitaria y mejorar la constitución general."
+    },
+    "prenatal": {
+      "name": "Masaje prenatal de relajación",
+      "description": "Masaje suave diseñado para futuras mamás. Alivia las molestias comunes del embarazo, incluyendo hinchazón de extremidades inferiores, presión lumbar y calambres musculares, con posicionamiento seguro durante toda la sesión."
+    },
+    "nail": {
+      "name": "Cuidado de uñas estilo Shanghái",
+      "description": "Heredando la auténtica técnica shanghainesa de cuidado de uñas, utiliza herramientas profesionales para tratar meticulosamente callosidades, piel muerta y problemas ungueales. Más que cosmético — es una limpieza profunda y mantenimiento para la salud del pie."
+    },
+    "guasha": {
+      "name": "Terapia Gua Sha",
+      "description": "Estimula los meridianos en la superficie corporal para expulsar toxinas y calor acumulados. Alivia eficazmente los síntomas iniciales del resfriado, la rigidez de cuello y hombros y la insolación, reforzando la resistencia del organismo."
+    }
+  },
+  "services": {
+    "title": "Lista de precios",
+    "subtitle": "Tarifas",
+    "currency": "$",
+    "min": "Min",
+    "main_title": "Servicios principales",
+    "combo_title": "Paquetes combinados",
+    "combo_subtitle": "Combos",
+    "other_title": "Otros cuidados profesionales",
+    "voucher_title": "Ofertas de bonos",
+    "voucher_bonus": "Bonificación",
+    "voucher_note": "Los bonos no son reembolsables. Válidos durante 18 meses desde la fecha de compra.",
+    "main": {
+      "foot": "Masaje de pies",
+      "body": "Masaje corporal completo",
+      "oil_body": "Aromaterapia corporal completa",
+      "lymph": "Masaje linfático corporal completo",
+      "prenatal": "Masaje prenatal"
+    },
+    "combo": {
+      "foot_neck": "Pies (50m) + Cabeza/Cuello/Hombros (25m)",
+      "foot_hand": "Pies (50m) + Manos (25m)",
+      "foot25_body25": "Pies (25m) + Cuerpo completo (25m)",
+      "foot50_body50": "Pies (50m) + Cuerpo completo (50m)"
+    },
+    "other": {
+      "neck_hand": "Cabeza/Cuello/Hombros / Manos",
+      "pain_relief": "Alivio del dolor (30m)",
+      "nail_guasha": "Cuidado de uñas / Gua Sha",
+      "eyelash": "Extensiones de pestañas"
+    }
+  },
+  "about": {
+    "title": "Sobre nosotros",
+    "story_title": "Nuestra historia",
+    "story_p1": "LivelyFoot se dedica a ofrecer servicios profesionales de masaje y cuidado para los urbanitas ocupados. Creemos que todos merecen un momento de pura relajación.",
+    "story_p2": "Nuestro equipo de terapeutas cualificados aporta años de experiencia, combinando el masaje tradicional chino con técnicas modernas para ofrecer una experiencia personalizada a cada cliente.",
+    "team_title": "Nuestro equipo",
+    "environment_title": "Nuestro espacio"
+  },
+  "contact": {
+    "title": "Bienvenido",
+    "subtitle": "Esperamos ofrecerle los servicios de masaje y cuidado más profesionales",
+    "info_title": "Información de contacto",
+    "address_label": "Dirección",
+    "address": "M/F, King Cheung Mansion, 5 King Kwong Street, Happy Valley",
+    "phone_label": "Teléfono",
+    "phone": "2803 2880",
+    "phone2": "2803 2801",
+    "hours_label": "Horario",
+    "hours": "Todos los días 10:00 AM - 12:00 MN",
+    "whatsapp": "Consulta por WhatsApp",
+    "call": "Llamar para reservar",
+    "map": "Google Maps",
+    "map_title": "LivelyFoot - M/F, King Cheung Mansion, 5 King Kwong Street, Happy Valley",
+    "form_title": "Envíenos un mensaje",
+    "form_name": "Nombre",
+    "form_email": "Correo electrónico",
+    "form_message": "Mensaje",
+    "form_submit": "Enviar mensaje",
+    "form_success": "¡Mensaje enviado! Nos pondremos en contacto con usted pronto."
+  },
+  "meta": {
+    "home_title": "Masaje profesional en Happy Valley",
+    "home_desc": "LivelyFoot en Happy Valley, Hong Kong ofrece reflexología podal, masaje corporal completo, drenaje linfático, masaje prenatal y más. Abierto todos los días hasta medianoche.",
+    "services_title": "Lista de precios de servicios",
+    "services_desc": "Consulte todos los precios de los servicios de masaje de LivelyFoot, incluyendo masaje de pies, masaje corporal, aromaterapia, masaje linfático y paquetes combinados.",
+    "about_title": "Tratamientos profesionales",
+    "about_desc": "Conozca la historia de LivelyFoot y sus tratamientos profesionales, incluyendo reflexología podal, acupresión, drenaje linfático, gua sha y más.",
+    "contact_title": "Contáctenos",
+    "contact_desc": "LivelyFoot se encuentra en M/F, King Cheung Mansion, 5 King Kwong Street, Happy Valley. Llame al 2803 2880. Abierto todos los días de 10AM a 12MN. Reservas por WhatsApp disponibles."
+  },
+  "footer": { "rights": "Todos los derechos reservados", "follow": "Síguenos" },
+  "faq": {
+    "title": "Preguntas frecuentes",
+    "subtitle": "Respuestas a sus preguntas sobre nuestros servicios de masaje",
+    "items": {
+      "booking": {
+        "q": "¿Necesito reservar con antelación?",
+        "a": "Recomendamos reservar a través de WhatsApp o por teléfono para asegurar la disponibilidad de un terapeuta en el horario deseado. También aceptamos visitas sin cita previa según disponibilidad."
+      },
+      "duration": {
+        "q": "¿Cuánto duran las sesiones de masaje?",
+        "a": "Ofrecemos sesiones de 50 minutos, 75 minutos y 100 minutos. Elija la duración que mejor se adapte a sus necesidades."
+      },
+      "prenatal": {
+        "q": "¿Pueden recibir masaje las mujeres embarazadas?",
+        "a": "Sí. Ofrecemos un servicio dedicado de masaje prenatal. Nuestros terapeutas utilizan posiciones seguras para ayudar a las futuras mamás a aliviar las molestias del embarazo. Recomendamos esperar hasta después del primer trimestre."
+      },
+      "voucher": {
+        "q": "¿Son transferibles los bonos de regalo?",
+        "a": "Sí, los bonos son al portador y pueden compartirse con familiares y amigos. Los bonos no son reembolsables y tienen una validez de 18 meses desde la fecha de compra."
+      },
+      "hours": {
+        "q": "¿Cuál es su horario de apertura?",
+        "a": "Abrimos todos los días de 10:00 AM a 12:00 de la medianoche."
+      },
+      "location": {
+        "q": "¿Cómo llego a su local?",
+        "a": "Estamos ubicados en 5/F y entresuelo, King Cheung Mansion, King Kwong Street, Happy Valley. Tome el tranvía hasta la terminal de Happy Valley — estamos a unos 3 minutos a pie."
+      }
+    }
+  }
+}

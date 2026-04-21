@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#8B6F47"/>
+  <rect x="0" y="0" width="1200" height="630" fill="url(#grad)" opacity="0.3"/>
+  <defs><linearGradient id="grad" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#6B5535"/><stop offset="100%" stop-color="#8B6F47"/></linearGradient></defs>
+  <text x="600" y="280" text-anchor="middle" font-family="serif" font-size="72" font-weight="bold" fill="#F5F0E8">活力足</text>
+  <text x="600" y="360" text-anchor="middle" font-family="sans-serif" font-size="48" fill="#C4A265">LivelyFoot</text>
+  <text x="600" y="430" text-anchor="middle" font-family="sans-serif" font-size="24" fill="#F5F0E8" opacity="0.7">Professional Massage · Happy Valley, Hong Kong</text>
+</svg>

@@ -1,0 +1,148 @@
+{
+  "brand": "活力足 LivelyFoot",
+  "nav": {
+    "home": "Home",
+    "services": "Pricing",
+    "about": "Treatments",
+    "contact": "Contact"
+  },
+  "home": {
+    "hero_title": "Awaken Your Body From Within",
+    "hero_subtitle": "We look forward to providing you with the most professional massage and care services",
+    "hero_cta": "View Services",
+    "treatments_title": "Professional Treatments",
+    "treatments_subtitle": "Discover the care plan that suits you — rejuvenate from the inside out."
+  },
+  "treatments": {
+    "foot_reflex": {
+      "name": "Foot Reflexology",
+      "description": "Stimulates reflex zones on both feet to regulate corresponding organs throughout the body. Effectively improves blood circulation, relieves leg heaviness, and enhances sleep quality — the top choice for busy urbanites."
+    },
+    "body_acupoint": {
+      "name": "Full Body Acupressure",
+      "description": "Targets shoulder, neck, and back pain caused by prolonged poor posture. Therapists use finger pressure and kneading techniques to precisely locate acupoints, deeply releasing tense muscles and unblocking meridians."
+    },
+    "lymph": {
+      "name": "Lymphatic Drainage Massage",
+      "description": "Uses gentle, rhythmic techniques to guide lymph flow and accelerate the metabolism of excess fluids and waste. Helps reduce body swelling, boost immune function, and improve overall constitution."
+    },
+    "prenatal": {
+      "name": "Prenatal Relaxation Massage",
+      "description": "Gentle massage designed for expectant mothers. Relieves common pregnancy discomforts including lower limb swelling, lumbar pressure, and muscle cramps, with therapists using safe positioning throughout."
+    },
+    "nail": {
+      "name": "Shanghai-Style Nail Care",
+      "description": "Inheriting authentic Shanghai nail craft, using professional tools to meticulously treat calluses, dead skin, and nail issues. More than cosmetic — it's deep cleansing and maintenance for foot health."
+    },
+    "guasha": {
+      "name": "Gua Sha Therapy",
+      "description": "Stimulates meridians on the body surface to expel accumulated toxins and heat. Effectively relieves early cold symptoms, neck and shoulder stiffness, and heatstroke, boosting the body's resistance."
+    }
+  },
+  "services": {
+    "title": "Service Price List",
+    "subtitle": "Pricing",
+    "currency": "$",
+    "min": "Min",
+    "main_title": "Main Services",
+    "combo_title": "Combo Packages",
+    "combo_subtitle": "Combos",
+    "other_title": "Other Professional Care",
+    "voucher_title": "Cash Voucher Offers",
+    "voucher_bonus": "Bonus",
+    "voucher_note": "Cash vouchers are non-refundable. Valid for 18 months from date of purchase.",
+    "main": {
+      "foot": "Foot Massage",
+      "body": "Full Body Massage",
+      "oil_body": "Aromatherapy Full Body",
+      "lymph": "Full Body Lymphatic Massage",
+      "prenatal": "Prenatal Massage"
+    },
+    "combo": {
+      "foot_neck": "Foot (50m) + Head/Neck/Shoulder (25m)",
+      "foot_hand": "Foot (50m) + Hand (25m)",
+      "foot25_body25": "Foot (25m) + Full Body (25m)",
+      "foot50_body50": "Foot (50m) + Full Body (50m)"
+    },
+    "other": {
+      "neck_hand": "Head/Neck/Shoulder / Hand",
+      "pain_relief": "Pain Relief (30m)",
+      "nail_guasha": "Nail Care / Gua Sha",
+      "eyelash": "Eyelash Extensions"
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "story_title": "Our Story",
+    "story_p1": "LivelyFoot is dedicated to providing professional massage and care services for busy urbanites. We believe everyone deserves a moment of pure relaxation.",
+    "story_p2": "Our team of skilled therapists brings years of expertise, blending traditional Chinese massage with modern techniques to deliver a personalized experience for every guest.",
+    "team_title": "Our Team",
+    "environment_title": "Our Space"
+  },
+  "contact": {
+    "title": "Welcome",
+    "subtitle": "We look forward to providing you with the most professional massage and care services",
+    "info_title": "Contact Information",
+    "address_label": "Address",
+    "address": "M/F, King Cheung Mansion, 5 King Kwong Street, Happy Valley",
+    "phone_label": "Phone",
+    "phone": "2803 2880",
+    "phone2": "2803 2801",
+    "hours_label": "Hours",
+    "hours": "Daily 10:00 AM - 12:00 MN",
+    "whatsapp": "WhatsApp Enquiry",
+    "call": "Call to Book",
+    "map": "Google Maps",
+    "map_title": "LivelyFoot - M/F, King Cheung Mansion, 5 King Kwong Street",
+    "form_title": "Send Us a Message",
+    "form_name": "Name",
+    "form_email": "Email",
+    "form_message": "Message",
+    "form_submit": "Send Message",
+    "form_success": "Message sent! We'll get back to you soon."
+  },
+  "meta": {
+    "home_title": "Professional Massage in Happy Valley",
+    "home_desc": "LivelyFoot in Happy Valley, Hong Kong offers foot reflexology, full body massage, lymphatic drainage, prenatal massage and more. Open daily until midnight.",
+    "services_title": "Service Price List",
+    "services_desc": "View all LivelyFoot massage service prices including foot massage, body massage, aromatherapy, lymphatic massage and combo packages.",
+    "about_title": "Professional Treatments",
+    "about_desc": "Learn about LivelyFoot's story and professional treatments including foot reflexology, acupressure, lymphatic drainage, gua sha and more.",
+    "contact_title": "Contact Us",
+    "contact_desc": "LivelyFoot is at M/F, King Cheung Mansion, 5 King Kwong Street, Happy Valley. Call 2803 2880. Open daily 10AM-12MN. WhatsApp booking available."
+  },
+  "footer": {
+    "rights": "All rights reserved",
+    "follow": "Follow Us"
+  },
+  "faq": {
+    "title": "FAQ",
+    "subtitle": "Answers to your questions about our massage services",
+    "items": {
+      "booking": {
+        "q": "Do I need to book in advance?",
+        "a": "We recommend booking via WhatsApp or phone to ensure a therapist is available for your preferred time. Walk-ins are welcome subject to availability."
+      },
+      "duration": {
+        "q": "How long are the massage sessions?",
+        "a": "We offer 50-minute, 75-minute, and 100-minute sessions. Choose the duration that best suits your needs."
+      },
+      "prenatal": {
+        "q": "Can pregnant women get a massage?",
+        "a": "Yes. We offer a dedicated prenatal massage service. Our therapists use safe positioning to help expectant mothers relieve pregnancy discomforts. We recommend waiting until after the first trimester."
+      },
+      "voucher": {
+        "q": "Are cash vouchers transferable?",
+        "a": "Yes, cash vouchers are non-named and can be shared with family and friends. Vouchers are non-refundable and valid for 18 months from the date of purchase."
+      },
+      "hours": {
+        "q": "What are your opening hours?",
+        "a": "We are open daily from 10:00 AM to 12:00 midnight."
+      },
+      "location": {
+        "q": "How do I get to your location?",
+        "a": "We are located at 5/F & Cockloft, King Cheung Mansion, King Kwong Street, Happy Valley. Take the tram to Happy Valley terminus — we're about a 3-minute walk away."
+      }
+    }
+  }
+}

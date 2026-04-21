@@ -1,0 +1,140 @@
+{
+  "brand": "活力足 LivelyFoot",
+  "nav": { "home": "Accueil", "services": "Tarifs", "about": "Soins", "contact": "Contact" },
+  "home": {
+    "hero_title": "Éveillez votre corps de l'intérieur",
+    "hero_subtitle": "Nous avons hâte de vous offrir les services de massage et de soins les plus professionnels",
+    "hero_cta": "Voir les services",
+    "treatments_title": "Soins professionnels",
+    "treatments_subtitle": "Découvrez le programme de soins qui vous convient — régénérez-vous de l'intérieur."
+  },
+  "treatments": {
+    "foot_reflex": {
+      "name": "Réflexologie plantaire",
+      "description": "Stimule les zones réflexes des deux pieds pour réguler les organes correspondants dans tout le corps. Améliore efficacement la circulation sanguine, soulage la lourdeur des jambes et améliore la qualité du sommeil — le choix idéal pour les citadins actifs."
+    },
+    "body_acupoint": {
+      "name": "Acupression corporelle complète",
+      "description": "Cible les douleurs aux épaules, au cou et au dos causées par une mauvaise posture prolongée. Les thérapeutes utilisent la pression digitale et les techniques de pétrissage pour localiser précisément les points d'acupuncture, libérant en profondeur les muscles tendus et débloquant les méridiens."
+    },
+    "lymph": {
+      "name": "Massage drainage lymphatique",
+      "description": "Utilise des techniques douces et rythmées pour guider le flux lymphatique et accélérer le métabolisme des liquides et déchets en excès. Aide à réduire les gonflements, renforcer la fonction immunitaire et améliorer la constitution générale."
+    },
+    "prenatal": {
+      "name": "Massage prénatal de relaxation",
+      "description": "Massage doux conçu pour les futures mamans. Soulage les inconforts courants de la grossesse, notamment le gonflement des membres inférieurs, la pression lombaire et les crampes musculaires, avec un positionnement sécurisé tout au long de la séance."
+    },
+    "nail": {
+      "name": "Soin des ongles à la shanghaïenne",
+      "description": "Héritant de l'authentique savoir-faire shanghaïen, utilise des outils professionnels pour traiter méticuleusement les callosités, les peaux mortes et les problèmes d'ongles. Plus qu'un soin esthétique — c'est un nettoyage en profondeur et un entretien pour la santé des pieds."
+    },
+    "guasha": {
+      "name": "Thérapie Gua Sha",
+      "description": "Stimule les méridiens à la surface du corps pour expulser les toxines et la chaleur accumulées. Soulage efficacement les premiers symptômes du rhume, la raideur du cou et des épaules et les coups de chaleur, renforçant la résistance de l'organisme."
+    }
+  },
+  "services": {
+    "title": "Grille tarifaire",
+    "subtitle": "Tarifs",
+    "currency": "$",
+    "min": "Min",
+    "main_title": "Services principaux",
+    "combo_title": "Forfaits combinés",
+    "combo_subtitle": "Combos",
+    "other_title": "Autres soins professionnels",
+    "voucher_title": "Offres de bons d'achat",
+    "voucher_bonus": "Bonus",
+    "voucher_note": "Les bons d'achat ne sont ni remboursables ni échangeables. Valables 18 mois à compter de la date d'achat.",
+    "main": {
+      "foot": "Massage des pieds",
+      "body": "Massage corporel complet",
+      "oil_body": "Aromathérapie corporelle complète",
+      "lymph": "Massage lymphatique corporel complet",
+      "prenatal": "Massage prénatal"
+    },
+    "combo": {
+      "foot_neck": "Pieds (50m) + Tête/Cou/Épaules (25m)",
+      "foot_hand": "Pieds (50m) + Mains (25m)",
+      "foot25_body25": "Pieds (25m) + Corps complet (25m)",
+      "foot50_body50": "Pieds (50m) + Corps complet (50m)"
+    },
+    "other": {
+      "neck_hand": "Tête/Cou/Épaules / Mains",
+      "pain_relief": "Soulagement de la douleur (30m)",
+      "nail_guasha": "Soin des ongles / Gua Sha",
+      "eyelash": "Extensions de cils"
+    }
+  },
+  "about": {
+    "title": "À propos de nous",
+    "story_title": "Notre histoire",
+    "story_p1": "LivelyFoot se consacre à offrir des services professionnels de massage et de soins aux citadins actifs. Nous croyons que chacun mérite un moment de pure relaxation.",
+    "story_p2": "Notre équipe de thérapeutes qualifiés apporte des années d'expertise, alliant le massage traditionnel chinois aux techniques modernes pour offrir une expérience personnalisée à chaque client.",
+    "team_title": "Notre équipe",
+    "environment_title": "Notre espace"
+  },
+  "contact": {
+    "title": "Bienvenue",
+    "subtitle": "Nous avons hâte de vous offrir les services de massage et de soins les plus professionnels",
+    "info_title": "Coordonnées",
+    "address_label": "Adresse",
+    "address": "M/F, King Cheung Mansion, 5 King Kwong Street, Happy Valley",
+    "phone_label": "Téléphone",
+    "phone": "2803 2880",
+    "phone2": "2803 2801",
+    "hours_label": "Horaires",
+    "hours": "Tous les jours 10h00 - 00h00",
+    "whatsapp": "Demande via WhatsApp",
+    "call": "Appeler pour réserver",
+    "map": "Google Maps",
+    "map_title": "LivelyFoot - M/F, King Cheung Mansion, 5 King Kwong Street, Happy Valley",
+    "form_title": "Envoyez-nous un message",
+    "form_name": "Nom",
+    "form_email": "E-mail",
+    "form_message": "Message",
+    "form_submit": "Envoyer le message",
+    "form_success": "Message envoyé ! Nous vous répondrons dans les plus brefs délais."
+  },
+  "meta": {
+    "home_title": "Massage professionnel à Happy Valley",
+    "home_desc": "LivelyFoot à Happy Valley, Hong Kong propose réflexologie plantaire, massage corporel complet, drainage lymphatique, massage prénatal et plus. Ouvert tous les jours jusqu'à minuit.",
+    "services_title": "Grille tarifaire des services",
+    "services_desc": "Consultez tous les tarifs des services de massage LivelyFoot : massage des pieds, massage corporel, aromathérapie, massage lymphatique et forfaits combinés.",
+    "about_title": "Soins professionnels",
+    "about_desc": "Découvrez l'histoire de LivelyFoot et ses soins professionnels : réflexologie plantaire, acupression, drainage lymphatique, gua sha et plus.",
+    "contact_title": "Contactez-nous",
+    "contact_desc": "LivelyFoot se situe au M/F, King Cheung Mansion, 5 King Kwong Street, Happy Valley. Appelez le 2803 2880. Ouvert tous les jours de 10h à minuit. Réservation WhatsApp disponible."
+  },
+  "footer": { "rights": "Tous droits réservés", "follow": "Suivez-nous" },
+  "faq": {
+    "title": "FAQ",
+    "subtitle": "Réponses à vos questions sur nos services de massage",
+    "items": {
+      "booking": {
+        "q": "Dois-je réserver à l'avance ?",
+        "a": "Nous vous recommandons de réserver via WhatsApp ou par téléphone pour garantir la disponibilité d'un thérapeute à l'heure souhaitée. Les visites sans rendez-vous sont les bienvenues sous réserve de disponibilité."
+      },
+      "duration": {
+        "q": "Quelle est la durée des séances de massage ?",
+        "a": "Nous proposons des séances de 50 minutes, 75 minutes et 100 minutes. Choisissez la durée qui correspond le mieux à vos besoins."
+      },
+      "prenatal": {
+        "q": "Les femmes enceintes peuvent-elles recevoir un massage ?",
+        "a": "Oui. Nous proposons un service dédié de massage prénatal. Nos thérapeutes utilisent un positionnement sécurisé pour aider les futures mamans à soulager les inconforts de la grossesse. Nous recommandons d'attendre la fin du premier trimestre."
+      },
+      "voucher": {
+        "q": "Les bons d'achat sont-ils transférables ?",
+        "a": "Oui, les bons d'achat sont au porteur et peuvent être partagés avec la famille et les amis. Les bons ne sont ni remboursables ni échangeables et sont valables 18 mois à compter de la date d'achat."
+      },
+      "hours": {
+        "q": "Quels sont vos horaires d'ouverture ?",
+        "a": "Nous sommes ouverts tous les jours de 10h00 à minuit."
+      },
+      "location": {
+        "q": "Comment accéder à votre établissement ?",
+        "a": "Nous sommes situés au 5/F et mezzanine, King Cheung Mansion, King Kwong Street, Happy Valley. Prenez le tramway jusqu'au terminus de Happy Valley — nous sommes à environ 3 minutes à pied."
+      }
+    }
+  }
+}

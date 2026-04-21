@@ -1,0 +1,61 @@
+{
+  "brand": "活力足 LivelyFoot",
+  "nav": { "home": "Home", "services": "Prezzi", "about": "Trattamenti", "contact": "Contatti" },
+  "home": { "hero_title": "Risveglia il Tuo Corpo dall'Interno", "hero_subtitle": "Non vediamo l'ora di offrirti i più professionali servizi di massaggio e cura", "hero_cta": "Vedi Servizi", "treatments_title": "Trattamenti Professionali", "treatments_subtitle": "Scopri il piano di cura più adatto a te — ringiovanisci dall'interno." },
+  "treatments": {
+    "foot_reflex": { "name": "Riflessologia Plantare", "description": "Stimola le zone riflesse di entrambi i piedi per regolare gli organi corrispondenti in tutto il corpo. Migliora efficacemente la circolazione sanguigna, allevia la pesantezza delle gambe e migliora la qualità del sonno — la scelta ideale per chi vive la frenesia urbana." },
+    "body_acupoint": { "name": "Digitopressione Corpo Intero", "description": "Mira ai dolori di spalle, collo e schiena causati da posture scorrette prolungate. I terapisti utilizzano pressione digitale e tecniche di impastamento per localizzare con precisione i punti di agopuntura, rilasciando in profondità i muscoli tesi e sbloccando i meridiani." },
+    "lymph": { "name": "Massaggio Drenaggio Linfatico", "description": "Utilizza tecniche dolci e ritmiche per guidare il flusso linfatico e accelerare il metabolismo dei liquidi in eccesso e delle scorie. Aiuta a ridurre il gonfiore corporeo, rafforzare la funzione immunitaria e migliorare la costituzione generale." },
+    "prenatal": { "name": "Massaggio Rilassante Prenatale", "description": "Massaggio delicato pensato per le future mamme. Allevia i comuni disturbi della gravidanza tra cui gonfiore degli arti inferiori, pressione lombare e crampi muscolari, con i terapisti che utilizzano posizionamenti sicuri durante tutta la seduta." },
+    "nail": { "name": "Cura delle Unghie Stile Shanghai", "description": "Ereditando l'autentica arte delle unghie di Shanghai, utilizza strumenti professionali per trattare meticolosamente calli, pelle morta e problemi ungueali. Più che estetica — è pulizia profonda e manutenzione per la salute dei piedi." },
+    "guasha": { "name": "Terapia Gua Sha", "description": "Stimola i meridiani sulla superficie del corpo per espellere tossine e calore accumulati. Allevia efficacemente i primi sintomi del raffreddore, la rigidità di collo e spalle e i colpi di calore, rafforzando la resistenza dell'organismo." }
+  },
+  "services": { "title": "Listino Prezzi", "subtitle": "Prezzi", "currency": "$", "min": "Min", "main_title": "Servizi Principali", "combo_title": "Pacchetti Combinati", "combo_subtitle": "Combo", "other_title": "Altre Cure Professionali", "voucher_title": "Offerte Buoni Regalo", "voucher_bonus": "Bonus", "voucher_note": "I buoni regalo non sono rimborsabili. Validi per 18 mesi dalla data di acquisto.",
+    "main": { "foot": "Massaggio ai Piedi", "body": "Massaggio Corpo Intero", "oil_body": "Aromaterapia Corpo Intero", "lymph": "Massaggio Linfatico Corpo Intero", "prenatal": "Massaggio Prenatale" },
+    "combo": { "foot_neck": "Piedi (50m) + Testa/Collo/Spalle (25m)", "foot_hand": "Piedi (50m) + Mani (25m)", "foot25_body25": "Piedi (25m) + Corpo Intero (25m)", "foot50_body50": "Piedi (50m) + Corpo Intero (50m)" },
+    "other": { "neck_hand": "Testa/Collo/Spalle / Mani", "pain_relief": "Sollievo dal Dolore (30m)", "nail_guasha": "Cura Unghie / Gua Sha", "eyelash": "Extension Ciglia" }
+  },
+  "about": { "title": "Chi Siamo", "story_title": "La Nostra Storia", "story_p1": "LivelyFoot si dedica a offrire servizi professionali di massaggio e cura per chi vive la frenesia urbana. Crediamo che tutti meritino un momento di puro relax.", "story_p2": "Il nostro team di terapisti qualificati porta con sé anni di esperienza, unendo il massaggio tradizionale cinese con tecniche moderne per offrire un'esperienza personalizzata a ogni ospite.", "team_title": "Il Nostro Team", "environment_title": "Il Nostro Spazio" },
+  "contact": { "title": "Benvenuto", "subtitle": "Non vediamo l'ora di offrirti i più professionali servizi di massaggio e cura", "info_title": "Informazioni di Contatto", "address_label": "Indirizzo", "address": "M/F, King Cheung Mansion, 5 King Kwong Street, Happy Valley", "phone_label": "Telefono", "phone": "2803 2880", "phone2": "2803 2801", "hours_label": "Orari", "hours": "Tutti i giorni 10:00 - 00:00", "whatsapp": "Richiesta WhatsApp", "call": "Chiama per Prenotare", "map": "Google Maps", "map_title": "LivelyFoot - M/F, King Cheung Mansion, 5 King Kwong Street, Happy Valley", "form_title": "Inviaci un Messaggio", "form_name": "Nome", "form_email": "E-mail", "form_message": "Messaggio", "form_submit": "Invia Messaggio", "form_success": "Messaggio inviato! Ti risponderemo al più presto." },
+  "meta": {
+    "home_title": "Massaggio professionale a Happy Valley",
+    "home_desc": "LivelyFoot a Happy Valley, Hong Kong offre riflessologia plantare, massaggio corpo intero, drenaggio linfatico, massaggio prenatale e altro. Aperto tutti i giorni fino a mezzanotte.",
+    "services_title": "Listino prezzi dei servizi",
+    "services_desc": "Visualizza tutti i prezzi dei servizi di massaggio LivelyFoot: massaggio ai piedi, massaggio corporeo, aromaterapia, massaggio linfatico e pacchetti combinati.",
+    "about_title": "Trattamenti professionali",
+    "about_desc": "Scopri la storia di LivelyFoot e i trattamenti professionali: riflessologia plantare, digitopressione, drenaggio linfatico, gua sha e altro.",
+    "contact_title": "Contattaci",
+    "contact_desc": "LivelyFoot si trova al M/F, King Cheung Mansion, 5 King Kwong Street, Happy Valley. Chiama il 2803 2880. Aperto tutti i giorni dalle 10:00 a mezzanotte. Prenotazione WhatsApp disponibile."
+  },
+  "footer": { "rights": "Tutti i diritti riservati", "follow": "Seguici" },
+  "faq": {
+    "title": "Domande Frequenti",
+    "subtitle": "Risposte alle tue domande sui nostri servizi di massaggio",
+    "items": {
+      "booking": {
+        "q": "Devo prenotare in anticipo?",
+        "a": "Ti consigliamo di prenotare tramite WhatsApp o telefono per assicurarti la disponibilità di un terapista nell'orario desiderato. Le visite senza appuntamento sono benvenute in base alla disponibilità."
+      },
+      "duration": {
+        "q": "Quanto durano le sedute di massaggio?",
+        "a": "Offriamo sedute da 50 minuti, 75 minuti e 100 minuti. Scegli la durata più adatta alle tue esigenze."
+      },
+      "prenatal": {
+        "q": "Le donne in gravidanza possono ricevere un massaggio?",
+        "a": "Sì. Offriamo un servizio dedicato di massaggio prenatale. I nostri terapisti utilizzano posizionamenti sicuri per aiutare le future mamme ad alleviare i disturbi della gravidanza. Consigliamo di attendere la fine del primo trimestre."
+      },
+      "voucher": {
+        "q": "I buoni regalo sono trasferibili?",
+        "a": "Sì, i buoni regalo sono al portatore e possono essere condivisi con familiari e amici. I buoni non sono rimborsabili e sono validi per 18 mesi dalla data di acquisto."
+      },
+      "hours": {
+        "q": "Quali sono i vostri orari di apertura?",
+        "a": "Siamo aperti tutti i giorni dalle 10:00 a mezzanotte."
+      },
+      "location": {
+        "q": "Come raggiungo il vostro centro?",
+        "a": "Ci troviamo al 5/F & Cockloft, King Cheung Mansion, King Kwong Street, Happy Valley. Prendi il tram fino al capolinea di Happy Valley — siamo a circa 3 minuti a piedi."
+      }
+    }
+  }
+}

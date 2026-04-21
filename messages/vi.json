@@ -1,0 +1,61 @@
+{
+  "brand": "活力足 LivelyFoot",
+  "nav": { "home": "Trang chủ", "services": "Bảng giá", "about": "Liệu trình", "contact": "Liên hệ" },
+  "home": { "hero_title": "Đánh Thức Cơ Thể Từ Bên Trong", "hero_subtitle": "Chúng tôi mong được mang đến cho bạn dịch vụ massage và chăm sóc chuyên nghiệp nhất", "hero_cta": "Xem Dịch Vụ", "treatments_title": "Liệu Trình Chuyên Nghiệp", "treatments_subtitle": "Khám phá kế hoạch chăm sóc phù hợp với bạn — tái tạo từ bên trong ra bên ngoài." },
+  "treatments": {
+    "foot_reflex": { "name": "Phản Xạ Học Bàn Chân", "description": "Kích thích các vùng phản xạ trên cả hai bàn chân để điều hòa các cơ quan tương ứng trong toàn bộ cơ thể. Cải thiện hiệu quả tuần hoàn máu, giảm cảm giác nặng chân và nâng cao chất lượng giấc ngủ — lựa chọn hàng đầu cho cư dân thành thị bận rộn." },
+    "body_acupoint": { "name": "Bấm Huyệt Toàn Thân", "description": "Nhắm vào các cơn đau vai, cổ và lưng do tư thế sai kéo dài. Chuyên viên sử dụng áp lực ngón tay và kỹ thuật nhào nặn để xác định chính xác các huyệt đạo, giải phóng sâu các cơ căng thẳng và khai thông kinh lạc." },
+    "lymph": { "name": "Massage Dẫn Lưu Bạch Huyết", "description": "Sử dụng các kỹ thuật nhẹ nhàng, nhịp nhàng để hướng dẫn dòng chảy bạch huyết và đẩy nhanh quá trình chuyển hóa chất lỏng dư thừa và chất thải. Giúp giảm phù nề, tăng cường miễn dịch và cải thiện thể trạng tổng thể." },
+    "prenatal": { "name": "Massage Thư Giãn Trước Sinh", "description": "Massage nhẹ nhàng được thiết kế cho các bà mẹ mang thai. Giảm các khó chịu thường gặp khi mang thai bao gồm phù chân, áp lực vùng thắt lưng và chuột rút, với chuyên viên sử dụng tư thế an toàn trong suốt buổi trị liệu." },
+    "nail": { "name": "Chăm Sóc Móng Kiểu Thượng Hải", "description": "Kế thừa nghệ thuật chăm sóc móng Thượng Hải chính thống, sử dụng dụng cụ chuyên nghiệp để xử lý tỉ mỉ chai, da chết và các vấn đề về móng. Không chỉ là thẩm mỹ — đây là làm sạch sâu và bảo dưỡng sức khỏe bàn chân." },
+    "guasha": { "name": "Liệu Pháp Cạo Gió", "description": "Kích thích kinh lạc trên bề mặt cơ thể để đào thải độc tố và nhiệt tích tụ. Giảm hiệu quả các triệu chứng cảm lạnh sớm, cứng cổ vai và say nắng, tăng cường sức đề kháng của cơ thể." }
+  },
+  "services": { "title": "Bảng Giá Dịch Vụ", "subtitle": "Bảng giá", "currency": "$", "min": "Phút", "main_title": "Dịch Vụ Chính", "combo_title": "Gói Combo", "combo_subtitle": "Combo", "other_title": "Chăm Sóc Chuyên Nghiệp Khác", "voucher_title": "Ưu Đãi Phiếu Tiền Mặt", "voucher_bonus": "Thưởng", "voucher_note": "Phiếu tiền mặt không hoàn lại. Có hiệu lực 18 tháng kể từ ngày mua.",
+    "main": { "foot": "Massage Chân", "body": "Massage Toàn Thân", "oil_body": "Massage Toàn Thân Tinh Dầu", "lymph": "Massage Bạch Huyết Toàn Thân", "prenatal": "Massage Trước Sinh" },
+    "combo": { "foot_neck": "Chân (50p) + Đầu/Cổ/Vai (25p)", "foot_hand": "Chân (50p) + Tay (25p)", "foot25_body25": "Chân (25p) + Toàn Thân (25p)", "foot50_body50": "Chân (50p) + Toàn Thân (50p)" },
+    "other": { "neck_hand": "Đầu/Cổ/Vai / Tay", "pain_relief": "Giảm Đau (30p)", "nail_guasha": "Chăm Sóc Móng / Cạo Gió", "eyelash": "Nối Mi" }
+  },
+  "about": { "title": "Giới Thiệu", "story_title": "Câu Chuyện Của Chúng Tôi", "story_p1": "LivelyFoot cam kết mang đến dịch vụ massage và chăm sóc chuyên nghiệp cho cư dân thành thị bận rộn. Chúng tôi tin rằng mọi người đều xứng đáng có được khoảnh khắc thư giãn tuyệt đối.", "story_p2": "Đội ngũ chuyên viên trị liệu lành nghề của chúng tôi mang đến nhiều năm kinh nghiệm, kết hợp massage truyền thống Trung Hoa với kỹ thuật hiện đại để mang đến trải nghiệm cá nhân hóa cho mỗi vị khách.", "team_title": "Đội Ngũ Của Chúng Tôi", "environment_title": "Không Gian Của Chúng Tôi" },
+  "contact": { "title": "Chào Mừng", "subtitle": "Chúng tôi mong được mang đến cho bạn dịch vụ massage và chăm sóc chuyên nghiệp nhất", "info_title": "Thông Tin Liên Hệ", "address_label": "Địa chỉ", "address": "Tầng lửng, King Cheung Mansion, 5 Đường King Kwong, Happy Valley", "phone_label": "Điện thoại", "phone": "2803 2880", "phone2": "2803 2801", "hours_label": "Giờ làm việc", "hours": "Hàng ngày 10:00 SA - 12:00 ĐK", "whatsapp": "Liên Hệ Qua WhatsApp", "call": "Gọi Đặt Lịch", "map": "Google Maps", "map_title": "LivelyFoot - Tầng lửng, King Cheung Mansion, 5 Đường King Kwong, Happy Valley", "form_title": "Gửi Tin Nhắn Cho Chúng Tôi", "form_name": "Họ tên", "form_email": "Email", "form_message": "Tin nhắn", "form_submit": "Gửi Tin Nhắn", "form_success": "Tin nhắn đã được gửi! Chúng tôi sẽ phản hồi sớm nhất." },
+  "meta": {
+    "home_title": "Massage Chuyên Nghiệp tại Happy Valley",
+    "home_desc": "LivelyFoot tại Happy Valley, Hồng Kông cung cấp dịch vụ phản xạ học bàn chân, massage toàn thân, dẫn lưu bạch huyết, massage trước sinh và nhiều hơn nữa. Mở cửa hàng ngày đến nửa đêm.",
+    "services_title": "Bảng Giá Dịch Vụ",
+    "services_desc": "Xem tất cả giá dịch vụ massage của LivelyFoot bao gồm massage chân, massage toàn thân, tinh dầu thơm, massage bạch huyết và các gói combo.",
+    "about_title": "Liệu Trình Chuyên Nghiệp",
+    "about_desc": "Tìm hiểu về câu chuyện của LivelyFoot và các liệu trình chuyên nghiệp bao gồm phản xạ học bàn chân, bấm huyệt, dẫn lưu bạch huyết, cạo gió và nhiều hơn nữa.",
+    "contact_title": "Liên Hệ",
+    "contact_desc": "LivelyFoot tại Tầng lửng, King Cheung Mansion, 5 Đường King Kwong, Happy Valley. Gọi 2803 2880. Mở cửa hàng ngày 10 giờ sáng - 12 giờ đêm. Đặt lịch qua WhatsApp."
+  },
+  "footer": { "rights": "Đã đăng ký bản quyền", "follow": "Theo Dõi Chúng Tôi" },
+  "faq": {
+    "title": "Câu Hỏi Thường Gặp",
+    "subtitle": "Giải đáp thắc mắc của bạn về dịch vụ massage của chúng tôi",
+    "items": {
+      "booking": {
+        "q": "Tôi có cần đặt lịch trước không?",
+        "a": "Chúng tôi khuyên bạn nên đặt lịch qua WhatsApp hoặc điện thoại để đảm bảo có chuyên viên trị liệu sẵn sàng vào thời gian bạn mong muốn. Khách vãng lai được chào đón tùy theo tình trạng còn chỗ."
+      },
+      "duration": {
+        "q": "Mỗi buổi massage kéo dài bao lâu?",
+        "a": "Chúng tôi cung cấp các buổi 50 phút, 75 phút và 100 phút. Hãy chọn thời lượng phù hợp nhất với nhu cầu của bạn."
+      },
+      "prenatal": {
+        "q": "Phụ nữ mang thai có thể massage được không?",
+        "a": "Có. Chúng tôi cung cấp dịch vụ massage trước sinh chuyên biệt. Các chuyên viên của chúng tôi sử dụng tư thế an toàn để giúp các bà mẹ tương lai giảm bớt khó chịu khi mang thai. Chúng tôi khuyên nên đợi đến sau tam cá nguyệt đầu tiên."
+      },
+      "voucher": {
+        "q": "Phiếu tiền mặt có thể chuyển nhượng không?",
+        "a": "Có, phiếu tiền mặt không ghi danh và có thể chia sẻ với gia đình và bạn bè. Phiếu không hoàn lại và có hiệu lực 18 tháng kể từ ngày mua."
+      },
+      "hours": {
+        "q": "Giờ mở cửa của bạn là gì?",
+        "a": "Chúng tôi mở cửa hàng ngày từ 10:00 sáng đến 12:00 đêm."
+      },
+      "location": {
+        "q": "Làm thế nào để đến địa điểm của bạn?",
+        "a": "Chúng tôi tọa lạc tại Tầng 5 & Gác lửng, King Cheung Mansion, Đường King Kwong, Happy Valley. Đi xe điện đến trạm cuối Happy Valley — chúng tôi cách đó khoảng 3 phút đi bộ."
+      }
+    }
+  }
+}

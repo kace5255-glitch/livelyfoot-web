@@ -1,0 +1,61 @@
+{
+  "brand": "活力足 LivelyFoot",
+  "nav": { "home": "Ana Sayfa", "services": "Fiyatlar", "about": "Tedaviler", "contact": "İletişim" },
+  "home": { "hero_title": "Bedeninizi İçten Uyandırın", "hero_subtitle": "Size en profesyonel masaj ve bakım hizmetlerini sunmayı dört gözle bekliyoruz", "hero_cta": "Hizmetleri Görüntüle", "treatments_title": "Profesyonel Tedaviler", "treatments_subtitle": "Size uygun bakım planını keşfedin — içten dışa yenilenin." },
+  "treatments": {
+    "foot_reflex": { "name": "Ayak Refleksolojisi", "description": "Vücuttaki ilgili organları düzenlemek için her iki ayaktaki refleks bölgelerini uyarır. Kan dolaşımını etkili bir şekilde iyileştirir, bacak ağırlığını hafifletir ve uyku kalitesini artırır — yoğun şehir sakinleri için en iyi tercih." },
+    "body_acupoint": { "name": "Tüm Vücut Akupresür", "description": "Uzun süreli kötü duruştan kaynaklanan omuz, boyun ve sırt ağrılarını hedefler. Terapistler, akupunktur noktalarını hassas bir şekilde bulmak için parmak basıncı ve yoğurma teknikleri kullanarak gergin kasları derinlemesine gevşetir ve meridyenlerin tıkanıklığını açar." },
+    "lymph": { "name": "Lenf Drenaj Masajı", "description": "Lenf akışını yönlendirmek ve fazla sıvı ile atık metabolizmasını hızlandırmak için nazik, ritmik teknikler kullanır. Vücut şişliğini azaltmaya, bağışıklık fonksiyonunu güçlendirmeye ve genel bünyeyi iyileştirmeye yardımcı olur." },
+    "prenatal": { "name": "Doğum Öncesi Rahatlama Masajı", "description": "Anne adayları için tasarlanmış nazik masaj. Alt ekstremite şişliği, bel basıncı ve kas krampları dahil yaygın hamilelik rahatsızlıklarını hafifletir; terapistler seans boyunca güvenli pozisyonlama kullanır." },
+    "nail": { "name": "Şanghay Tarzı Tırnak Bakımı", "description": "Otantik Şanghay tırnak zanaatını miras alarak, nasır, ölü deri ve tırnak sorunlarını titizlikle tedavi etmek için profesyonel aletler kullanır. Kozmetikten öte — ayak sağlığı için derin temizlik ve bakımdır." },
+    "guasha": { "name": "Gua Sha Terapisi", "description": "Birikmiş toksinleri ve ısıyı atmak için vücut yüzeyindeki meridyenleri uyarır. Erken soğuk algınlığı belirtilerini, boyun ve omuz sertliğini ve sıcak çarpmasını etkili bir şekilde hafifletir, vücudun direncini artırır." }
+  },
+  "services": { "title": "Hizmet Fiyat Listesi", "subtitle": "Fiyatlar", "currency": "$", "min": "Dk", "main_title": "Ana Hizmetler", "combo_title": "Kombo Paketler", "combo_subtitle": "Kombolar", "other_title": "Diğer Profesyonel Bakım", "voucher_title": "Nakit Kupon Teklifleri", "voucher_bonus": "Bonus", "voucher_note": "Nakit kuponlar iade edilemez. Satın alma tarihinden itibaren 18 ay geçerlidir.",
+    "main": { "foot": "Ayak Masajı", "body": "Tüm Vücut Masajı", "oil_body": "Aromaterapi Tüm Vücut", "lymph": "Tüm Vücut Lenf Masajı", "prenatal": "Doğum Öncesi Masaj" },
+    "combo": { "foot_neck": "Ayak (50dk) + Baş/Boyun/Omuz (25dk)", "foot_hand": "Ayak (50dk) + El (25dk)", "foot25_body25": "Ayak (25dk) + Tüm Vücut (25dk)", "foot50_body50": "Ayak (50dk) + Tüm Vücut (50dk)" },
+    "other": { "neck_hand": "Baş/Boyun/Omuz / El", "pain_relief": "Ağrı Giderme (30dk)", "nail_guasha": "Tırnak Bakımı / Gua Sha", "eyelash": "Kirpik Uzatma" }
+  },
+  "about": { "title": "Hakkımızda", "story_title": "Hikayemiz", "story_p1": "LivelyFoot, yoğun şehir sakinleri için profesyonel masaj ve bakım hizmetleri sunmaya adanmıştır. Herkesin saf bir rahatlama anını hak ettiğine inanıyoruz.", "story_p2": "Deneyimli terapist ekibimiz, yılların uzmanlığını bir araya getirerek her misafir için kişiselleştirilmiş bir deneyim sunmak üzere geleneksel Çin masajını modern tekniklerle harmanlıyor.", "team_title": "Ekibimiz", "environment_title": "Mekanımız" },
+  "contact": { "title": "Hoş Geldiniz", "subtitle": "Size en profesyonel masaj ve bakım hizmetlerini sunmayı dört gözle bekliyoruz", "info_title": "İletişim Bilgileri", "address_label": "Adres", "address": "Asma Kat, King Cheung Mansion, 5 King Kwong Street, Happy Valley", "phone_label": "Telefon", "phone": "2803 2880", "phone2": "2803 2801", "hours_label": "Çalışma Saatleri", "hours": "Her Gün 10:00 - 00:00", "whatsapp": "WhatsApp Sorgulama", "call": "Rezervasyon İçin Arayın", "map": "Google Maps", "map_title": "LivelyFoot - Asma Kat, King Cheung Mansion, 5 King Kwong Street, Happy Valley", "form_title": "Bize Mesaj Gönderin", "form_name": "Ad", "form_email": "E-posta", "form_message": "Mesaj", "form_submit": "Mesaj Gönder", "form_success": "Mesajınız gönderildi! En kısa sürede size dönüş yapacağız." },
+  "meta": {
+    "home_title": "Happy Valley'de Profesyonel Masaj",
+    "home_desc": "Happy Valley, Hong Kong'daki LivelyFoot ayak refleksolojisi, tüm vücut masajı, lenf drenajı, doğum öncesi masaj ve daha fazlasını sunar. Her gün gece yarısına kadar açık.",
+    "services_title": "Hizmet Fiyat Listesi",
+    "services_desc": "Ayak masajı, vücut masajı, aromaterapi, lenf masajı ve kombo paketler dahil tüm LivelyFoot masaj hizmet fiyatlarını görüntüleyin.",
+    "about_title": "Profesyonel Tedaviler",
+    "about_desc": "LivelyFoot'un hikayesi ve ayak refleksolojisi, akupresür, lenf drenajı, gua sha ve daha fazlası dahil profesyonel tedavileri hakkında bilgi edinin.",
+    "contact_title": "İletişim",
+    "contact_desc": "LivelyFoot, Asma Kat, King Cheung Mansion, 5 King Kwong Street, Happy Valley adresindedir. 2803 2880'i arayın. Her gün 10:00-00:00 arası açık. WhatsApp ile rezervasyon yapılabilir."
+  },
+  "footer": { "rights": "Tüm hakları saklıdır", "follow": "Bizi Takip Edin" },
+  "faq": {
+    "title": "Sıkça Sorulan Sorular",
+    "subtitle": "Masaj hizmetlerimiz hakkındaki sorularınızın yanıtları",
+    "items": {
+      "booking": {
+        "q": "Önceden rezervasyon yaptırmam gerekiyor mu?",
+        "a": "Tercih ettiğiniz saatte bir terapistin müsait olmasını sağlamak için WhatsApp veya telefon üzerinden rezervasyon yapmanızı öneririz. Müsaitlik durumuna göre randevusuz ziyaretler de kabul edilmektedir."
+      },
+      "duration": {
+        "q": "Masaj seansları ne kadar sürüyor?",
+        "a": "50 dakika, 75 dakika ve 100 dakikalık seanslar sunuyoruz. İhtiyaçlarınıza en uygun süreyi seçin."
+      },
+      "prenatal": {
+        "q": "Hamile kadınlar masaj yaptırabilir mi?",
+        "a": "Evet. Özel doğum öncesi masaj hizmeti sunuyoruz. Terapistlerimiz, anne adaylarının hamilelik rahatsızlıklarını hafifletmelerine yardımcı olmak için güvenli pozisyonlama kullanır. İlk trimesterden sonrasını beklemenizi öneririz."
+      },
+      "voucher": {
+        "q": "Nakit kuponlar devredilebilir mi?",
+        "a": "Evet, nakit kuponlar isimsizdir ve aile ile arkadaşlarla paylaşılabilir. Kuponlar iade edilemez ve satın alma tarihinden itibaren 18 ay geçerlidir."
+      },
+      "hours": {
+        "q": "Çalışma saatleriniz nedir?",
+        "a": "Her gün sabah 10:00'dan gece 12:00'ye kadar açığız."
+      },
+      "location": {
+        "q": "Konumunuza nasıl ulaşabilirim?",
+        "a": "5/F & Cockloft, King Cheung Mansion, King Kwong Street, Happy Valley adresindeyiz. Happy Valley son durağına tramvayla gelin — yaklaşık 3 dakikalık yürüme mesafesindeyiz."
+      }
+    }
+  }
+}
