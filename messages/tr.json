@@ -10,7 +10,7 @@
     "nail": { "name": "Şanghay Tarzı Tırnak Bakımı", "description": "Otantik Şanghay tırnak zanaatını miras alarak, nasır, ölü deri ve tırnak sorunlarını titizlikle tedavi etmek için profesyonel aletler kullanır. Kozmetikten öte — ayak sağlığı için derin temizlik ve bakımdır." },
     "guasha": { "name": "Gua Sha Terapisi", "description": "Birikmiş toksinleri ve ısıyı atmak için vücut yüzeyindeki meridyenleri uyarır. Erken soğuk algınlığı belirtilerini, boyun ve omuz sertliğini ve sıcak çarpmasını etkili bir şekilde hafifletir, vücudun direncini artırır." }
   },
-  "services": { "title": "Hizmet Fiyat Listesi", "subtitle": "Fiyatlar", "currency": "$", "min": "Dk", "main_title": "Ana Hizmetler", "combo_title": "Kombo Paketler", "combo_subtitle": "Kombolar", "other_title": "Diğer Profesyonel Bakım", "voucher_title": "Nakit Kupon Teklifleri", "voucher_bonus": "Bonus", "voucher_note": "Nakit kuponlar iade edilemez. Satın alma tarihinden itibaren 18 ay geçerlidir.",
+  "services": { "title": "Hizmet Fiyat Listesi", "subtitle": "Fiyatlar", "currency": "$", "min": "Dk", "minutes": "dk", "main_title": "Ana Hizmetler", "combo_title": "Kombo Paketler", "combo_subtitle": "Kombolar", "other_title": "Diğer Profesyonel Bakım", "voucher_title": "Nakit Kupon Teklifleri", "voucher_bonus": "Bonus", "voucher_note": "Nakit kuponlar iade edilemez. Satın alma tarihinden itibaren 18 ay geçerlidir.",
     "main": { "foot": "Ayak Masajı", "body": "Tüm Vücut Masajı", "oil_body": "Aromaterapi Tüm Vücut", "lymph": "Tüm Vücut Lenf Masajı", "prenatal": "Doğum Öncesi Masaj" },
     "combo": { "foot_neck": "Ayak (50dk) + Baş/Boyun/Omuz (25dk)", "foot_hand": "Ayak (50dk) + El (25dk)", "foot25_body25": "Ayak (25dk) + Tüm Vücut (25dk)", "foot50_body50": "Ayak (50dk) + Tüm Vücut (50dk)" },
     "other": { "neck_hand": "Baş/Boyun/Omuz / El", "pain_relief": "Ağrı Giderme (30dk)", "nail_guasha": "Tırnak Bakımı / Gua Sha", "eyelash": "Kirpik Uzatma" }
@@ -25,7 +25,17 @@
     "about_title": "Profesyonel Tedaviler",
     "about_desc": "LivelyFoot'un hikayesi ve ayak refleksolojisi, akupresür, lenf drenajı, gua sha ve daha fazlası dahil profesyonel tedavileri hakkında bilgi edinin.",
     "contact_title": "İletişim",
-    "contact_desc": "LivelyFoot, Asma Kat, King Cheung Mansion, 5 King Kwong Street, Happy Valley adresindedir. 2803 2880'i arayın. Her gün 10:00-00:00 arası açık. WhatsApp ile rezervasyon yapılabilir."
+    "contact_desc": "LivelyFoot, Asma Kat, King Cheung Mansion, 5 King Kwong Street, Happy Valley adresindedir. 2803 2880'i arayın. Her gün 10:00-00:00 arası açık. WhatsApp ile rezervasyon yapılabilir.",
+    "service_foot_desc": "Happy Valley'deki LivelyFoot'ta 50, 75 veya 100 dk seçenekleriyle profesyonel ayak masajının keyfini çıkarın.",
+    "service_body_desc": "Happy Valley'deki LivelyFoot'ta 50, 75 veya 100 dk seçenekleriyle tüm vücut akupresür masajı.",
+    "service_oil_body_desc": "Happy Valley'deki LivelyFoot'ta 50, 75 veya 100 dk seçenekleriyle aromaterapi vücut masajı.",
+    "service_lymph_desc": "Happy Valley'deki LivelyFoot'ta 50, 75 veya 100 dk seçenekleriyle tüm vücut lenf drenaj masajı.",
+    "service_prenatal_desc": "Happy Valley'deki LivelyFoot'ta 50, 75 veya 100 dk seçenekleriyle nazik doğum öncesi masaj."
+  },
+  "breadcrumb": {
+    "home": "Ana Sayfa",
+    "pricing": "Fiyatlar",
+    "all_services": "Tüm hizmetleri görüntüle"
   },
   "footer": { "rights": "Tüm hakları saklıdır", "follow": "Bizi Takip Edin" },
   "faq": {

@@ -10,7 +10,7 @@
     "nail": { "name": "Shanghaier Nagelpflege", "description": "In der Tradition authentischer Shanghaier Nagelkunst werden mit professionellen Werkzeugen Hornhaut, abgestorbene Haut und Nagelprobleme sorgfältig behandelt. Mehr als Kosmetik — es ist Tiefenreinigung und Pflege für die Fußgesundheit." },
     "guasha": { "name": "Gua-Sha-Therapie", "description": "Stimuliert die Meridiane auf der Körperoberfläche, um angesammelte Giftstoffe und Hitze auszuleiten. Lindert effektiv frühe Erkältungssymptome, Nacken- und Schultersteifheit sowie Hitzschlag und stärkt die Widerstandskraft des Körpers." }
   },
-  "services": { "title": "Preisliste", "subtitle": "Preise", "currency": "$", "min": "Min", "main_title": "Hauptleistungen", "combo_title": "Kombi-Pakete", "combo_subtitle": "Kombis", "other_title": "Weitere professionelle Pflege", "voucher_title": "Bargutschein-Angebote", "voucher_bonus": "Bonus", "voucher_note": "Bargutscheine sind nicht erstattungsfähig. Gültig für 18 Monate ab Kaufdatum.",
+  "services": { "title": "Preisliste", "subtitle": "Preise", "currency": "$", "min": "Min", "minutes": "Min", "main_title": "Hauptleistungen", "combo_title": "Kombi-Pakete", "combo_subtitle": "Kombis", "other_title": "Weitere professionelle Pflege", "voucher_title": "Bargutschein-Angebote", "voucher_bonus": "Bonus", "voucher_note": "Bargutscheine sind nicht erstattungsfähig. Gültig für 18 Monate ab Kaufdatum.",
     "main": { "foot": "Fußmassage", "body": "Ganzkörpermassage", "oil_body": "Aromatherapie-Ganzkörpermassage", "lymph": "Ganzkörper-Lymphmassage", "prenatal": "Pränatale Massage" },
     "combo": { "foot_neck": "Fuß (50 Min) + Kopf/Nacken/Schulter (25 Min)", "foot_hand": "Fuß (50 Min) + Hand (25 Min)", "foot25_body25": "Fuß (25 Min) + Ganzkörper (25 Min)", "foot50_body50": "Fuß (50 Min) + Ganzkörper (50 Min)" },
     "other": { "neck_hand": "Kopf/Nacken/Schulter / Hand", "pain_relief": "Schmerzlinderung (30 Min)", "nail_guasha": "Nagelpflege / Gua Sha", "eyelash": "Wimpernverlängerung" }
@@ -25,7 +25,17 @@
     "about_title": "Professionelle Behandlungen",
     "about_desc": "Erfahren Sie mehr über die Geschichte von LivelyFoot und professionelle Behandlungen wie Fußreflexzonenmassage, Akupressur, Lymphdrainage, Gua Sha und mehr.",
     "contact_title": "Kontaktieren Sie uns",
-    "contact_desc": "LivelyFoot befindet sich im M/F, King Cheung Mansion, 5 King Kwong Street, Happy Valley. Rufen Sie 2803 2880 an. Täglich 10:00–00:00 Uhr geöffnet. WhatsApp-Buchung möglich."
+    "contact_desc": "LivelyFoot befindet sich im M/F, King Cheung Mansion, 5 King Kwong Street, Happy Valley. Rufen Sie 2803 2880 an. Täglich 10:00–00:00 Uhr geöffnet. WhatsApp-Buchung möglich.",
+    "service_foot_desc": "Professionelle Fußreflexzonenmassage in Happy Valley mit Sitzungen von 50, 75 und 100 Minuten.",
+    "service_body_desc": "Ganzkörper-Akupressurmassage in Happy Valley mit Optionen von 50, 75 und 100 Minuten.",
+    "service_oil_body_desc": "Aromatherapie-Ganzkörpermassage in Happy Valley mit Sitzungen von 50, 75 und 100 Minuten.",
+    "service_lymph_desc": "Lymphdrainage-Massage in Happy Valley mit Optionen von 50, 75 und 100 Minuten.",
+    "service_prenatal_desc": "Professionelle Pränatalmassage in Happy Valley mit Sitzungen von 50, 75 und 100 Minuten."
+  },
+  "breadcrumb": {
+    "home": "Startseite",
+    "pricing": "Preise",
+    "all_services": "Alle Dienste anzeigen"
   },
   "footer": { "rights": "Alle Rechte vorbehalten", "follow": "Folgen Sie uns" },
   "faq": {

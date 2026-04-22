@@ -1,20 +1,17 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import { useState } from 'react';
+import Breadcrumb from './Breadcrumb';
 
 export default function ContactPage() {
   const t = useTranslations('contact');
-  const [submitted, setSubmitted] = useState(false);
-
-  function handleSubmit(e: React.FormEvent) {
-    e.preventDefault();
-    setSubmitted(true);
-  }
+  const nav = useTranslations('nav');
 
   return (
-    <div className="max-w-5xl mx-auto px-4 py-16">
-      <div className="text-center mb-12">
+    <div>
+      <Breadcrumb items={[{ label: nav('contact') }]} />
+      <div className="max-w-5xl mx-auto px-4 py-16">
+        <div className="text-center mb-12">
         <h1 className="text-4xl font-serif font-bold text-warm-brown mb-3">{t('title')}</h1>
         <p className="text-warm-brown-dark/60">{t('subtitle')}</p>
       </div>
@@ -73,7 +70,7 @@ export default function ContactPage() {
             {t('whatsapp')}
           </a>
           <a
-            href="tel:28032880"
+            href="tel:+85228032880"
             className="inline-flex items-center gap-2 bg-forest hover:bg-forest-light text-cream font-medium px-6 py-3 rounded-full transition-colors"
           >
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -82,7 +79,7 @@ export default function ContactPage() {
             {t('call')}
           </a>
           <a
-            href="https://maps.google.com/?q=King+Cheung+Mansion+King+Kwong+Street+Happy+Valley+Hong+Kong"
+            href="https://maps.app.goo.gl/a5dBEqgboR6BX4xn6"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-white hover:bg-cream-dark text-warm-brown-dark font-medium px-6 py-3 rounded-full border border-cream-dark transition-colors"
@@ -102,73 +99,18 @@ export default function ContactPage() {
         </svg>
         {t('map_title')}
       </div>
-      <div className="aspect-[16/9] bg-cream-dark rounded-b-2xl flex items-center justify-center text-warm-brown/30 mb-12">
-        <div className="text-center">
-          <svg className="w-16 h-16 mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7" />
-          </svg>
-          <p className="text-sm">Google Maps Embed</p>
-        </div>
+      <div className="aspect-[16/9] rounded-b-2xl overflow-hidden mb-12">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3692.235970322618!2d114.18279787529167!3d22.269049479709086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3404004e9e591037%3A0x9233955ef53cb520!2zTGl2ZWx5IEZvb3QgLSDmtLvlipvotrM!5e0!3m2!1szh-TW!2shk!4v1776845672687!5m2!1szh-TW!2shk"
+          width="100%"
+          height="100%"
+          style={{ border: 0 }}
+          allowFullScreen
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+          title={t('map_title')}
+        />
       </div>
-
-      {/* Contact Form */}
-      <div className="max-w-2xl mx-auto">
-        <h2 className="text-2xl font-serif font-semibold text-warm-brown text-center mb-8">
-          {t('form_title')}
-        </h2>
-
-        {submitted ? (
-          <div className="bg-forest/10 text-forest rounded-2xl p-8 text-center">
-            <svg className="w-12 h-12 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-            </svg>
-            <p className="font-medium">{t('form_success')}</p>
-          </div>
-        ) : (
-          <form onSubmit={handleSubmit} className="space-y-6">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div>
-                <label htmlFor="name" className="block text-sm font-medium text-warm-brown-dark mb-2">
-                  {t('form_name')}
-                </label>
-                <input
-                  type="text"
-                  id="name"
-                  required
-                  className="w-full px-4 py-3 rounded-xl border border-cream-dark bg-white text-warm-brown-dark focus:outline-none focus:ring-2 focus:ring-gold/50 focus:border-gold transition-colors"
-                />
-              </div>
-              <div>
-                <label htmlFor="email" className="block text-sm font-medium text-warm-brown-dark mb-2">
-                  {t('form_email')}
-                </label>
-                <input
-                  type="email"
-                  id="email"
-                  required
-                  className="w-full px-4 py-3 rounded-xl border border-cream-dark bg-white text-warm-brown-dark focus:outline-none focus:ring-2 focus:ring-gold/50 focus:border-gold transition-colors"
-                />
-              </div>
-            </div>
-            <div>
-              <label htmlFor="message" className="block text-sm font-medium text-warm-brown-dark mb-2">
-                {t('form_message')}
-              </label>
-              <textarea
-                id="message"
-                rows={5}
-                required
-                className="w-full px-4 py-3 rounded-xl border border-cream-dark bg-white text-warm-brown-dark focus:outline-none focus:ring-2 focus:ring-gold/50 focus:border-gold transition-colors resize-none"
-              />
-            </div>
-            <button
-              type="submit"
-              className="w-full bg-warm-brown hover:bg-warm-brown-light text-cream font-semibold py-3 rounded-xl transition-colors"
-            >
-              {t('form_submit')}
-            </button>
-          </form>
-        )}
       </div>
     </div>
   );

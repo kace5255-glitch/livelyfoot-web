@@ -39,6 +39,7 @@
     "subtitle": "요금 안내",
     "currency": "$",
     "min": "분",
+    "minutes": "분",
     "main_title": "메인 서비스",
     "combo_title": "세트 패키지",
     "combo_subtitle": "세트",
@@ -104,7 +105,17 @@
     "about_title": "전문 시술",
     "about_desc": "LivelyFoot의 이야기와 전문 시술을 소개합니다. 발 반사요법, 경혈 마사지, 림프 드레나지, 괄사 등.",
     "contact_title": "문의하기",
-    "contact_desc": "LivelyFoot는 해피밸리 킹콩 스트리트 5호 킹청 맨션 M층에 위치해 있습니다. 전화 2803 2880. 매일 오전 10시~자정 영업. WhatsApp 예약 가능."
+    "contact_desc": "LivelyFoot는 해피밸리 킹콩 스트리트 5호 킹청 맨션 M층에 위치해 있습니다. 전화 2803 2880. 매일 오전 10시~자정 영업. WhatsApp 예약 가능.",
+    "service_foot_desc": "해피밸리의 전문 발 반사요법 마사지, 50분·75분·100분 코스를 제공합니다.",
+    "service_body_desc": "해피밸리의 전신 경혈 마사지, 50분·75분·100분 코스로 깊은 이완을 경험하세요.",
+    "service_oil_body_desc": "해피밸리의 아로마 전신 마사지, 50분·75분·100분 코스로 심신을 리프레시하세요.",
+    "service_lymph_desc": "해피밸리의 림프 드레나지 마사지, 50분·75분·100분 코스로 부종을 해소합니다.",
+    "service_prenatal_desc": "해피밸리의 전문 산전 마사지, 50분·75분·100분 코스로 안전하게 케어합니다."
+  },
+  "breadcrumb": {
+    "home": "홈",
+    "pricing": "가격",
+    "all_services": "전체 서비스 보기"
   },
   "footer": { "rights": "All rights reserved", "follow": "팔로우하기" },
   "faq": {

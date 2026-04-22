@@ -1,12 +1,18 @@
+'use client';
+
 import { useTranslations } from 'next-intl';
 import { mainServices, comboServices, otherServices, cashVouchers } from '@/data/services';
+import Breadcrumb from './Breadcrumb';
 
 export default function ServicesPage() {
   const t = useTranslations('services');
+  const nav = useTranslations('nav');
 
   return (
-    <div className="max-w-5xl mx-auto px-4 py-16">
-      <div className="text-center mb-12">
+    <div>
+      <Breadcrumb items={[{ label: nav('services') }]} />
+      <div className="max-w-5xl mx-auto px-4 py-16">
+        <div className="text-center mb-12">
         <h1 className="text-4xl font-serif font-bold text-warm-brown mb-2">{t('title')}</h1>
         <p className="text-warm-brown-dark/50">{t('subtitle')}</p>
       </div>
@@ -81,6 +87,7 @@ export default function ServicesPage() {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }

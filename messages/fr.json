@@ -39,6 +39,7 @@
     "subtitle": "Tarifs",
     "currency": "$",
     "min": "Min",
+    "minutes": "min",
     "main_title": "Services principaux",
     "combo_title": "Forfaits combinés",
     "combo_subtitle": "Combos",
@@ -104,7 +105,17 @@
     "about_title": "Soins professionnels",
     "about_desc": "Découvrez l'histoire de LivelyFoot et ses soins professionnels : réflexologie plantaire, acupression, drainage lymphatique, gua sha et plus.",
     "contact_title": "Contactez-nous",
-    "contact_desc": "LivelyFoot se situe au M/F, King Cheung Mansion, 5 King Kwong Street, Happy Valley. Appelez le 2803 2880. Ouvert tous les jours de 10h à minuit. Réservation WhatsApp disponible."
+    "contact_desc": "LivelyFoot se situe au M/F, King Cheung Mansion, 5 King Kwong Street, Happy Valley. Appelez le 2803 2880. Ouvert tous les jours de 10h à minuit. Réservation WhatsApp disponible.",
+    "service_foot_desc": "Réflexologie plantaire professionnelle à Happy Valley avec des séances de 50, 75 et 100 minutes.",
+    "service_body_desc": "Massage d'acupression corporel complet à Happy Valley avec des options de 50, 75 et 100 minutes.",
+    "service_oil_body_desc": "Massage aromathérapie corporel complet à Happy Valley avec des séances de 50, 75 et 100 minutes.",
+    "service_lymph_desc": "Massage de drainage lymphatique à Happy Valley avec des options de 50, 75 et 100 minutes.",
+    "service_prenatal_desc": "Massage prénatal professionnel à Happy Valley avec des séances de 50, 75 et 100 minutes."
+  },
+  "breadcrumb": {
+    "home": "Accueil",
+    "pricing": "Tarifs",
+    "all_services": "Voir tous les services"
   },
   "footer": { "rights": "Tous droits réservés", "follow": "Suivez-nous" },
   "faq": {

@@ -3,9 +3,24 @@ import { getMessages, getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing, locales } from '@/i18n/routing';
 import type { Metadata } from 'next';
+import { Noto_Sans, Noto_Serif } from 'next/font/google';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { LocalBusinessJsonLd } from '@/components/JsonLd';
+
+const notoSans = Noto_Sans({
+  subsets: ['latin'],
+  weight: ['300', '400', '500', '600', '700'],
+  variable: '--font-sans',
+  display: 'swap',
+});
+
+const notoSerif = Noto_Serif({
+  subsets: ['latin'],
+  weight: ['400', '600', '700'],
+  variable: '--font-serif',
+  display: 'swap',
+});
 
 const BASE_URL = 'https://livelyfoot-hk.com';
 
@@ -53,6 +68,10 @@ export async function generateMetadata({
       description: t('home_desc'),
       images: ['/og-image.svg'],
     },
+    icons: {
+      icon: '/LivelyfootLogo.png',
+      apple: '/LivelyfootLogo.png',
+    },
   };
 }
 
@@ -74,13 +93,7 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale} dir={dir}>
-      <head>
-        <link
-          href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700&family=Noto+Serif:wght@400;600;700&display=swap"
-          rel="stylesheet"
-        />
-      </head>
-      <body className="min-h-screen flex flex-col">
+      <body className={`${notoSans.variable} ${notoSerif.variable} min-h-screen flex flex-col`}>
         <LocalBusinessJsonLd />
         <NextIntlClientProvider messages={messages}>
           <Header />

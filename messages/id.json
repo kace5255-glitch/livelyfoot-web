@@ -10,7 +10,7 @@
     "nail": { "name": "Perawatan Kuku Gaya Shanghai", "description": "Mewarisi keahlian perawatan kuku Shanghai yang autentik, menggunakan alat profesional untuk menangani kapalan, kulit mati, dan masalah kuku secara teliti. Lebih dari sekadar kosmetik — ini adalah pembersihan mendalam dan pemeliharaan kesehatan kaki." },
     "guasha": { "name": "Terapi Gua Sha", "description": "Merangsang meridian pada permukaan tubuh untuk mengeluarkan racun dan panas yang terakumulasi. Secara efektif meredakan gejala awal flu, kekakuan leher dan bahu, serta sengatan panas, meningkatkan daya tahan tubuh." }
   },
-  "services": { "title": "Daftar Harga Layanan", "subtitle": "Harga", "currency": "$", "min": "Menit", "main_title": "Layanan Utama", "combo_title": "Paket Combo", "combo_subtitle": "Combo", "other_title": "Perawatan Profesional Lainnya", "voucher_title": "Penawaran Voucher Tunai", "voucher_bonus": "Bonus", "voucher_note": "Voucher tunai tidak dapat dikembalikan. Berlaku selama 18 bulan sejak tanggal pembelian.",
+  "services": { "title": "Daftar Harga Layanan", "subtitle": "Harga", "currency": "$", "min": "Menit", "minutes": "menit", "main_title": "Layanan Utama", "combo_title": "Paket Combo", "combo_subtitle": "Combo", "other_title": "Perawatan Profesional Lainnya", "voucher_title": "Penawaran Voucher Tunai", "voucher_bonus": "Bonus", "voucher_note": "Voucher tunai tidak dapat dikembalikan. Berlaku selama 18 bulan sejak tanggal pembelian.",
     "main": { "foot": "Pijat Kaki", "body": "Pijat Seluruh Tubuh", "oil_body": "Pijat Aromaterapi Seluruh Tubuh", "lymph": "Pijat Limfatik Seluruh Tubuh", "prenatal": "Pijat Prenatal" },
     "combo": { "foot_neck": "Kaki (50m) + Kepala/Leher/Bahu (25m)", "foot_hand": "Kaki (50m) + Tangan (25m)", "foot25_body25": "Kaki (25m) + Seluruh Tubuh (25m)", "foot50_body50": "Kaki (50m) + Seluruh Tubuh (50m)" },
     "other": { "neck_hand": "Kepala/Leher/Bahu / Tangan", "pain_relief": "Pereda Nyeri (30m)", "nail_guasha": "Perawatan Kuku / Gua Sha", "eyelash": "Ekstensi Bulu Mata" }
@@ -25,7 +25,17 @@
     "about_title": "Perawatan Profesional",
     "about_desc": "Pelajari tentang kisah LivelyFoot dan perawatan profesional termasuk refleksologi kaki, akupresur, drainase limfatik, gua sha dan lainnya.",
     "contact_title": "Hubungi Kami",
-    "contact_desc": "LivelyFoot di Lantai Mezanin, King Cheung Mansion, 5 Jalan King Kwong, Happy Valley. Telepon 2803 2880. Buka setiap hari 10 pagi - 12 tengah malam. Pemesanan WhatsApp tersedia."
+    "contact_desc": "LivelyFoot di Lantai Mezanin, King Cheung Mansion, 5 Jalan King Kwong, Happy Valley. Telepon 2803 2880. Buka setiap hari 10 pagi - 12 tengah malam. Pemesanan WhatsApp tersedia.",
+    "service_foot_desc": "Nikmati pijat kaki profesional di LivelyFoot Happy Valley dengan sesi 50, 75, atau 100 menit.",
+    "service_body_desc": "Pijat akupresur seluruh tubuh di LivelyFoot Happy Valley dengan sesi 50, 75, atau 100 menit.",
+    "service_oil_body_desc": "Pijat aromaterapi seluruh tubuh di LivelyFoot Happy Valley dengan sesi 50, 75, atau 100 menit.",
+    "service_lymph_desc": "Pijat drainase limfatik seluruh tubuh di LivelyFoot Happy Valley dengan sesi 50, 75, atau 100 menit.",
+    "service_prenatal_desc": "Pijat prenatal yang lembut di LivelyFoot Happy Valley dengan sesi 50, 75, atau 100 menit."
+  },
+  "breadcrumb": {
+    "home": "Beranda",
+    "pricing": "Harga",
+    "all_services": "Lihat semua layanan"
   },
   "footer": { "rights": "Hak cipta dilindungi", "follow": "Ikuti Kami" },
   "faq": {

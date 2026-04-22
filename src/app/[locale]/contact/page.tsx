@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
 import ContactPage from '@/components/ContactPage';
+import { BreadcrumbJsonLd } from '@/components/JsonLd';
 
 const BASE_URL = 'https://livelyfoot-hk.com';
 
@@ -19,6 +20,23 @@ export async function generateMetadata({
   };
 }
 
-export default function Page() {
-  return <ContactPage />;
+export default async function Page({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  const nav = await getTranslations({ locale, namespace: 'nav' });
+
+  return (
+    <>
+      <BreadcrumbJsonLd
+        items={[
+          { name: nav('home'), url: `${BASE_URL}/${locale}` },
+          { name: nav('contact'), url: `${BASE_URL}/${locale}/contact` },
+        ]}
+      />
+      <ContactPage />
+    </>
+  );
 }

@@ -56,3 +56,61 @@ export function FaqJsonLd({ items }: { items: { q: string; a: string }[] }) {
     />
   );
 }
+
+export function ServiceJsonLd({
+  name,
+  description,
+  url,
+  priceRange,
+}: {
+  name: string;
+  description: string;
+  url: string;
+  priceRange: string;
+}) {
+  const data = {
+    '@context': 'https://schema.org',
+    '@type': 'Service',
+    name,
+    description,
+    url,
+    provider: {
+      '@type': 'HealthAndBeautyBusiness',
+      name: '活力足 LivelyFoot',
+      url: 'https://livelyfoot-hk.com',
+    },
+    areaServed: { '@type': 'City', name: 'Hong Kong' },
+    priceRange,
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
+    />
+  );
+}
+
+export function BreadcrumbJsonLd({
+  items,
+}: {
+  items: { name: string; url: string }[];
+}) {
+  const data = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: items.map((item, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      name: item.name,
+      item: item.url,
+    })),
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
+    />
+  );
+}

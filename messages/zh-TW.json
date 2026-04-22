@@ -44,6 +44,7 @@
     "subtitle": "Pricing",
     "currency": "$",
     "min": "Min",
+    "minutes": "分鐘",
     "main_title": "主要服務項目",
     "combo_title": "精選組合",
     "combo_subtitle": "Combos",
@@ -109,7 +110,17 @@
     "about_title": "專業療程詳解",
     "about_desc": "了解活力足的品牌故事與專業療程，包括足底反射按摩、穴位推拿、淋巴排毒、刮痧等護理方案。",
     "contact_title": "聯絡我們",
-    "contact_desc": "活力足位於跑馬地景光街5號景祥大廈M樓，電話 2803 2880。每日 10:00 AM - 12:00 MN 營業，歡迎 WhatsApp 預約。"
+    "contact_desc": "活力足位於跑馬地景光街5號景祥大廈M樓，電話 2803 2880。每日 10:00 AM - 12:00 MN 營業，歡迎 WhatsApp 預約。",
+    "service_foot_desc": "跑馬地專業足底反射按摩，刺激足部反射區調節全身機能，改善血液循環及睡眠質量。50/75/100分鐘可選。",
+    "service_body_desc": "跑馬地全身穴位推拿按摩，針對肩頸腰背痠痛，深層鬆解緊繃肌肉，疏通經絡。50/75/100分鐘可選。",
+    "service_oil_body_desc": "跑馬地精油全身按摩，結合芳療精油與專業手法，深層放鬆肌肉，舒緩壓力。50/75/100分鐘可選。",
+    "service_lymph_desc": "跑馬地淋巴排毒按摩，輕柔手法引導淋巴液流動，減輕浮腫，提升免疫力。50/75/100分鐘可選。",
+    "service_prenatal_desc": "跑馬地專業孕婦按摩，溫和手法舒緩懷孕期間下肢浮腫及腰椎壓力，安全舒適。50/75/100分鐘可選。"
+  },
+  "breadcrumb": {
+    "home": "首頁",
+    "pricing": "價格",
+    "all_services": "查看全部服務"
   },
   "footer": {
     "rights": "版權所有",

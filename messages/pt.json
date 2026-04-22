@@ -10,7 +10,7 @@
     "nail": { "name": "Cuidado de Unhas Estilo Xangai", "description": "Herdando a autêntica arte de unhas de Xangai, utiliza ferramentas profissionais para tratar meticulosamente calosidades, pele morta e problemas nas unhas. Mais do que estética — é limpeza profunda e manutenção para a saúde dos pés." },
     "guasha": { "name": "Terapia Gua Sha", "description": "Estimula os meridianos na superfície do corpo para expelir toxinas e calor acumulados. Alivia eficazmente sintomas iniciais de resfriado, rigidez no pescoço e ombros e insolação, fortalecendo a resistência do organismo." }
   },
-  "services": { "title": "Tabela de Preços", "subtitle": "Preços", "currency": "$", "min": "Min", "main_title": "Serviços Principais", "combo_title": "Pacotes Combinados", "combo_subtitle": "Combos", "other_title": "Outros Cuidados Profissionais", "voucher_title": "Ofertas de Voucher", "voucher_bonus": "Bônus", "voucher_note": "Os vouchers não são reembolsáveis. Válidos por 18 meses a partir da data de compra.",
+  "services": { "title": "Tabela de Preços", "subtitle": "Preços", "currency": "$", "min": "Min", "minutes": "min", "main_title": "Serviços Principais", "combo_title": "Pacotes Combinados", "combo_subtitle": "Combos", "other_title": "Outros Cuidados Profissionais", "voucher_title": "Ofertas de Voucher", "voucher_bonus": "Bônus", "voucher_note": "Os vouchers não são reembolsáveis. Válidos por 18 meses a partir da data de compra.",
     "main": { "foot": "Massagem nos Pés", "body": "Massagem Corporal Completa", "oil_body": "Aromaterapia Corporal Completa", "lymph": "Massagem Linfática Corporal Completa", "prenatal": "Massagem Pré-natal" },
     "combo": { "foot_neck": "Pés (50m) + Cabeça/Pescoço/Ombros (25m)", "foot_hand": "Pés (50m) + Mãos (25m)", "foot25_body25": "Pés (25m) + Corpo Completo (25m)", "foot50_body50": "Pés (50m) + Corpo Completo (50m)" },
     "other": { "neck_hand": "Cabeça/Pescoço/Ombros / Mãos", "pain_relief": "Alívio de Dor (30m)", "nail_guasha": "Cuidado de Unhas / Gua Sha", "eyelash": "Extensão de Cílios" }
@@ -25,7 +25,17 @@
     "about_title": "Tratamentos profissionais",
     "about_desc": "Conheça a história da LivelyFoot e os seus tratamentos profissionais, incluindo reflexologia podal, acupressão, drenagem linfática, gua sha e mais.",
     "contact_title": "Contacte-nos",
-    "contact_desc": "A LivelyFoot está no M/F, King Cheung Mansion, 5 King Kwong Street, Happy Valley. Ligue 2803 2880. Aberto diariamente das 10h à meia-noite. Reserva por WhatsApp disponível."
+    "contact_desc": "A LivelyFoot está no M/F, King Cheung Mansion, 5 King Kwong Street, Happy Valley. Ligue 2803 2880. Aberto diariamente das 10h à meia-noite. Reserva por WhatsApp disponível.",
+    "service_foot_desc": "Reflexologia podal profissional em Happy Valley com sessões de 50, 75 e 100 minutos.",
+    "service_body_desc": "Massagem de acupressão corporal completa em Happy Valley com opções de 50, 75 e 100 minutos.",
+    "service_oil_body_desc": "Massagem de aromaterapia corporal completa em Happy Valley com sessões de 50, 75 e 100 minutos.",
+    "service_lymph_desc": "Massagem de drenagem linfática em Happy Valley com opções de 50, 75 e 100 minutos.",
+    "service_prenatal_desc": "Massagem pré-natal profissional em Happy Valley com sessões de 50, 75 e 100 minutos."
+  },
+  "breadcrumb": {
+    "home": "Início",
+    "pricing": "Preços",
+    "all_services": "Ver todos os serviços"
   },
   "footer": { "rights": "Todos os direitos reservados", "follow": "Siga-nos" },
   "faq": {

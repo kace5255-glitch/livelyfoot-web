@@ -39,6 +39,7 @@
     "subtitle": "料金案内",
     "currency": "$",
     "min": "分",
+    "minutes": "分",
     "main_title": "メインサービス",
     "combo_title": "セットメニュー",
     "combo_subtitle": "セット",
@@ -104,7 +105,17 @@
     "about_title": "プロフェッショナル施術",
     "about_desc": "LivelyFootの物語とプロフェッショナル施術をご紹介。足つぼリフレクソロジー、指圧、リンパドレナージュ、かっさなど。",
     "contact_title": "お問い合わせ",
-    "contact_desc": "LivelyFootは跑馬地景光街5號景祥大廈M樓にございます。電話 2803 2880。毎日午前10時〜深夜12時営業。WhatsApp予約可。"
+    "contact_desc": "LivelyFootは跑馬地景光街5號景祥大廈M樓にございます。電話 2803 2880。毎日午前10時〜深夜12時営業。WhatsApp予約可。",
+    "service_foot_desc": "跑馬地（ハッピーバレー）のプロフェッショナル足つぼリフレクソロジー。50分・75分・100分コースをご用意しています。",
+    "service_body_desc": "跑馬地（ハッピーバレー）の全身指圧マッサージ。50分・75分・100分からお選びいただけます。",
+    "service_oil_body_desc": "跑馬地（ハッピーバレー）のアロマ全身マッサージ。50分・75分・100分コースで心身をリフレッシュ。",
+    "service_lymph_desc": "跑馬地（ハッピーバレー）のリンパドレナージュマッサージ。50分・75分・100分コースでむくみを解消。",
+    "service_prenatal_desc": "跑馬地（ハッピーバレー）のプロフェッショナルマタニティマッサージ。50分・75分・100分の安心施術。"
+  },
+  "breadcrumb": {
+    "home": "ホーム",
+    "pricing": "料金",
+    "all_services": "全サービスを見る"
   },
   "footer": { "rights": "All rights reserved", "follow": "フォローする" },
   "faq": {

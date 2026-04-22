@@ -1,3 +1,14 @@
+export const serviceIds = ['foot', 'body', 'oil_body', 'lymph', 'prenatal'] as const;
+export type ServiceId = (typeof serviceIds)[number];
+
+export const serviceToTreatment: Record<ServiceId, string> = {
+  foot: 'foot_reflex',
+  body: 'body_acupoint',
+  oil_body: 'body_acupoint',
+  lymph: 'lymph',
+  prenatal: 'prenatal',
+};
+
 export interface MainService {
   id: string;
   durations: number[];

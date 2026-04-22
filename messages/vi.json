@@ -10,7 +10,7 @@
     "nail": { "name": "Chăm Sóc Móng Kiểu Thượng Hải", "description": "Kế thừa nghệ thuật chăm sóc móng Thượng Hải chính thống, sử dụng dụng cụ chuyên nghiệp để xử lý tỉ mỉ chai, da chết và các vấn đề về móng. Không chỉ là thẩm mỹ — đây là làm sạch sâu và bảo dưỡng sức khỏe bàn chân." },
     "guasha": { "name": "Liệu Pháp Cạo Gió", "description": "Kích thích kinh lạc trên bề mặt cơ thể để đào thải độc tố và nhiệt tích tụ. Giảm hiệu quả các triệu chứng cảm lạnh sớm, cứng cổ vai và say nắng, tăng cường sức đề kháng của cơ thể." }
   },
-  "services": { "title": "Bảng Giá Dịch Vụ", "subtitle": "Bảng giá", "currency": "$", "min": "Phút", "main_title": "Dịch Vụ Chính", "combo_title": "Gói Combo", "combo_subtitle": "Combo", "other_title": "Chăm Sóc Chuyên Nghiệp Khác", "voucher_title": "Ưu Đãi Phiếu Tiền Mặt", "voucher_bonus": "Thưởng", "voucher_note": "Phiếu tiền mặt không hoàn lại. Có hiệu lực 18 tháng kể từ ngày mua.",
+  "services": { "title": "Bảng Giá Dịch Vụ", "subtitle": "Bảng giá", "currency": "$", "min": "Phút", "minutes": "phút", "main_title": "Dịch Vụ Chính", "combo_title": "Gói Combo", "combo_subtitle": "Combo", "other_title": "Chăm Sóc Chuyên Nghiệp Khác", "voucher_title": "Ưu Đãi Phiếu Tiền Mặt", "voucher_bonus": "Thưởng", "voucher_note": "Phiếu tiền mặt không hoàn lại. Có hiệu lực 18 tháng kể từ ngày mua.",
     "main": { "foot": "Massage Chân", "body": "Massage Toàn Thân", "oil_body": "Massage Toàn Thân Tinh Dầu", "lymph": "Massage Bạch Huyết Toàn Thân", "prenatal": "Massage Trước Sinh" },
     "combo": { "foot_neck": "Chân (50p) + Đầu/Cổ/Vai (25p)", "foot_hand": "Chân (50p) + Tay (25p)", "foot25_body25": "Chân (25p) + Toàn Thân (25p)", "foot50_body50": "Chân (50p) + Toàn Thân (50p)" },
     "other": { "neck_hand": "Đầu/Cổ/Vai / Tay", "pain_relief": "Giảm Đau (30p)", "nail_guasha": "Chăm Sóc Móng / Cạo Gió", "eyelash": "Nối Mi" }
@@ -25,7 +25,17 @@
     "about_title": "Liệu Trình Chuyên Nghiệp",
     "about_desc": "Tìm hiểu về câu chuyện của LivelyFoot và các liệu trình chuyên nghiệp bao gồm phản xạ học bàn chân, bấm huyệt, dẫn lưu bạch huyết, cạo gió và nhiều hơn nữa.",
     "contact_title": "Liên Hệ",
-    "contact_desc": "LivelyFoot tại Tầng lửng, King Cheung Mansion, 5 Đường King Kwong, Happy Valley. Gọi 2803 2880. Mở cửa hàng ngày 10 giờ sáng - 12 giờ đêm. Đặt lịch qua WhatsApp."
+    "contact_desc": "LivelyFoot tại Tầng lửng, King Cheung Mansion, 5 Đường King Kwong, Happy Valley. Gọi 2803 2880. Mở cửa hàng ngày 10 giờ sáng - 12 giờ đêm. Đặt lịch qua WhatsApp.",
+    "service_foot_desc": "Trải nghiệm dịch vụ massage chân chuyên nghiệp tại LivelyFoot Happy Valley với các buổi 50, 75 hoặc 100 phút.",
+    "service_body_desc": "Massage bấm huyệt toàn thân tại LivelyFoot Happy Valley với các buổi 50, 75 hoặc 100 phút.",
+    "service_oil_body_desc": "Massage toàn thân tinh dầu tại LivelyFoot Happy Valley với các buổi 50, 75 hoặc 100 phút.",
+    "service_lymph_desc": "Massage dẫn lưu bạch huyết toàn thân tại LivelyFoot Happy Valley với các buổi 50, 75 hoặc 100 phút.",
+    "service_prenatal_desc": "Massage nhẹ nhàng trước sinh tại LivelyFoot Happy Valley với các buổi 50, 75 hoặc 100 phút."
+  },
+  "breadcrumb": {
+    "home": "Trang chủ",
+    "pricing": "Giá",
+    "all_services": "Xem tất cả dịch vụ"
   },
   "footer": { "rights": "Đã đăng ký bản quyền", "follow": "Theo Dõi Chúng Tôi" },
   "faq": {

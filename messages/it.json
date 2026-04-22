@@ -10,7 +10,7 @@
     "nail": { "name": "Cura delle Unghie Stile Shanghai", "description": "Ereditando l'autentica arte delle unghie di Shanghai, utilizza strumenti professionali per trattare meticolosamente calli, pelle morta e problemi ungueali. Più che estetica — è pulizia profonda e manutenzione per la salute dei piedi." },
     "guasha": { "name": "Terapia Gua Sha", "description": "Stimola i meridiani sulla superficie del corpo per espellere tossine e calore accumulati. Allevia efficacemente i primi sintomi del raffreddore, la rigidità di collo e spalle e i colpi di calore, rafforzando la resistenza dell'organismo." }
   },
-  "services": { "title": "Listino Prezzi", "subtitle": "Prezzi", "currency": "$", "min": "Min", "main_title": "Servizi Principali", "combo_title": "Pacchetti Combinati", "combo_subtitle": "Combo", "other_title": "Altre Cure Professionali", "voucher_title": "Offerte Buoni Regalo", "voucher_bonus": "Bonus", "voucher_note": "I buoni regalo non sono rimborsabili. Validi per 18 mesi dalla data di acquisto.",
+  "services": { "title": "Listino Prezzi", "subtitle": "Prezzi", "currency": "$", "min": "Min", "minutes": "min", "main_title": "Servizi Principali", "combo_title": "Pacchetti Combinati", "combo_subtitle": "Combo", "other_title": "Altre Cure Professionali", "voucher_title": "Offerte Buoni Regalo", "voucher_bonus": "Bonus", "voucher_note": "I buoni regalo non sono rimborsabili. Validi per 18 mesi dalla data di acquisto.",
     "main": { "foot": "Massaggio ai Piedi", "body": "Massaggio Corpo Intero", "oil_body": "Aromaterapia Corpo Intero", "lymph": "Massaggio Linfatico Corpo Intero", "prenatal": "Massaggio Prenatale" },
     "combo": { "foot_neck": "Piedi (50m) + Testa/Collo/Spalle (25m)", "foot_hand": "Piedi (50m) + Mani (25m)", "foot25_body25": "Piedi (25m) + Corpo Intero (25m)", "foot50_body50": "Piedi (50m) + Corpo Intero (50m)" },
     "other": { "neck_hand": "Testa/Collo/Spalle / Mani", "pain_relief": "Sollievo dal Dolore (30m)", "nail_guasha": "Cura Unghie / Gua Sha", "eyelash": "Extension Ciglia" }
@@ -25,7 +25,17 @@
     "about_title": "Trattamenti professionali",
     "about_desc": "Scopri la storia di LivelyFoot e i trattamenti professionali: riflessologia plantare, digitopressione, drenaggio linfatico, gua sha e altro.",
     "contact_title": "Contattaci",
-    "contact_desc": "LivelyFoot si trova al M/F, King Cheung Mansion, 5 King Kwong Street, Happy Valley. Chiama il 2803 2880. Aperto tutti i giorni dalle 10:00 a mezzanotte. Prenotazione WhatsApp disponibile."
+    "contact_desc": "LivelyFoot si trova al M/F, King Cheung Mansion, 5 King Kwong Street, Happy Valley. Chiama il 2803 2880. Aperto tutti i giorni dalle 10:00 a mezzanotte. Prenotazione WhatsApp disponibile.",
+    "service_foot_desc": "Riflessologia plantare professionale a Happy Valley con sedute da 50, 75 e 100 minuti.",
+    "service_body_desc": "Massaggio di digitopressione corpo intero a Happy Valley con opzioni da 50, 75 e 100 minuti.",
+    "service_oil_body_desc": "Massaggio aromaterapia corpo intero a Happy Valley con sedute da 50, 75 e 100 minuti.",
+    "service_lymph_desc": "Massaggio drenaggio linfatico a Happy Valley con opzioni da 50, 75 e 100 minuti.",
+    "service_prenatal_desc": "Massaggio prenatale professionale a Happy Valley con sedute da 50, 75 e 100 minuti."
+  },
+  "breadcrumb": {
+    "home": "Home",
+    "pricing": "Prezzi",
+    "all_services": "Vedi tutti i servizi"
   },
   "footer": { "rights": "Tutti i diritti riservati", "follow": "Seguici" },
   "faq": {

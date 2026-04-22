@@ -21,7 +21,8 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 bg-cream/90 backdrop-blur-md border-b border-cream-dark">
       <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
-        <Link href="/" className="text-2xl font-serif font-bold text-warm-brown">
+        <Link href="/" className="flex items-center gap-2 text-2xl font-serif font-bold text-warm-brown">
+          <img src="/LivelyfootLogo.png" alt={brand} className="h-10 w-auto" />
           {brand}
         </Link>
 

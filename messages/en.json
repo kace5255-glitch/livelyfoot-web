@@ -44,6 +44,7 @@
     "subtitle": "Pricing",
     "currency": "$",
     "min": "Min",
+    "minutes": "min",
     "main_title": "Main Services",
     "combo_title": "Combo Packages",
     "combo_subtitle": "Combos",
@@ -109,7 +110,17 @@
     "about_title": "Professional Treatments",
     "about_desc": "Learn about LivelyFoot's story and professional treatments including foot reflexology, acupressure, lymphatic drainage, gua sha and more.",
     "contact_title": "Contact Us",
-    "contact_desc": "LivelyFoot is at M/F, King Cheung Mansion, 5 King Kwong Street, Happy Valley. Call 2803 2880. Open daily 10AM-12MN. WhatsApp booking available."
+    "contact_desc": "LivelyFoot is at M/F, King Cheung Mansion, 5 King Kwong Street, Happy Valley. Call 2803 2880. Open daily 10AM-12MN. WhatsApp booking available.",
+    "service_foot_desc": "Professional foot reflexology in Happy Valley. Stimulates reflex zones to regulate body functions, improve circulation and sleep quality. 50/75/100 min sessions.",
+    "service_body_desc": "Full body acupressure massage in Happy Valley. Targets shoulder, neck and back pain with deep tissue techniques. 50/75/100 min sessions.",
+    "service_oil_body_desc": "Aromatherapy full body massage in Happy Valley. Combines essential oils with professional techniques for deep relaxation. 50/75/100 min sessions.",
+    "service_lymph_desc": "Lymphatic drainage massage in Happy Valley. Gentle rhythmic techniques to reduce swelling and boost immunity. 50/75/100 min sessions.",
+    "service_prenatal_desc": "Professional prenatal massage in Happy Valley. Safe, gentle techniques to relieve pregnancy discomforts. 50/75/100 min sessions."
+  },
+  "breadcrumb": {
+    "home": "Home",
+    "pricing": "Pricing",
+    "all_services": "View all services"
   },
   "footer": {
     "rights": "All rights reserved",

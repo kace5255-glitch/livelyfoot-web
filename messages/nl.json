@@ -10,7 +10,7 @@
     "nail": { "name": "Shanghai-Stijl Nagelverzorging", "description": "Erfgenaam van authentiek Shanghais nagelambacht, met professioneel gereedschap voor zorgvuldige behandeling van eelt, dode huid en nagelproblemen. Meer dan cosmetisch — het is diepe reiniging en onderhoud voor de gezondheid van uw voeten." },
     "guasha": { "name": "Gua Sha Therapie", "description": "Stimuleert meridianen op het lichaamsoppervlak om opgehoopte gifstoffen en hitte te verdrijven. Verlicht effectief vroege verkoudheidssymptomen, nek- en schouderstijfheid en hitteberoerte, en versterkt de weerstand van het lichaam." }
   },
-  "services": { "title": "Prijslijst Diensten", "subtitle": "Prijzen", "currency": "$", "min": "Min", "main_title": "Hoofddiensten", "combo_title": "Combopakketten", "combo_subtitle": "Combo's", "other_title": "Overige Professionele Verzorging", "voucher_title": "Cadeaubon Aanbiedingen", "voucher_bonus": "Bonus", "voucher_note": "Cadeaubonnen zijn niet restitueerbaar. Geldig gedurende 18 maanden vanaf aankoopdatum.",
+  "services": { "title": "Prijslijst Diensten", "subtitle": "Prijzen", "currency": "$", "min": "Min", "minutes": "min", "main_title": "Hoofddiensten", "combo_title": "Combopakketten", "combo_subtitle": "Combo's", "other_title": "Overige Professionele Verzorging", "voucher_title": "Cadeaubon Aanbiedingen", "voucher_bonus": "Bonus", "voucher_note": "Cadeaubonnen zijn niet restitueerbaar. Geldig gedurende 18 maanden vanaf aankoopdatum.",
     "main": { "foot": "Voetmassage", "body": "Volledige Lichaamsmassage", "oil_body": "Aromatherapie Volledige Lichaam", "lymph": "Volledige Lichaam Lymfemassage", "prenatal": "Prenatale Massage" },
     "combo": { "foot_neck": "Voet (50m) + Hoofd/Nek/Schouder (25m)", "foot_hand": "Voet (50m) + Hand (25m)", "foot25_body25": "Voet (25m) + Volledige Lichaam (25m)", "foot50_body50": "Voet (50m) + Volledige Lichaam (50m)" },
     "other": { "neck_hand": "Hoofd/Nek/Schouder / Hand", "pain_relief": "Pijnverlichting (30m)", "nail_guasha": "Nagelverzorging / Gua Sha", "eyelash": "Wimperextensions" }
@@ -25,7 +25,17 @@
     "about_title": "Professionele Behandelingen",
     "about_desc": "Lees over het verhaal van LivelyFoot en professionele behandelingen waaronder voetreflexologie, acupressuur, lymfedrainage, gua sha en meer.",
     "contact_title": "Contact",
-    "contact_desc": "LivelyFoot bevindt zich op Mezzanine, King Cheung Mansion, 5 King Kwong Street, Happy Valley. Bel 2803 2880. Dagelijks geopend 10:00-00:00. WhatsApp reservering beschikbaar."
+    "contact_desc": "LivelyFoot bevindt zich op Mezzanine, King Cheung Mansion, 5 King Kwong Street, Happy Valley. Bel 2803 2880. Dagelijks geopend 10:00-00:00. WhatsApp reservering beschikbaar.",
+    "service_foot_desc": "Geniet van professionele voetmassage bij LivelyFoot Happy Valley met sessies van 50, 75 of 100 min.",
+    "service_body_desc": "Volledige lichaam acupressuurmassage bij LivelyFoot Happy Valley met sessies van 50, 75 of 100 min.",
+    "service_oil_body_desc": "Aromatherapie lichaamsmassage bij LivelyFoot Happy Valley met sessies van 50, 75 of 100 min.",
+    "service_lymph_desc": "Volledige lichaam lymfedrainagemassage bij LivelyFoot Happy Valley met sessies van 50, 75 of 100 min.",
+    "service_prenatal_desc": "Zachte prenatale massage bij LivelyFoot Happy Valley met sessies van 50, 75 of 100 min."
+  },
+  "breadcrumb": {
+    "home": "Home",
+    "pricing": "Prijzen",
+    "all_services": "Alle diensten bekijken"
   },
   "footer": { "rights": "Alle rechten voorbehouden", "follow": "Volg Ons" },
   "faq": {
