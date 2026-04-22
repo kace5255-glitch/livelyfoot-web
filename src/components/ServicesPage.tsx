@@ -18,29 +18,43 @@ export default function ServicesPage() {
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-        {/* Main Services */}
-        <div className="bg-white rounded-2xl p-6 shadow-sm border border-cream-dark/30">
-          <h2 className="text-lg font-semibold text-warm-brown-dark mb-6 flex items-center gap-2">
-            <span className="text-gold">✦</span> {t('main_title')}
-          </h2>
-          <div className="space-y-5">
-            {mainServices.map((s) => (
-              <div key={s.id} className="flex items-start justify-between">
-                <div>
-                  <p className="font-semibold text-warm-brown-dark">{t(`main.${s.id}`)}</p>
-                  <p className="text-sm text-warm-brown-dark/50">
-                    {s.durations.map((d) => d).join(' / ')} {t('min')}
+        {/* Left Column: Main + Other */}
+        <div className="space-y-8">
+          <div className="bg-white rounded-2xl p-6 shadow-sm border border-cream-dark/30">
+            <h2 className="text-lg font-semibold text-warm-brown-dark mb-6 flex items-center gap-2">
+              <span className="text-gold">✦</span> {t('main_title')}
+            </h2>
+            <div className="space-y-5">
+              {mainServices.map((s) => (
+                <div key={s.id} className="flex items-start justify-between">
+                  <div>
+                    <p className="font-semibold text-warm-brown-dark">{t(`main.${s.id}`)}</p>
+                    <p className="text-sm text-warm-brown-dark/50">
+                      {s.durations.map((d) => d).join(' / ')} {t('min')}
+                    </p>
+                  </div>
+                  <p className="text-warm-brown-dark font-medium whitespace-nowrap">
+                    {s.prices.map((p) => `${t('currency')}${p}`).join(' / ')}
                   </p>
                 </div>
-                <p className="text-warm-brown-dark font-medium whitespace-nowrap">
-                  {s.prices.map((p) => `${t('currency')}${p}`).join(' / ')}
-                </p>
-              </div>
-            ))}
+              ))}
+            </div>
+          </div>
+
+          <div className="bg-white rounded-2xl p-6 shadow-sm border border-cream-dark/30">
+            <h2 className="text-lg font-semibold text-warm-brown-dark mb-6">{t('other_title')}</h2>
+            <div className="space-y-4">
+              {otherServices.map((s) => (
+                <div key={s.id} className="flex items-center justify-between">
+                  <p className="text-warm-brown-dark">{t(`other.${s.id}`)}</p>
+                  <p className="text-warm-brown-dark font-semibold">{s.price}</p>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
 
-        {/* Combo Packages */}
+        {/* Right Column: Combo + Vouchers */}
         <div className="space-y-8">
           <div className="bg-white rounded-2xl p-6 shadow-sm border border-cream-dark/30">
             <h2 className="text-lg font-semibold text-warm-brown-dark mb-1">{t('combo_title')}</h2>
@@ -55,7 +69,6 @@ export default function ServicesPage() {
             </div>
           </div>
 
-          {/* Cash Vouchers */}
           <div className="bg-forest rounded-2xl p-6 text-cream">
             <h2 className="text-lg font-semibold mb-4 flex items-center gap-2">
               <span>🎫</span> {t('voucher_title')}
@@ -71,19 +84,6 @@ export default function ServicesPage() {
               ))}
             </div>
             <p className="text-sm text-cream/70 text-center">{t('voucher_note')}</p>
-          </div>
-        </div>
-
-        {/* Other Services */}
-        <div className="bg-white rounded-2xl p-6 shadow-sm border border-cream-dark/30">
-          <h2 className="text-lg font-semibold text-warm-brown-dark mb-6">{t('other_title')}</h2>
-          <div className="space-y-4">
-            {otherServices.map((s) => (
-              <div key={s.id} className="flex items-center justify-between">
-                <p className="text-warm-brown-dark">{t(`other.${s.id}`)}</p>
-                <p className="text-warm-brown-dark font-semibold">{s.price}</p>
-              </div>
-            ))}
           </div>
         </div>
       </div>

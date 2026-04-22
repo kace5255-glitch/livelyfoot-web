@@ -23,7 +23,8 @@ export default function AboutPage() {
             {t('story_title')}
           </h2>
           <p className="text-warm-brown-dark/70 leading-relaxed mb-4">{t('story_p1')}</p>
-          <p className="text-warm-brown-dark/70 leading-relaxed">{t('story_p2')}</p>
+          <p className="text-warm-brown-dark/70 leading-relaxed mb-4">{t('story_p2')}</p>
+          <p className="text-warm-brown-dark/70 leading-relaxed">{t('story_p3')}</p>
         </div>
       </section>
 

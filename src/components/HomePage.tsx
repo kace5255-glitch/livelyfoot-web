@@ -3,6 +3,7 @@
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 import { useState } from 'react';
+import { mainServices, comboServices, otherServices, cashVouchers } from '@/data/services';
 
 const treatmentKeys = ['foot_reflex', 'body_acupoint', 'lymph', 'prenatal', 'nail', 'guasha'] as const;
 const faqKeys = ['booking', 'duration', 'prenatal', 'voucher', 'hours', 'location'] as const;
@@ -19,14 +20,20 @@ const treatmentIcons: Record<string, string> = {
 export default function HomePage() {
   const t = useTranslations('home');
   const tt = useTranslations('treatments');
+  const s = useTranslations('services');
   const faq = useTranslations('faq');
   const [openFaq, setOpenFaq] = useState<number | null>(0);
 
   return (
     <div>
       {/* Hero */}
-      <section className="relative bg-warm-brown min-h-[70vh] flex items-center justify-center text-center px-4">
-        <div className="absolute inset-0 bg-gradient-to-b from-warm-brown-dark/60 to-warm-brown/80" />
+      <section className="relative min-h-[70vh] flex items-center justify-center text-center px-4">
+        <img
+          src="/massagephoto.jpg"
+          alt="LivelyFoot massage"
+          className="absolute inset-0 w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-warm-brown-dark/70" />
         <div className="relative z-10 max-w-3xl">
           <h1 className="text-4xl md:text-6xl font-serif font-bold text-cream mb-6 leading-tight">
             {t('hero_title')}
@@ -93,8 +100,85 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* FAQ */}
+      {/* Pricing */}
       <section className="bg-warm-brown-dark/5 py-20">
+        <div className="max-w-5xl mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-serif font-bold text-warm-brown mb-2">
+              {s('title')}
+            </h2>
+            <p className="text-warm-brown-dark/50">{s('subtitle')}</p>
+          </div>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            <div className="space-y-8">
+              <div className="bg-white rounded-2xl p-6 shadow-sm border border-cream-dark/30">
+                <h3 className="text-lg font-semibold text-warm-brown-dark mb-6 flex items-center gap-2">
+                  <span className="text-gold">✦</span> {s('main_title')}
+                </h3>
+                <div className="space-y-5">
+                  {mainServices.map((sv) => (
+                    <div key={sv.id} className="flex items-start justify-between">
+                      <div>
+                        <p className="font-semibold text-warm-brown-dark">{s(`main.${sv.id}`)}</p>
+                        <p className="text-sm text-warm-brown-dark/50">
+                          {sv.durations.join(' / ')} {s('min')}
+                        </p>
+                      </div>
+                      <p className="text-warm-brown-dark font-medium whitespace-nowrap">
+                        {sv.prices.map((p) => `${s('currency')}${p}`).join(' / ')}
+                      </p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+              <div className="bg-white rounded-2xl p-6 shadow-sm border border-cream-dark/30">
+                <h3 className="text-lg font-semibold text-warm-brown-dark mb-6">{s('other_title')}</h3>
+                <div className="space-y-4">
+                  {otherServices.map((sv) => (
+                    <div key={sv.id} className="flex items-center justify-between">
+                      <p className="text-warm-brown-dark">{s(`other.${sv.id}`)}</p>
+                      <p className="text-warm-brown-dark font-semibold">{sv.price}</p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+            <div className="space-y-8">
+              <div className="bg-white rounded-2xl p-6 shadow-sm border border-cream-dark/30">
+                <h3 className="text-lg font-semibold text-warm-brown-dark mb-1">{s('combo_title')}</h3>
+                <p className="text-sm text-warm-brown-dark/50 mb-6">{s('combo_subtitle')}</p>
+                <div className="space-y-4">
+                  {comboServices.map((sv) => (
+                    <div key={sv.id} className="flex items-center justify-between">
+                      <p className="text-warm-brown-dark">{s(`combo.${sv.id}`)}</p>
+                      <p className="text-warm-brown-dark font-semibold">{s('currency')}{sv.price}</p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+              <div className="bg-forest rounded-2xl p-6 text-cream">
+                <h3 className="text-lg font-semibold mb-4 flex items-center gap-2">
+                  <span>🎫</span> {s('voucher_title')}
+                </h3>
+                <div className="grid grid-cols-2 gap-4 mb-4">
+                  {cashVouchers.map((v) => (
+                    <div key={v.amount} className="bg-forest-light/30 rounded-xl p-4 text-center">
+                      <p className="text-2xl font-bold">{s('currency')}{v.amount.toLocaleString()}</p>
+                      <p className="mt-2 text-sm bg-gold text-warm-brown-dark rounded-full px-3 py-1 inline-block font-medium">
+                        {s('voucher_bonus')} {s('currency')}{v.bonus}
+                      </p>
+                    </div>
+                  ))}
+                </div>
+                <p className="text-sm text-cream/70 text-center">{s('voucher_note')}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <section className="py-20">
         <div className="max-w-3xl mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-serif font-bold text-warm-brown mb-3">
@@ -102,31 +186,53 @@ export default function HomePage() {
             </h2>
             <p className="text-warm-brown-dark/60">{faq('subtitle')}</p>
           </div>
-          <div className="space-y-4">
-            {faqKeys.map((key, i) => (
-              <div
-                key={key}
-                className="bg-white rounded-2xl border border-cream-dark/30 overflow-hidden"
-              >
-                <button
-                  onClick={() => setOpenFaq(openFaq === i ? null : i)}
-                  className="w-full flex items-center justify-between px-6 py-5 text-left"
+          <div className="space-y-3">
+            {faqKeys.map((key, i) => {
+              const isOpen = openFaq === i;
+              return (
+                <div
+                  key={key}
+                  className={`rounded-2xl border overflow-hidden transition-all duration-300 ${
+                    isOpen
+                      ? 'bg-white border-gold/40 shadow-md'
+                      : 'bg-white border-cream-dark/30 hover:border-gold/30 hover:shadow-sm'
+                  }`}
                 >
-                  <span className="font-semibold text-warm-brown-dark">{faq(`items.${key}.q`)}</span>
-                  <svg
-                    className={`w-5 h-5 text-warm-brown-dark/50 shrink-0 transition-transform ${openFaq === i ? 'rotate-180' : ''}`}
-                    fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                  <button
+                    onClick={() => setOpenFaq(isOpen ? null : i)}
+                    className="w-full flex items-center justify-between px-6 py-5 text-left group"
                   >
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                  </svg>
-                </button>
-                {openFaq === i && (
-                  <div className="px-6 pb-5">
-                    <p className="text-sm text-forest leading-relaxed">{faq(`items.${key}.a`)}</p>
+                    <span className={`font-semibold transition-colors duration-200 ${
+                      isOpen ? 'text-warm-brown' : 'text-warm-brown-dark group-hover:text-warm-brown'
+                    }`}>
+                      {faq(`items.${key}.q`)}
+                    </span>
+                    <span className={`w-8 h-8 rounded-full flex items-center justify-center shrink-0 transition-all duration-300 ${
+                      isOpen ? 'bg-gold/20 rotate-180' : 'bg-cream-dark/50'
+                    }`}>
+                      <svg
+                        className="w-4 h-4 text-warm-brown-dark/70"
+                        fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                      >
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                      </svg>
+                    </span>
+                  </button>
+                  <div
+                    className={`grid transition-all duration-300 ease-in-out ${
+                      isOpen ? 'grid-rows-[1fr] opacity-100' : 'grid-rows-[0fr] opacity-0'
+                    }`}
+                  >
+                    <div className="overflow-hidden">
+                      <div className="px-6 pb-5">
+                        <div className="h-px bg-cream-dark/30 mb-4" />
+                        <p className="text-sm text-warm-brown-dark/70 leading-relaxed">{faq(`items.${key}.a`)}</p>
+                      </div>
+                    </div>
                   </div>
-                )}
-              </div>
-            ))}
+                </div>
+              );
+            })}
           </div>
         </div>
       </section>
