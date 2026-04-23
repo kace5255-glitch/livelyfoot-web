@@ -21,7 +21,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="font-semibold text-gold mb-4">&nbsp;</h4>
+            <div className="h-6 mb-4" />
             <nav className="flex flex-col gap-2">
               <Link href="/" className="text-sm text-cream/70 hover:text-gold transition-colors">{nav('home')}</Link>
               <Link href="/services" className="text-sm text-cream/70 hover:text-gold transition-colors">{nav('services')}</Link>
