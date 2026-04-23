@@ -1,5 +1,5 @@
 {
-  "brand": "活力足 LivelyFoot",
+  "brand": "Lively Foot - 活力足",
   "nav": { "home": "หน้าแรก", "services": "ราคา", "about": "การบำบัด", "contact": "ติดต่อเรา" },
   "home": { "hero_title": "ปลุกร่างกายของคุณจากภายใน", "hero_subtitle": "เราพร้อมมอบบริการนวดและดูแลสุขภาพอย่างมืออาชีพที่สุดให้แก่คุณ", "hero_cta": "ดูบริการ", "treatments_title": "การบำบัดมืออาชีพ", "treatments_subtitle": "ค้นพบแผนการดูแลที่เหมาะกับคุณ — ฟื้นฟูร่างกายจากภายในสู่ภายนอก" },
   "treatments": {

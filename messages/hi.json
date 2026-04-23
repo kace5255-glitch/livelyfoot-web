@@ -1,5 +1,5 @@
 {
-  "brand": "活力足 LivelyFoot",
+  "brand": "Lively Foot - 活力足",
   "nav": { "home": "होम", "services": "मूल्य सूची", "about": "उपचार", "contact": "संपर्क" },
   "home": { "hero_title": "अपने शरीर को भीतर से जगाएँ", "hero_subtitle": "हम आपको सबसे पेशेवर मालिश और देखभाल सेवाएँ प्रदान करने के लिए उत्सुक हैं", "hero_cta": "सेवाएँ देखें", "treatments_title": "पेशेवर उपचार", "treatments_subtitle": "अपने लिए उपयुक्त देखभाल योजना खोजें — भीतर से तरोताज़ा हों।" },
   "treatments": {

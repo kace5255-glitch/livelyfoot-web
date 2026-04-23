@@ -14,8 +14,10 @@ export async function generateMetadata({
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'meta' });
 
+  const brand = (await getTranslations({ locale }))('brand');
+
   return {
-    title: t('home_title'),
+    title: { absolute: `${brand} | ${t('home_title')}` },
     description: t('home_desc'),
     alternates: { canonical: `${BASE_URL}/${locale}` },
   };

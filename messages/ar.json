@@ -1,5 +1,5 @@
 {
-  "brand": "活力足 LivelyFoot",
+  "brand": "Lively Foot - 活力足",
   "nav": { "home": "الرئيسية", "services": "الأسعار", "about": "العلاجات", "contact": "اتصل بنا" },
   "home": { "hero_title": "أيقظ جسدك من الداخل", "hero_subtitle": "نتطلع لتقديم أفضل خدمات التدليك والعناية الاحترافية لك", "hero_cta": "عرض الخدمات", "treatments_title": "علاجات احترافية", "treatments_subtitle": "اكتشف خطة العناية المناسبة لك — جدّد نشاطك من الداخل إلى الخارج." },
   "treatments": {
