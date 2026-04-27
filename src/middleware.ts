@@ -36,6 +36,13 @@ async function updateSupabaseSession(request: NextRequest) {
 export async function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
+  // Redirect /[locale]/TallyApp/... back to /TallyApp/...
+  const localePrefix = /^\/(zh-TW|en|ja|ko|es|fr|de|pt|it|ru|ar|th|vi|id|ms|nl|tr|hi)(\/TallyApp.*)/;
+  const localeMatch = pathname.match(localePrefix);
+  if (localeMatch) {
+    return NextResponse.redirect(new URL(localeMatch[2] || '/TallyApp', request.url));
+  }
+
   if (pathname.startsWith('/TallyApp') || pathname.startsWith('/api/TallyApp')) {
     return updateSupabaseSession(request);
   }
@@ -44,5 +51,5 @@ export async function middleware(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ['/', '/(zh-TW|en|ja|ko|es|fr|de|pt|it|ru|ar|th|vi|id|ms|nl|tr|hi)/:path*', '/TallyApp/:path*', '/api/TallyApp/:path*'],
+  matcher: ['/', '/(zh-TW|en|ja|ko|es|fr|de|pt|it|ru|ar|th|vi|id|ms|nl|tr|hi)/:path*', '/TallyApp', '/TallyApp/:path*', '/api/TallyApp/:path*'],
 };
