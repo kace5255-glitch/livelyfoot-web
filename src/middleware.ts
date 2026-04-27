@@ -1,11 +1,11 @@
 import { NextRequest, NextResponse } from 'next/server';
 import createMiddleware from 'next-intl/middleware';
-import { createServerClient } from '@supabase/ssr';
 import { routing } from './i18n/routing';
 
 const intlMiddleware = createMiddleware(routing);
 
 async function updateSupabaseSession(request: NextRequest) {
+  const { createServerClient } = await import('@supabase/ssr');
   let response = NextResponse.next({ request });
 
   const supabase = createServerClient(
