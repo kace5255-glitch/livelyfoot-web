@@ -114,3 +114,41 @@ export function BreadcrumbJsonLd({
     />
   );
 }
+
+export function BlogPostingJsonLd({
+  title,
+  description,
+  url,
+  datePublished,
+}: {
+  title: string;
+  description: string;
+  url: string;
+  datePublished: string;
+}) {
+  const data = {
+    '@context': 'https://schema.org',
+    '@type': 'BlogPosting',
+    headline: title,
+    description,
+    url,
+    datePublished,
+    author: {
+      '@type': 'Organization',
+      name: 'Lively Foot - 活力足',
+      url: 'https://livelyfoot-hk.com',
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'Lively Foot - 活力足',
+      url: 'https://livelyfoot-hk.com',
+    },
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
+    />
+  );
+}

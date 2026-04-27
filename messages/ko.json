@@ -1,6 +1,12 @@
 {
   "brand": "Lively Foot - 活力足",
-  "nav": { "home": "홈", "services": "요금표", "about": "시술 안내", "contact": "문의" },
+  "nav": {
+    "home": "홈",
+    "services": "요금표",
+    "about": "시술 안내",
+    "contact": "문의",
+    "blog": "Blog"
+  },
   "home": {
     "hero_title": "몸 안에서부터 깨어나세요",
     "hero_subtitle": "가장 전문적인 마사지와 케어 서비스를 제공해 드리겠습니다",
@@ -118,7 +124,20 @@
     "pricing": "가격",
     "all_services": "전체 서비스 보기"
   },
-  "footer": { "rights": "All rights reserved", "follow": "팔로우하기" },
+  "footer": {
+    "rights": "All rights reserved",
+    "follow": "팔로우하기"
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Massage wellness tips and health information",
+    "empty": "No posts yet",
+    "back": "Back to all posts",
+    "read_more": "Read more",
+    "read_time": "{min} min read",
+    "cta_title": "Ready to experience professional massage?",
+    "cta_desc": "Book with Lively Foot and let us create a personalised treatment plan for you."
+  },
   "faq": {
     "title": "자주 묻는 질문",
     "subtitle": "마사지 서비스에 대한 궁금증을 해결해 드립니다",

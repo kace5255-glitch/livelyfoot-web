@@ -1,22 +1,109 @@
 {
   "brand": "Lively Foot - 活力足",
-  "nav": { "home": "Ana Sayfa", "services": "Fiyatlar", "about": "Tedaviler", "contact": "İletişim" },
-  "home": { "hero_title": "Bedeninizi İçten Uyandırın", "hero_subtitle": "Size en profesyonel masaj ve bakım hizmetlerini sunmayı dört gözle bekliyoruz", "hero_cta": "Hizmetleri Görüntüle", "treatments_title": "Profesyonel Tedaviler", "treatments_subtitle": "Size uygun bakım planını keşfedin — içten dışa yenilenin." },
+  "nav": {
+    "home": "Ana Sayfa",
+    "services": "Fiyatlar",
+    "about": "Tedaviler",
+    "contact": "İletişim",
+    "blog": "Blog"
+  },
+  "home": {
+    "hero_title": "Bedeninizi İçten Uyandırın",
+    "hero_subtitle": "Size en profesyonel masaj ve bakım hizmetlerini sunmayı dört gözle bekliyoruz",
+    "hero_cta": "Hizmetleri Görüntüle",
+    "treatments_title": "Profesyonel Tedaviler",
+    "treatments_subtitle": "Size uygun bakım planını keşfedin — içten dışa yenilenin."
+  },
   "treatments": {
-    "foot_reflex": { "name": "Ayak Refleksolojisi", "description": "Vücuttaki ilgili organları düzenlemek için her iki ayaktaki refleks bölgelerini uyarır. Kan dolaşımını etkili bir şekilde iyileştirir, bacak ağırlığını hafifletir ve uyku kalitesini artırır — yoğun şehir sakinleri için en iyi tercih." },
-    "body_acupoint": { "name": "Tüm Vücut Akupresür", "description": "Uzun süreli kötü duruştan kaynaklanan omuz, boyun ve sırt ağrılarını hedefler. Terapistler, akupunktur noktalarını hassas bir şekilde bulmak için parmak basıncı ve yoğurma teknikleri kullanarak gergin kasları derinlemesine gevşetir ve meridyenlerin tıkanıklığını açar." },
-    "lymph": { "name": "Lenf Drenaj Masajı", "description": "Lenf akışını yönlendirmek ve fazla sıvı ile atık metabolizmasını hızlandırmak için nazik, ritmik teknikler kullanır. Vücut şişliğini azaltmaya, bağışıklık fonksiyonunu güçlendirmeye ve genel bünyeyi iyileştirmeye yardımcı olur." },
-    "prenatal": { "name": "Doğum Öncesi Rahatlama Masajı", "description": "Anne adayları için tasarlanmış nazik masaj. Alt ekstremite şişliği, bel basıncı ve kas krampları dahil yaygın hamilelik rahatsızlıklarını hafifletir; terapistler seans boyunca güvenli pozisyonlama kullanır." },
-    "nail": { "name": "Şanghay Tarzı Tırnak Bakımı", "description": "Otantik Şanghay tırnak zanaatını miras alarak, nasır, ölü deri ve tırnak sorunlarını titizlikle tedavi etmek için profesyonel aletler kullanır. Kozmetikten öte — ayak sağlığı için derin temizlik ve bakımdır." },
-    "guasha": { "name": "Gua Sha Terapisi", "description": "Birikmiş toksinleri ve ısıyı atmak için vücut yüzeyindeki meridyenleri uyarır. Erken soğuk algınlığı belirtilerini, boyun ve omuz sertliğini ve sıcak çarpmasını etkili bir şekilde hafifletir, vücudun direncini artırır." }
+    "foot_reflex": {
+      "name": "Ayak Refleksolojisi",
+      "description": "Vücuttaki ilgili organları düzenlemek için her iki ayaktaki refleks bölgelerini uyarır. Kan dolaşımını etkili bir şekilde iyileştirir, bacak ağırlığını hafifletir ve uyku kalitesini artırır — yoğun şehir sakinleri için en iyi tercih."
+    },
+    "body_acupoint": {
+      "name": "Tüm Vücut Akupresür",
+      "description": "Uzun süreli kötü duruştan kaynaklanan omuz, boyun ve sırt ağrılarını hedefler. Terapistler, akupunktur noktalarını hassas bir şekilde bulmak için parmak basıncı ve yoğurma teknikleri kullanarak gergin kasları derinlemesine gevşetir ve meridyenlerin tıkanıklığını açar."
+    },
+    "lymph": {
+      "name": "Lenf Drenaj Masajı",
+      "description": "Lenf akışını yönlendirmek ve fazla sıvı ile atık metabolizmasını hızlandırmak için nazik, ritmik teknikler kullanır. Vücut şişliğini azaltmaya, bağışıklık fonksiyonunu güçlendirmeye ve genel bünyeyi iyileştirmeye yardımcı olur."
+    },
+    "prenatal": {
+      "name": "Doğum Öncesi Rahatlama Masajı",
+      "description": "Anne adayları için tasarlanmış nazik masaj. Alt ekstremite şişliği, bel basıncı ve kas krampları dahil yaygın hamilelik rahatsızlıklarını hafifletir; terapistler seans boyunca güvenli pozisyonlama kullanır."
+    },
+    "nail": {
+      "name": "Şanghay Tarzı Tırnak Bakımı",
+      "description": "Otantik Şanghay tırnak zanaatını miras alarak, nasır, ölü deri ve tırnak sorunlarını titizlikle tedavi etmek için profesyonel aletler kullanır. Kozmetikten öte — ayak sağlığı için derin temizlik ve bakımdır."
+    },
+    "guasha": {
+      "name": "Gua Sha Terapisi",
+      "description": "Birikmiş toksinleri ve ısıyı atmak için vücut yüzeyindeki meridyenleri uyarır. Erken soğuk algınlığı belirtilerini, boyun ve omuz sertliğini ve sıcak çarpmasını etkili bir şekilde hafifletir, vücudun direncini artırır."
+    }
   },
-  "services": { "title": "Hizmet Fiyat Listesi", "subtitle": "Fiyatlar", "currency": "$", "min": "Dk", "minutes": "dk", "main_title": "Ana Hizmetler", "combo_title": "Kombo Paketler", "combo_subtitle": "Kombolar", "other_title": "Diğer Profesyonel Bakım", "voucher_title": "Nakit Kupon Teklifleri", "voucher_bonus": "Bonus", "voucher_note": "Nakit kuponlar iade edilemez. Satın alma tarihinden itibaren 18 ay geçerlidir.",
-    "main": { "foot": "Ayak Masajı", "body": "Tüm Vücut Masajı", "oil_body": "Aromaterapi Tüm Vücut", "lymph": "Tüm Vücut Lenf Masajı", "prenatal": "Doğum Öncesi Masaj" },
-    "combo": { "foot_neck": "Ayak (50dk) + Baş/Boyun/Omuz (25dk)", "foot_hand": "Ayak (50dk) + El (25dk)", "foot25_body25": "Ayak (25dk) + Tüm Vücut (25dk)", "foot50_body50": "Ayak (50dk) + Tüm Vücut (50dk)" },
-    "other": { "neck_hand": "Baş/Boyun/Omuz / El", "pain_relief": "Ağrı Giderme (30dk)", "nail_guasha": "Tırnak Bakımı / Gua Sha", "eyelash": "Kirpik Uzatma" }
+  "services": {
+    "title": "Hizmet Fiyat Listesi",
+    "subtitle": "Fiyatlar",
+    "currency": "$",
+    "min": "Dk",
+    "minutes": "dk",
+    "main_title": "Ana Hizmetler",
+    "combo_title": "Kombo Paketler",
+    "combo_subtitle": "Kombolar",
+    "other_title": "Diğer Profesyonel Bakım",
+    "voucher_title": "Nakit Kupon Teklifleri",
+    "voucher_bonus": "Bonus",
+    "voucher_note": "Nakit kuponlar iade edilemez. Satın alma tarihinden itibaren 18 ay geçerlidir.",
+    "main": {
+      "foot": "Ayak Masajı",
+      "body": "Tüm Vücut Masajı",
+      "oil_body": "Aromaterapi Tüm Vücut",
+      "lymph": "Tüm Vücut Lenf Masajı",
+      "prenatal": "Doğum Öncesi Masaj"
+    },
+    "combo": {
+      "foot_neck": "Ayak (50dk) + Baş/Boyun/Omuz (25dk)",
+      "foot_hand": "Ayak (50dk) + El (25dk)",
+      "foot25_body25": "Ayak (25dk) + Tüm Vücut (25dk)",
+      "foot50_body50": "Ayak (50dk) + Tüm Vücut (50dk)"
+    },
+    "other": {
+      "neck_hand": "Baş/Boyun/Omuz / El",
+      "pain_relief": "Ağrı Giderme (30dk)",
+      "nail_guasha": "Tırnak Bakımı / Gua Sha",
+      "eyelash": "Kirpik Uzatma"
+    }
   },
-  "about": { "title": "Hakkımızda", "story_title": "Derin Rahatlamaya Odaklanan İyileştirme Uzmanları", "story_p1": "Lively Foot - 活力足, Happy Valley'de on yılı aşkın süredir hizmet vermektedir. Yalnızca tek bir şeye odaklanıyoruz: size en derin ve en etkili masaj deneyimini sunmak.", "story_p2": "Çin ayak masajı ve tüm vücut masajında uzmanız; on yılı aşkın deneyime sahip kıdemli ustalarımız, özel teknikleriyle yorgunluk noktalarınıza derinlemesine ulaşır. Bel ağrısı, omuz ve boyun sertliği gibi sorunları etkili bir şekilde iyileştirir. Sadece rahatlama değil, vücudunuzun dengesini ve sağlığını yeniden kazanmasına yardımcı oluyoruz.", "story_p3": "Mekanımız temiz ve konforludur — tam bir huzur içinde deneyim yaşamanız için. Bedensel yorgunluğu gerçekten çözebilecek profesyonel bir masaj arıyorsanız, Lively Foot - 活力足 ilk tercihinizdir. Randevu için bizi aramaktan çekinmeyin.", "team_title": "Ekibimiz", "environment_title": "Mekanımız" },
-  "contact": { "title": "Hoş Geldiniz", "subtitle": "Size en profesyonel masaj ve bakım hizmetlerini sunmayı dört gözle bekliyoruz", "info_title": "İletişim Bilgileri", "address_label": "Adres", "address": "Asma Kat, King Cheung Mansion, 5 King Kwong Street, Happy Valley", "phone_label": "Telefon", "phone": "2803 2880", "phone2": "2803 2801", "hours_label": "Çalışma Saatleri", "hours": "Her Gün 10:00 - 00:00", "whatsapp": "WhatsApp Sorgulama", "call": "Rezervasyon İçin Arayın", "map": "Google Maps", "map_title": "LivelyFoot - Asma Kat, King Cheung Mansion, 5 King Kwong Street, Happy Valley", "form_title": "Bize Mesaj Gönderin", "form_name": "Ad", "form_email": "E-posta", "form_message": "Mesaj", "form_submit": "Mesaj Gönder", "form_success": "Mesajınız gönderildi! En kısa sürede size dönüş yapacağız." },
+  "about": {
+    "title": "Hakkımızda",
+    "story_title": "Derin Rahatlamaya Odaklanan İyileştirme Uzmanları",
+    "story_p1": "Lively Foot - 活力足, Happy Valley'de on yılı aşkın süredir hizmet vermektedir. Yalnızca tek bir şeye odaklanıyoruz: size en derin ve en etkili masaj deneyimini sunmak.",
+    "story_p2": "Çin ayak masajı ve tüm vücut masajında uzmanız; on yılı aşkın deneyime sahip kıdemli ustalarımız, özel teknikleriyle yorgunluk noktalarınıza derinlemesine ulaşır. Bel ağrısı, omuz ve boyun sertliği gibi sorunları etkili bir şekilde iyileştirir. Sadece rahatlama değil, vücudunuzun dengesini ve sağlığını yeniden kazanmasına yardımcı oluyoruz.",
+    "story_p3": "Mekanımız temiz ve konforludur — tam bir huzur içinde deneyim yaşamanız için. Bedensel yorgunluğu gerçekten çözebilecek profesyonel bir masaj arıyorsanız, Lively Foot - 活力足 ilk tercihinizdir. Randevu için bizi aramaktan çekinmeyin.",
+    "team_title": "Ekibimiz",
+    "environment_title": "Mekanımız"
+  },
+  "contact": {
+    "title": "Hoş Geldiniz",
+    "subtitle": "Size en profesyonel masaj ve bakım hizmetlerini sunmayı dört gözle bekliyoruz",
+    "info_title": "İletişim Bilgileri",
+    "address_label": "Adres",
+    "address": "Asma Kat, King Cheung Mansion, 5 King Kwong Street, Happy Valley",
+    "phone_label": "Telefon",
+    "phone": "2803 2880",
+    "phone2": "2803 2801",
+    "hours_label": "Çalışma Saatleri",
+    "hours": "Her Gün 10:00 - 00:00",
+    "whatsapp": "WhatsApp Sorgulama",
+    "call": "Rezervasyon İçin Arayın",
+    "map": "Google Maps",
+    "map_title": "LivelyFoot - Asma Kat, King Cheung Mansion, 5 King Kwong Street, Happy Valley",
+    "form_title": "Bize Mesaj Gönderin",
+    "form_name": "Ad",
+    "form_email": "E-posta",
+    "form_message": "Mesaj",
+    "form_submit": "Mesaj Gönder",
+    "form_success": "Mesajınız gönderildi! En kısa sürede size dönüş yapacağız."
+  },
   "meta": {
     "home_title": "Happy Valley'de Profesyonel Masaj",
     "home_desc": "Happy Valley, Hong Kong'daki LivelyFoot ayak refleksolojisi, tüm vücut masajı, lenf drenajı, doğum öncesi masaj ve daha fazlasını sunar. Her gün gece yarısına kadar açık.",
@@ -37,7 +124,20 @@
     "pricing": "Fiyatlar",
     "all_services": "Tüm hizmetleri görüntüle"
   },
-  "footer": { "rights": "Tüm hakları saklıdır", "follow": "Bizi Takip Edin" },
+  "footer": {
+    "rights": "Tüm hakları saklıdır",
+    "follow": "Bizi Takip Edin"
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Massage wellness tips and health information",
+    "empty": "No posts yet",
+    "back": "Back to all posts",
+    "read_more": "Read more",
+    "read_time": "{min} min read",
+    "cta_title": "Ready to experience professional massage?",
+    "cta_desc": "Book with Lively Foot and let us create a personalised treatment plan for you."
+  },
   "faq": {
     "title": "Sıkça Sorulan Sorular",
     "subtitle": "Masaj hizmetlerimiz hakkındaki sorularınızın yanıtları",

@@ -1,22 +1,109 @@
 {
   "brand": "Lively Foot - 活力足",
-  "nav": { "home": "Beranda", "services": "Harga", "about": "Perawatan", "contact": "Kontak" },
-  "home": { "hero_title": "Bangkitkan Tubuh Anda dari Dalam", "hero_subtitle": "Kami siap memberikan layanan pijat dan perawatan paling profesional untuk Anda", "hero_cta": "Lihat Layanan", "treatments_title": "Perawatan Profesional", "treatments_subtitle": "Temukan rencana perawatan yang cocok untuk Anda — pulihkan diri dari dalam ke luar." },
+  "nav": {
+    "home": "Beranda",
+    "services": "Harga",
+    "about": "Perawatan",
+    "contact": "Kontak",
+    "blog": "Blog"
+  },
+  "home": {
+    "hero_title": "Bangkitkan Tubuh Anda dari Dalam",
+    "hero_subtitle": "Kami siap memberikan layanan pijat dan perawatan paling profesional untuk Anda",
+    "hero_cta": "Lihat Layanan",
+    "treatments_title": "Perawatan Profesional",
+    "treatments_subtitle": "Temukan rencana perawatan yang cocok untuk Anda — pulihkan diri dari dalam ke luar."
+  },
   "treatments": {
-    "foot_reflex": { "name": "Refleksologi Kaki", "description": "Merangsang zona refleks pada kedua kaki untuk mengatur organ-organ terkait di seluruh tubuh. Secara efektif meningkatkan sirkulasi darah, meredakan rasa berat di kaki, dan meningkatkan kualitas tidur — pilihan utama bagi warga kota yang sibuk." },
-    "body_acupoint": { "name": "Akupresur Seluruh Tubuh", "description": "Menargetkan nyeri bahu, leher, dan punggung akibat postur buruk yang berkepanjangan. Terapis menggunakan tekanan jari dan teknik pemijatan untuk menemukan titik akupresur secara tepat, melepaskan otot tegang secara mendalam dan melancarkan meridian." },
-    "lymph": { "name": "Pijat Drainase Limfatik", "description": "Menggunakan teknik lembut dan berirama untuk mengarahkan aliran limfa dan mempercepat metabolisme cairan berlebih dan limbah. Membantu mengurangi pembengkakan tubuh, meningkatkan fungsi imun, dan memperbaiki kondisi tubuh secara keseluruhan." },
-    "prenatal": { "name": "Pijat Relaksasi Prenatal", "description": "Pijat lembut yang dirancang untuk ibu hamil. Meredakan ketidaknyamanan umum kehamilan termasuk pembengkakan kaki, tekanan pinggang, dan kram otot, dengan terapis menggunakan posisi yang aman sepanjang sesi." },
-    "nail": { "name": "Perawatan Kuku Gaya Shanghai", "description": "Mewarisi keahlian perawatan kuku Shanghai yang autentik, menggunakan alat profesional untuk menangani kapalan, kulit mati, dan masalah kuku secara teliti. Lebih dari sekadar kosmetik — ini adalah pembersihan mendalam dan pemeliharaan kesehatan kaki." },
-    "guasha": { "name": "Terapi Gua Sha", "description": "Merangsang meridian pada permukaan tubuh untuk mengeluarkan racun dan panas yang terakumulasi. Secara efektif meredakan gejala awal flu, kekakuan leher dan bahu, serta sengatan panas, meningkatkan daya tahan tubuh." }
+    "foot_reflex": {
+      "name": "Refleksologi Kaki",
+      "description": "Merangsang zona refleks pada kedua kaki untuk mengatur organ-organ terkait di seluruh tubuh. Secara efektif meningkatkan sirkulasi darah, meredakan rasa berat di kaki, dan meningkatkan kualitas tidur — pilihan utama bagi warga kota yang sibuk."
+    },
+    "body_acupoint": {
+      "name": "Akupresur Seluruh Tubuh",
+      "description": "Menargetkan nyeri bahu, leher, dan punggung akibat postur buruk yang berkepanjangan. Terapis menggunakan tekanan jari dan teknik pemijatan untuk menemukan titik akupresur secara tepat, melepaskan otot tegang secara mendalam dan melancarkan meridian."
+    },
+    "lymph": {
+      "name": "Pijat Drainase Limfatik",
+      "description": "Menggunakan teknik lembut dan berirama untuk mengarahkan aliran limfa dan mempercepat metabolisme cairan berlebih dan limbah. Membantu mengurangi pembengkakan tubuh, meningkatkan fungsi imun, dan memperbaiki kondisi tubuh secara keseluruhan."
+    },
+    "prenatal": {
+      "name": "Pijat Relaksasi Prenatal",
+      "description": "Pijat lembut yang dirancang untuk ibu hamil. Meredakan ketidaknyamanan umum kehamilan termasuk pembengkakan kaki, tekanan pinggang, dan kram otot, dengan terapis menggunakan posisi yang aman sepanjang sesi."
+    },
+    "nail": {
+      "name": "Perawatan Kuku Gaya Shanghai",
+      "description": "Mewarisi keahlian perawatan kuku Shanghai yang autentik, menggunakan alat profesional untuk menangani kapalan, kulit mati, dan masalah kuku secara teliti. Lebih dari sekadar kosmetik — ini adalah pembersihan mendalam dan pemeliharaan kesehatan kaki."
+    },
+    "guasha": {
+      "name": "Terapi Gua Sha",
+      "description": "Merangsang meridian pada permukaan tubuh untuk mengeluarkan racun dan panas yang terakumulasi. Secara efektif meredakan gejala awal flu, kekakuan leher dan bahu, serta sengatan panas, meningkatkan daya tahan tubuh."
+    }
   },
-  "services": { "title": "Daftar Harga Layanan", "subtitle": "Harga", "currency": "$", "min": "Menit", "minutes": "menit", "main_title": "Layanan Utama", "combo_title": "Paket Combo", "combo_subtitle": "Combo", "other_title": "Perawatan Profesional Lainnya", "voucher_title": "Penawaran Voucher Tunai", "voucher_bonus": "Bonus", "voucher_note": "Voucher tunai tidak dapat dikembalikan. Berlaku selama 18 bulan sejak tanggal pembelian.",
-    "main": { "foot": "Pijat Kaki", "body": "Pijat Seluruh Tubuh", "oil_body": "Pijat Aromaterapi Seluruh Tubuh", "lymph": "Pijat Limfatik Seluruh Tubuh", "prenatal": "Pijat Prenatal" },
-    "combo": { "foot_neck": "Kaki (50m) + Kepala/Leher/Bahu (25m)", "foot_hand": "Kaki (50m) + Tangan (25m)", "foot25_body25": "Kaki (25m) + Seluruh Tubuh (25m)", "foot50_body50": "Kaki (50m) + Seluruh Tubuh (50m)" },
-    "other": { "neck_hand": "Kepala/Leher/Bahu / Tangan", "pain_relief": "Pereda Nyeri (30m)", "nail_guasha": "Perawatan Kuku / Gua Sha", "eyelash": "Ekstensi Bulu Mata" }
+  "services": {
+    "title": "Daftar Harga Layanan",
+    "subtitle": "Harga",
+    "currency": "$",
+    "min": "Menit",
+    "minutes": "menit",
+    "main_title": "Layanan Utama",
+    "combo_title": "Paket Combo",
+    "combo_subtitle": "Combo",
+    "other_title": "Perawatan Profesional Lainnya",
+    "voucher_title": "Penawaran Voucher Tunai",
+    "voucher_bonus": "Bonus",
+    "voucher_note": "Voucher tunai tidak dapat dikembalikan. Berlaku selama 18 bulan sejak tanggal pembelian.",
+    "main": {
+      "foot": "Pijat Kaki",
+      "body": "Pijat Seluruh Tubuh",
+      "oil_body": "Pijat Aromaterapi Seluruh Tubuh",
+      "lymph": "Pijat Limfatik Seluruh Tubuh",
+      "prenatal": "Pijat Prenatal"
+    },
+    "combo": {
+      "foot_neck": "Kaki (50m) + Kepala/Leher/Bahu (25m)",
+      "foot_hand": "Kaki (50m) + Tangan (25m)",
+      "foot25_body25": "Kaki (25m) + Seluruh Tubuh (25m)",
+      "foot50_body50": "Kaki (50m) + Seluruh Tubuh (50m)"
+    },
+    "other": {
+      "neck_hand": "Kepala/Leher/Bahu / Tangan",
+      "pain_relief": "Pereda Nyeri (30m)",
+      "nail_guasha": "Perawatan Kuku / Gua Sha",
+      "eyelash": "Ekstensi Bulu Mata"
+    }
   },
-  "about": { "title": "Tentang Kami", "story_title": "Ahli Penyembuhan yang Berfokus pada Relaksasi Mendalam", "story_p1": "Lively Foot - 活力足 telah melayani Happy Valley selama lebih dari sepuluh tahun. Kami hanya berfokus pada satu hal: memberikan Anda pengalaman pijat yang paling mendalam dan efektif.", "story_p2": "Kami ahli dalam pijat kaki Tiongkok dan pijat seluruh tubuh, dengan terapis berpengalaman lebih dari sepuluh tahun. Dengan teknik eksklusif, kami menjangkau titik-titik kelelahan Anda secara mendalam, memperbaiki nyeri pinggang, kekakuan bahu dan leher, serta keluhan lainnya secara efektif. Kami bukan sekadar relaksasi — kami membantu tubuh Anda memulihkan keseimbangan dan kesehatannya.", "story_p3": "Ruangan kami bersih dan nyaman, memberikan Anda pengalaman yang paling menenangkan. Jika Anda mencari pijat profesional yang benar-benar dapat mengatasi kelelahan tubuh, Lively Foot - 活力足 adalah pilihan utama Anda. Hubungi kami untuk membuat janji.", "team_title": "Tim Kami", "environment_title": "Ruang Kami" },
-  "contact": { "title": "Selamat Datang", "subtitle": "Kami siap memberikan layanan pijat dan perawatan paling profesional untuk Anda", "info_title": "Informasi Kontak", "address_label": "Alamat", "address": "Lantai Mezanin, King Cheung Mansion, 5 Jalan King Kwong, Happy Valley", "phone_label": "Telepon", "phone": "2803 2880", "phone2": "2803 2801", "hours_label": "Jam Operasional", "hours": "Setiap hari 10:00 - 00:00", "whatsapp": "Tanya via WhatsApp", "call": "Telepon untuk Reservasi", "map": "Google Maps", "map_title": "LivelyFoot - Lantai Mezanin, King Cheung Mansion, 5 Jalan King Kwong, Happy Valley", "form_title": "Kirim Pesan Kepada Kami", "form_name": "Nama", "form_email": "Email", "form_message": "Pesan", "form_submit": "Kirim Pesan", "form_success": "Pesan terkirim! Kami akan segera menghubungi Anda." },
+  "about": {
+    "title": "Tentang Kami",
+    "story_title": "Ahli Penyembuhan yang Berfokus pada Relaksasi Mendalam",
+    "story_p1": "Lively Foot - 活力足 telah melayani Happy Valley selama lebih dari sepuluh tahun. Kami hanya berfokus pada satu hal: memberikan Anda pengalaman pijat yang paling mendalam dan efektif.",
+    "story_p2": "Kami ahli dalam pijat kaki Tiongkok dan pijat seluruh tubuh, dengan terapis berpengalaman lebih dari sepuluh tahun. Dengan teknik eksklusif, kami menjangkau titik-titik kelelahan Anda secara mendalam, memperbaiki nyeri pinggang, kekakuan bahu dan leher, serta keluhan lainnya secara efektif. Kami bukan sekadar relaksasi — kami membantu tubuh Anda memulihkan keseimbangan dan kesehatannya.",
+    "story_p3": "Ruangan kami bersih dan nyaman, memberikan Anda pengalaman yang paling menenangkan. Jika Anda mencari pijat profesional yang benar-benar dapat mengatasi kelelahan tubuh, Lively Foot - 活力足 adalah pilihan utama Anda. Hubungi kami untuk membuat janji.",
+    "team_title": "Tim Kami",
+    "environment_title": "Ruang Kami"
+  },
+  "contact": {
+    "title": "Selamat Datang",
+    "subtitle": "Kami siap memberikan layanan pijat dan perawatan paling profesional untuk Anda",
+    "info_title": "Informasi Kontak",
+    "address_label": "Alamat",
+    "address": "Lantai Mezanin, King Cheung Mansion, 5 Jalan King Kwong, Happy Valley",
+    "phone_label": "Telepon",
+    "phone": "2803 2880",
+    "phone2": "2803 2801",
+    "hours_label": "Jam Operasional",
+    "hours": "Setiap hari 10:00 - 00:00",
+    "whatsapp": "Tanya via WhatsApp",
+    "call": "Telepon untuk Reservasi",
+    "map": "Google Maps",
+    "map_title": "LivelyFoot - Lantai Mezanin, King Cheung Mansion, 5 Jalan King Kwong, Happy Valley",
+    "form_title": "Kirim Pesan Kepada Kami",
+    "form_name": "Nama",
+    "form_email": "Email",
+    "form_message": "Pesan",
+    "form_submit": "Kirim Pesan",
+    "form_success": "Pesan terkirim! Kami akan segera menghubungi Anda."
+  },
   "meta": {
     "home_title": "Pijat Profesional di Happy Valley",
     "home_desc": "LivelyFoot di Happy Valley, Hong Kong menawarkan refleksologi kaki, pijat seluruh tubuh, drainase limfatik, pijat prenatal dan lainnya. Buka setiap hari hingga tengah malam.",
@@ -37,7 +124,20 @@
     "pricing": "Harga",
     "all_services": "Lihat semua layanan"
   },
-  "footer": { "rights": "Hak cipta dilindungi", "follow": "Ikuti Kami" },
+  "footer": {
+    "rights": "Hak cipta dilindungi",
+    "follow": "Ikuti Kami"
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Massage wellness tips and health information",
+    "empty": "No posts yet",
+    "back": "Back to all posts",
+    "read_more": "Read more",
+    "read_time": "{min} min read",
+    "cta_title": "Ready to experience professional massage?",
+    "cta_desc": "Book with Lively Foot and let us create a personalised treatment plan for you."
+  },
   "faq": {
     "title": "Pertanyaan Umum",
     "subtitle": "Jawaban atas pertanyaan Anda tentang layanan pijat kami",

@@ -1,22 +1,109 @@
 {
   "brand": "Lively Foot - 活力足",
-  "nav": { "home": "Início", "services": "Preços", "about": "Tratamentos", "contact": "Contato" },
-  "home": { "hero_title": "Desperte Seu Corpo de Dentro para Fora", "hero_subtitle": "Esperamos oferecer-lhe os mais profissionais serviços de massagem e cuidados", "hero_cta": "Ver Serviços", "treatments_title": "Tratamentos Profissionais", "treatments_subtitle": "Descubra o plano de cuidados ideal para si — rejuvenesça de dentro para fora." },
+  "nav": {
+    "home": "Início",
+    "services": "Preços",
+    "about": "Tratamentos",
+    "contact": "Contato",
+    "blog": "Blog"
+  },
+  "home": {
+    "hero_title": "Desperte Seu Corpo de Dentro para Fora",
+    "hero_subtitle": "Esperamos oferecer-lhe os mais profissionais serviços de massagem e cuidados",
+    "hero_cta": "Ver Serviços",
+    "treatments_title": "Tratamentos Profissionais",
+    "treatments_subtitle": "Descubra o plano de cuidados ideal para si — rejuvenesça de dentro para fora."
+  },
   "treatments": {
-    "foot_reflex": { "name": "Reflexologia Podal", "description": "Estimula as zonas reflexas de ambos os pés para regular os órgãos correspondentes em todo o corpo. Melhora eficazmente a circulação sanguínea, alivia a sensação de pernas pesadas e melhora a qualidade do sono — a escolha ideal para quem vive na correria urbana." },
-    "body_acupoint": { "name": "Acupressão Corporal Completa", "description": "Foca nas dores de ombros, pescoço e costas causadas por má postura prolongada. Os terapeutas utilizam pressão digital e técnicas de amassamento para localizar com precisão os pontos de acupuntura, libertando profundamente os músculos tensos e desbloqueando os meridianos." },
-    "lymph": { "name": "Massagem de Drenagem Linfática", "description": "Utiliza técnicas suaves e rítmicas para guiar o fluxo linfático e acelerar o metabolismo de fluidos e resíduos em excesso. Ajuda a reduzir o inchaço corporal, fortalecer a função imunológica e melhorar a constituição geral." },
-    "prenatal": { "name": "Massagem Relaxante Pré-natal", "description": "Massagem suave concebida para gestantes. Alivia desconfortos comuns da gravidez, incluindo inchaço dos membros inferiores, pressão lombar e cãibras musculares, com os terapeutas utilizando posicionamento seguro durante toda a sessão." },
-    "nail": { "name": "Cuidado de Unhas Estilo Xangai", "description": "Herdando a autêntica arte de unhas de Xangai, utiliza ferramentas profissionais para tratar meticulosamente calosidades, pele morta e problemas nas unhas. Mais do que estética — é limpeza profunda e manutenção para a saúde dos pés." },
-    "guasha": { "name": "Terapia Gua Sha", "description": "Estimula os meridianos na superfície do corpo para expelir toxinas e calor acumulados. Alivia eficazmente sintomas iniciais de resfriado, rigidez no pescoço e ombros e insolação, fortalecendo a resistência do organismo." }
+    "foot_reflex": {
+      "name": "Reflexologia Podal",
+      "description": "Estimula as zonas reflexas de ambos os pés para regular os órgãos correspondentes em todo o corpo. Melhora eficazmente a circulação sanguínea, alivia a sensação de pernas pesadas e melhora a qualidade do sono — a escolha ideal para quem vive na correria urbana."
+    },
+    "body_acupoint": {
+      "name": "Acupressão Corporal Completa",
+      "description": "Foca nas dores de ombros, pescoço e costas causadas por má postura prolongada. Os terapeutas utilizam pressão digital e técnicas de amassamento para localizar com precisão os pontos de acupuntura, libertando profundamente os músculos tensos e desbloqueando os meridianos."
+    },
+    "lymph": {
+      "name": "Massagem de Drenagem Linfática",
+      "description": "Utiliza técnicas suaves e rítmicas para guiar o fluxo linfático e acelerar o metabolismo de fluidos e resíduos em excesso. Ajuda a reduzir o inchaço corporal, fortalecer a função imunológica e melhorar a constituição geral."
+    },
+    "prenatal": {
+      "name": "Massagem Relaxante Pré-natal",
+      "description": "Massagem suave concebida para gestantes. Alivia desconfortos comuns da gravidez, incluindo inchaço dos membros inferiores, pressão lombar e cãibras musculares, com os terapeutas utilizando posicionamento seguro durante toda a sessão."
+    },
+    "nail": {
+      "name": "Cuidado de Unhas Estilo Xangai",
+      "description": "Herdando a autêntica arte de unhas de Xangai, utiliza ferramentas profissionais para tratar meticulosamente calosidades, pele morta e problemas nas unhas. Mais do que estética — é limpeza profunda e manutenção para a saúde dos pés."
+    },
+    "guasha": {
+      "name": "Terapia Gua Sha",
+      "description": "Estimula os meridianos na superfície do corpo para expelir toxinas e calor acumulados. Alivia eficazmente sintomas iniciais de resfriado, rigidez no pescoço e ombros e insolação, fortalecendo a resistência do organismo."
+    }
   },
-  "services": { "title": "Tabela de Preços", "subtitle": "Preços", "currency": "$", "min": "Min", "minutes": "min", "main_title": "Serviços Principais", "combo_title": "Pacotes Combinados", "combo_subtitle": "Combos", "other_title": "Outros Cuidados Profissionais", "voucher_title": "Ofertas de Voucher", "voucher_bonus": "Bônus", "voucher_note": "Os vouchers não são reembolsáveis. Válidos por 18 meses a partir da data de compra.",
-    "main": { "foot": "Massagem nos Pés", "body": "Massagem Corporal Completa", "oil_body": "Aromaterapia Corporal Completa", "lymph": "Massagem Linfática Corporal Completa", "prenatal": "Massagem Pré-natal" },
-    "combo": { "foot_neck": "Pés (50m) + Cabeça/Pescoço/Ombros (25m)", "foot_hand": "Pés (50m) + Mãos (25m)", "foot25_body25": "Pés (25m) + Corpo Completo (25m)", "foot50_body50": "Pés (50m) + Corpo Completo (50m)" },
-    "other": { "neck_hand": "Cabeça/Pescoço/Ombros / Mãos", "pain_relief": "Alívio de Dor (30m)", "nail_guasha": "Cuidado de Unhas / Gua Sha", "eyelash": "Extensão de Cílios" }
+  "services": {
+    "title": "Tabela de Preços",
+    "subtitle": "Preços",
+    "currency": "$",
+    "min": "Min",
+    "minutes": "min",
+    "main_title": "Serviços Principais",
+    "combo_title": "Pacotes Combinados",
+    "combo_subtitle": "Combos",
+    "other_title": "Outros Cuidados Profissionais",
+    "voucher_title": "Ofertas de Voucher",
+    "voucher_bonus": "Bônus",
+    "voucher_note": "Os vouchers não são reembolsáveis. Válidos por 18 meses a partir da data de compra.",
+    "main": {
+      "foot": "Massagem nos Pés",
+      "body": "Massagem Corporal Completa",
+      "oil_body": "Aromaterapia Corporal Completa",
+      "lymph": "Massagem Linfática Corporal Completa",
+      "prenatal": "Massagem Pré-natal"
+    },
+    "combo": {
+      "foot_neck": "Pés (50m) + Cabeça/Pescoço/Ombros (25m)",
+      "foot_hand": "Pés (50m) + Mãos (25m)",
+      "foot25_body25": "Pés (25m) + Corpo Completo (25m)",
+      "foot50_body50": "Pés (50m) + Corpo Completo (50m)"
+    },
+    "other": {
+      "neck_hand": "Cabeça/Pescoço/Ombros / Mãos",
+      "pain_relief": "Alívio de Dor (30m)",
+      "nail_guasha": "Cuidado de Unhas / Gua Sha",
+      "eyelash": "Extensão de Cílios"
+    }
   },
-  "about": { "title": "Sobre Nós", "story_title": "Especialistas em cura focados no relaxamento profundo", "story_p1": "Lively Foot - 活力足 serve Happy Valley há mais de dez anos. Dedicamo-nos exclusivamente a uma coisa: proporcionar-lhe a experiência de massagem mais profunda e eficaz.", "story_p2": "Somos especialistas em massagem chinesa dos pés e massagem corporal completa, com mestres experientes com mais de dez anos de prática. Com técnicas exclusivas, alcançamos em profundidade os seus pontos de fadiga, melhorando eficazmente dores lombares, rigidez nos ombros e pescoço, entre outros desconfortos. Não nos limitamos a relaxar: ajudamos o seu corpo a recuperar o equilíbrio e a saúde.", "story_p3": "O nosso espaço é limpo e confortável, para que desfrute de uma experiência com total tranquilidade. Se procura uma massagem profissional que realmente resolva a fadiga corporal, Lively Foot - 活力足 é a sua primeira escolha. Ligue-nos para marcar a sua sessão.", "team_title": "Nossa Equipe", "environment_title": "Nosso Espaço" },
-  "contact": { "title": "Bem-vindo", "subtitle": "Esperamos oferecer-lhe os mais profissionais serviços de massagem e cuidados", "info_title": "Informações de Contato", "address_label": "Endereço", "address": "M/F, King Cheung Mansion, 5 King Kwong Street, Happy Valley", "phone_label": "Telefone", "phone": "2803 2880", "phone2": "2803 2801", "hours_label": "Horário", "hours": "Diariamente 10:00 - 00:00", "whatsapp": "Consulta via WhatsApp", "call": "Ligar para Reservar", "map": "Google Maps", "map_title": "LivelyFoot - M/F, King Cheung Mansion, 5 King Kwong Street, Happy Valley", "form_title": "Envie-nos uma Mensagem", "form_name": "Nome", "form_email": "E-mail", "form_message": "Mensagem", "form_submit": "Enviar Mensagem", "form_success": "Mensagem enviada! Retornaremos em breve." },
+  "about": {
+    "title": "Sobre Nós",
+    "story_title": "Especialistas em cura focados no relaxamento profundo",
+    "story_p1": "Lively Foot - 活力足 serve Happy Valley há mais de dez anos. Dedicamo-nos exclusivamente a uma coisa: proporcionar-lhe a experiência de massagem mais profunda e eficaz.",
+    "story_p2": "Somos especialistas em massagem chinesa dos pés e massagem corporal completa, com mestres experientes com mais de dez anos de prática. Com técnicas exclusivas, alcançamos em profundidade os seus pontos de fadiga, melhorando eficazmente dores lombares, rigidez nos ombros e pescoço, entre outros desconfortos. Não nos limitamos a relaxar: ajudamos o seu corpo a recuperar o equilíbrio e a saúde.",
+    "story_p3": "O nosso espaço é limpo e confortável, para que desfrute de uma experiência com total tranquilidade. Se procura uma massagem profissional que realmente resolva a fadiga corporal, Lively Foot - 活力足 é a sua primeira escolha. Ligue-nos para marcar a sua sessão.",
+    "team_title": "Nossa Equipe",
+    "environment_title": "Nosso Espaço"
+  },
+  "contact": {
+    "title": "Bem-vindo",
+    "subtitle": "Esperamos oferecer-lhe os mais profissionais serviços de massagem e cuidados",
+    "info_title": "Informações de Contato",
+    "address_label": "Endereço",
+    "address": "M/F, King Cheung Mansion, 5 King Kwong Street, Happy Valley",
+    "phone_label": "Telefone",
+    "phone": "2803 2880",
+    "phone2": "2803 2801",
+    "hours_label": "Horário",
+    "hours": "Diariamente 10:00 - 00:00",
+    "whatsapp": "Consulta via WhatsApp",
+    "call": "Ligar para Reservar",
+    "map": "Google Maps",
+    "map_title": "LivelyFoot - M/F, King Cheung Mansion, 5 King Kwong Street, Happy Valley",
+    "form_title": "Envie-nos uma Mensagem",
+    "form_name": "Nome",
+    "form_email": "E-mail",
+    "form_message": "Mensagem",
+    "form_submit": "Enviar Mensagem",
+    "form_success": "Mensagem enviada! Retornaremos em breve."
+  },
   "meta": {
     "home_title": "Massagem profissional em Happy Valley",
     "home_desc": "A LivelyFoot em Happy Valley, Hong Kong oferece reflexologia podal, massagem corporal completa, drenagem linfática, massagem pré-natal e mais. Aberto diariamente até à meia-noite.",
@@ -37,7 +124,20 @@
     "pricing": "Preços",
     "all_services": "Ver todos os serviços"
   },
-  "footer": { "rights": "Todos os direitos reservados", "follow": "Siga-nos" },
+  "footer": {
+    "rights": "Todos os direitos reservados",
+    "follow": "Siga-nos"
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Massage wellness tips and health information",
+    "empty": "No posts yet",
+    "back": "Back to all posts",
+    "read_more": "Read more",
+    "read_time": "{min} min read",
+    "cta_title": "Ready to experience professional massage?",
+    "cta_desc": "Book with Lively Foot and let us create a personalised treatment plan for you."
+  },
   "faq": {
     "title": "Perguntas Frequentes",
     "subtitle": "Respostas às suas perguntas sobre os nossos serviços de massagem",

@@ -1,22 +1,109 @@
 {
   "brand": "Lively Foot - 活力足",
-  "nav": { "home": "Trang chủ", "services": "Bảng giá", "about": "Liệu trình", "contact": "Liên hệ" },
-  "home": { "hero_title": "Đánh Thức Cơ Thể Từ Bên Trong", "hero_subtitle": "Chúng tôi mong được mang đến cho bạn dịch vụ massage và chăm sóc chuyên nghiệp nhất", "hero_cta": "Xem Dịch Vụ", "treatments_title": "Liệu Trình Chuyên Nghiệp", "treatments_subtitle": "Khám phá kế hoạch chăm sóc phù hợp với bạn — tái tạo từ bên trong ra bên ngoài." },
+  "nav": {
+    "home": "Trang chủ",
+    "services": "Bảng giá",
+    "about": "Liệu trình",
+    "contact": "Liên hệ",
+    "blog": "Blog"
+  },
+  "home": {
+    "hero_title": "Đánh Thức Cơ Thể Từ Bên Trong",
+    "hero_subtitle": "Chúng tôi mong được mang đến cho bạn dịch vụ massage và chăm sóc chuyên nghiệp nhất",
+    "hero_cta": "Xem Dịch Vụ",
+    "treatments_title": "Liệu Trình Chuyên Nghiệp",
+    "treatments_subtitle": "Khám phá kế hoạch chăm sóc phù hợp với bạn — tái tạo từ bên trong ra bên ngoài."
+  },
   "treatments": {
-    "foot_reflex": { "name": "Phản Xạ Học Bàn Chân", "description": "Kích thích các vùng phản xạ trên cả hai bàn chân để điều hòa các cơ quan tương ứng trong toàn bộ cơ thể. Cải thiện hiệu quả tuần hoàn máu, giảm cảm giác nặng chân và nâng cao chất lượng giấc ngủ — lựa chọn hàng đầu cho cư dân thành thị bận rộn." },
-    "body_acupoint": { "name": "Bấm Huyệt Toàn Thân", "description": "Nhắm vào các cơn đau vai, cổ và lưng do tư thế sai kéo dài. Chuyên viên sử dụng áp lực ngón tay và kỹ thuật nhào nặn để xác định chính xác các huyệt đạo, giải phóng sâu các cơ căng thẳng và khai thông kinh lạc." },
-    "lymph": { "name": "Massage Dẫn Lưu Bạch Huyết", "description": "Sử dụng các kỹ thuật nhẹ nhàng, nhịp nhàng để hướng dẫn dòng chảy bạch huyết và đẩy nhanh quá trình chuyển hóa chất lỏng dư thừa và chất thải. Giúp giảm phù nề, tăng cường miễn dịch và cải thiện thể trạng tổng thể." },
-    "prenatal": { "name": "Massage Thư Giãn Trước Sinh", "description": "Massage nhẹ nhàng được thiết kế cho các bà mẹ mang thai. Giảm các khó chịu thường gặp khi mang thai bao gồm phù chân, áp lực vùng thắt lưng và chuột rút, với chuyên viên sử dụng tư thế an toàn trong suốt buổi trị liệu." },
-    "nail": { "name": "Chăm Sóc Móng Kiểu Thượng Hải", "description": "Kế thừa nghệ thuật chăm sóc móng Thượng Hải chính thống, sử dụng dụng cụ chuyên nghiệp để xử lý tỉ mỉ chai, da chết và các vấn đề về móng. Không chỉ là thẩm mỹ — đây là làm sạch sâu và bảo dưỡng sức khỏe bàn chân." },
-    "guasha": { "name": "Liệu Pháp Cạo Gió", "description": "Kích thích kinh lạc trên bề mặt cơ thể để đào thải độc tố và nhiệt tích tụ. Giảm hiệu quả các triệu chứng cảm lạnh sớm, cứng cổ vai và say nắng, tăng cường sức đề kháng của cơ thể." }
+    "foot_reflex": {
+      "name": "Phản Xạ Học Bàn Chân",
+      "description": "Kích thích các vùng phản xạ trên cả hai bàn chân để điều hòa các cơ quan tương ứng trong toàn bộ cơ thể. Cải thiện hiệu quả tuần hoàn máu, giảm cảm giác nặng chân và nâng cao chất lượng giấc ngủ — lựa chọn hàng đầu cho cư dân thành thị bận rộn."
+    },
+    "body_acupoint": {
+      "name": "Bấm Huyệt Toàn Thân",
+      "description": "Nhắm vào các cơn đau vai, cổ và lưng do tư thế sai kéo dài. Chuyên viên sử dụng áp lực ngón tay và kỹ thuật nhào nặn để xác định chính xác các huyệt đạo, giải phóng sâu các cơ căng thẳng và khai thông kinh lạc."
+    },
+    "lymph": {
+      "name": "Massage Dẫn Lưu Bạch Huyết",
+      "description": "Sử dụng các kỹ thuật nhẹ nhàng, nhịp nhàng để hướng dẫn dòng chảy bạch huyết và đẩy nhanh quá trình chuyển hóa chất lỏng dư thừa và chất thải. Giúp giảm phù nề, tăng cường miễn dịch và cải thiện thể trạng tổng thể."
+    },
+    "prenatal": {
+      "name": "Massage Thư Giãn Trước Sinh",
+      "description": "Massage nhẹ nhàng được thiết kế cho các bà mẹ mang thai. Giảm các khó chịu thường gặp khi mang thai bao gồm phù chân, áp lực vùng thắt lưng và chuột rút, với chuyên viên sử dụng tư thế an toàn trong suốt buổi trị liệu."
+    },
+    "nail": {
+      "name": "Chăm Sóc Móng Kiểu Thượng Hải",
+      "description": "Kế thừa nghệ thuật chăm sóc móng Thượng Hải chính thống, sử dụng dụng cụ chuyên nghiệp để xử lý tỉ mỉ chai, da chết và các vấn đề về móng. Không chỉ là thẩm mỹ — đây là làm sạch sâu và bảo dưỡng sức khỏe bàn chân."
+    },
+    "guasha": {
+      "name": "Liệu Pháp Cạo Gió",
+      "description": "Kích thích kinh lạc trên bề mặt cơ thể để đào thải độc tố và nhiệt tích tụ. Giảm hiệu quả các triệu chứng cảm lạnh sớm, cứng cổ vai và say nắng, tăng cường sức đề kháng của cơ thể."
+    }
   },
-  "services": { "title": "Bảng Giá Dịch Vụ", "subtitle": "Bảng giá", "currency": "$", "min": "Phút", "minutes": "phút", "main_title": "Dịch Vụ Chính", "combo_title": "Gói Combo", "combo_subtitle": "Combo", "other_title": "Chăm Sóc Chuyên Nghiệp Khác", "voucher_title": "Ưu Đãi Phiếu Tiền Mặt", "voucher_bonus": "Thưởng", "voucher_note": "Phiếu tiền mặt không hoàn lại. Có hiệu lực 18 tháng kể từ ngày mua.",
-    "main": { "foot": "Massage Chân", "body": "Massage Toàn Thân", "oil_body": "Massage Toàn Thân Tinh Dầu", "lymph": "Massage Bạch Huyết Toàn Thân", "prenatal": "Massage Trước Sinh" },
-    "combo": { "foot_neck": "Chân (50p) + Đầu/Cổ/Vai (25p)", "foot_hand": "Chân (50p) + Tay (25p)", "foot25_body25": "Chân (25p) + Toàn Thân (25p)", "foot50_body50": "Chân (50p) + Toàn Thân (50p)" },
-    "other": { "neck_hand": "Đầu/Cổ/Vai / Tay", "pain_relief": "Giảm Đau (30p)", "nail_guasha": "Chăm Sóc Móng / Cạo Gió", "eyelash": "Nối Mi" }
+  "services": {
+    "title": "Bảng Giá Dịch Vụ",
+    "subtitle": "Bảng giá",
+    "currency": "$",
+    "min": "Phút",
+    "minutes": "phút",
+    "main_title": "Dịch Vụ Chính",
+    "combo_title": "Gói Combo",
+    "combo_subtitle": "Combo",
+    "other_title": "Chăm Sóc Chuyên Nghiệp Khác",
+    "voucher_title": "Ưu Đãi Phiếu Tiền Mặt",
+    "voucher_bonus": "Thưởng",
+    "voucher_note": "Phiếu tiền mặt không hoàn lại. Có hiệu lực 18 tháng kể từ ngày mua.",
+    "main": {
+      "foot": "Massage Chân",
+      "body": "Massage Toàn Thân",
+      "oil_body": "Massage Toàn Thân Tinh Dầu",
+      "lymph": "Massage Bạch Huyết Toàn Thân",
+      "prenatal": "Massage Trước Sinh"
+    },
+    "combo": {
+      "foot_neck": "Chân (50p) + Đầu/Cổ/Vai (25p)",
+      "foot_hand": "Chân (50p) + Tay (25p)",
+      "foot25_body25": "Chân (25p) + Toàn Thân (25p)",
+      "foot50_body50": "Chân (50p) + Toàn Thân (50p)"
+    },
+    "other": {
+      "neck_hand": "Đầu/Cổ/Vai / Tay",
+      "pain_relief": "Giảm Đau (30p)",
+      "nail_guasha": "Chăm Sóc Móng / Cạo Gió",
+      "eyelash": "Nối Mi"
+    }
   },
-  "about": { "title": "Giới Thiệu", "story_title": "Chuyên Gia Trị Liệu Chuyên Sâu Về Thư Giãn Sâu", "story_p1": "Lively Foot - 活力足 đã phục vụ tại Happy Valley hơn mười năm. Chúng tôi chỉ tập trung vào một điều duy nhất: mang đến cho bạn trải nghiệm massage sâu và hiệu quả nhất.", "story_p2": "Chúng tôi chuyên về massage chân kiểu Trung Hoa và massage toàn thân, với các chuyên viên dày dạn kinh nghiệm hơn mười năm. Bằng kỹ thuật độc quyền, chúng tôi tiếp cận sâu vào các điểm mệt mỏi của bạn, cải thiện hiệu quả đau lưng, cứng vai gáy và các vấn đề khác. Chúng tôi không chỉ thư giãn — mà còn giúp cơ thể bạn phục hồi sự cân bằng và sức khỏe.", "story_p3": "Không gian của chúng tôi sạch sẽ và thoải mái, mang đến cho bạn trải nghiệm an tâm nhất. Nếu bạn đang tìm kiếm dịch vụ massage chuyên nghiệp thực sự có thể giải quyết sự mệt mỏi cơ thể, Lively Foot - 活力足 là lựa chọn hàng đầu của bạn. Hãy gọi cho chúng tôi để đặt lịch hẹn.", "team_title": "Đội Ngũ Của Chúng Tôi", "environment_title": "Không Gian Của Chúng Tôi" },
-  "contact": { "title": "Chào Mừng", "subtitle": "Chúng tôi mong được mang đến cho bạn dịch vụ massage và chăm sóc chuyên nghiệp nhất", "info_title": "Thông Tin Liên Hệ", "address_label": "Địa chỉ", "address": "Tầng lửng, King Cheung Mansion, 5 Đường King Kwong, Happy Valley", "phone_label": "Điện thoại", "phone": "2803 2880", "phone2": "2803 2801", "hours_label": "Giờ làm việc", "hours": "Hàng ngày 10:00 SA - 12:00 ĐK", "whatsapp": "Liên Hệ Qua WhatsApp", "call": "Gọi Đặt Lịch", "map": "Google Maps", "map_title": "LivelyFoot - Tầng lửng, King Cheung Mansion, 5 Đường King Kwong, Happy Valley", "form_title": "Gửi Tin Nhắn Cho Chúng Tôi", "form_name": "Họ tên", "form_email": "Email", "form_message": "Tin nhắn", "form_submit": "Gửi Tin Nhắn", "form_success": "Tin nhắn đã được gửi! Chúng tôi sẽ phản hồi sớm nhất." },
+  "about": {
+    "title": "Giới Thiệu",
+    "story_title": "Chuyên Gia Trị Liệu Chuyên Sâu Về Thư Giãn Sâu",
+    "story_p1": "Lively Foot - 活力足 đã phục vụ tại Happy Valley hơn mười năm. Chúng tôi chỉ tập trung vào một điều duy nhất: mang đến cho bạn trải nghiệm massage sâu và hiệu quả nhất.",
+    "story_p2": "Chúng tôi chuyên về massage chân kiểu Trung Hoa và massage toàn thân, với các chuyên viên dày dạn kinh nghiệm hơn mười năm. Bằng kỹ thuật độc quyền, chúng tôi tiếp cận sâu vào các điểm mệt mỏi của bạn, cải thiện hiệu quả đau lưng, cứng vai gáy và các vấn đề khác. Chúng tôi không chỉ thư giãn — mà còn giúp cơ thể bạn phục hồi sự cân bằng và sức khỏe.",
+    "story_p3": "Không gian của chúng tôi sạch sẽ và thoải mái, mang đến cho bạn trải nghiệm an tâm nhất. Nếu bạn đang tìm kiếm dịch vụ massage chuyên nghiệp thực sự có thể giải quyết sự mệt mỏi cơ thể, Lively Foot - 活力足 là lựa chọn hàng đầu của bạn. Hãy gọi cho chúng tôi để đặt lịch hẹn.",
+    "team_title": "Đội Ngũ Của Chúng Tôi",
+    "environment_title": "Không Gian Của Chúng Tôi"
+  },
+  "contact": {
+    "title": "Chào Mừng",
+    "subtitle": "Chúng tôi mong được mang đến cho bạn dịch vụ massage và chăm sóc chuyên nghiệp nhất",
+    "info_title": "Thông Tin Liên Hệ",
+    "address_label": "Địa chỉ",
+    "address": "Tầng lửng, King Cheung Mansion, 5 Đường King Kwong, Happy Valley",
+    "phone_label": "Điện thoại",
+    "phone": "2803 2880",
+    "phone2": "2803 2801",
+    "hours_label": "Giờ làm việc",
+    "hours": "Hàng ngày 10:00 SA - 12:00 ĐK",
+    "whatsapp": "Liên Hệ Qua WhatsApp",
+    "call": "Gọi Đặt Lịch",
+    "map": "Google Maps",
+    "map_title": "LivelyFoot - Tầng lửng, King Cheung Mansion, 5 Đường King Kwong, Happy Valley",
+    "form_title": "Gửi Tin Nhắn Cho Chúng Tôi",
+    "form_name": "Họ tên",
+    "form_email": "Email",
+    "form_message": "Tin nhắn",
+    "form_submit": "Gửi Tin Nhắn",
+    "form_success": "Tin nhắn đã được gửi! Chúng tôi sẽ phản hồi sớm nhất."
+  },
   "meta": {
     "home_title": "Massage Chuyên Nghiệp tại Happy Valley",
     "home_desc": "LivelyFoot tại Happy Valley, Hồng Kông cung cấp dịch vụ phản xạ học bàn chân, massage toàn thân, dẫn lưu bạch huyết, massage trước sinh và nhiều hơn nữa. Mở cửa hàng ngày đến nửa đêm.",
@@ -37,7 +124,20 @@
     "pricing": "Giá",
     "all_services": "Xem tất cả dịch vụ"
   },
-  "footer": { "rights": "Đã đăng ký bản quyền", "follow": "Theo Dõi Chúng Tôi" },
+  "footer": {
+    "rights": "Đã đăng ký bản quyền",
+    "follow": "Theo Dõi Chúng Tôi"
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Massage wellness tips and health information",
+    "empty": "No posts yet",
+    "back": "Back to all posts",
+    "read_more": "Read more",
+    "read_time": "{min} min read",
+    "cta_title": "Ready to experience professional massage?",
+    "cta_desc": "Book with Lively Foot and let us create a personalised treatment plan for you."
+  },
   "faq": {
     "title": "Câu Hỏi Thường Gặp",
     "subtitle": "Giải đáp thắc mắc của bạn về dịch vụ massage của chúng tôi",

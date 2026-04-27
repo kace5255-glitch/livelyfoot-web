@@ -1,6 +1,12 @@
 {
   "brand": "Lively Foot - 活力足",
-  "nav": { "home": "ホーム", "services": "料金表", "about": "施術メニュー", "contact": "お問い合わせ" },
+  "nav": {
+    "home": "ホーム",
+    "services": "料金表",
+    "about": "施術メニュー",
+    "contact": "お問い合わせ",
+    "blog": "Blog"
+  },
   "home": {
     "hero_title": "身体の内側から目覚めよう",
     "hero_subtitle": "最もプロフェッショナルなマッサージとケアサービスをご提供いたします",
@@ -118,7 +124,20 @@
     "pricing": "料金",
     "all_services": "全サービスを見る"
   },
-  "footer": { "rights": "All rights reserved", "follow": "フォローする" },
+  "footer": {
+    "rights": "All rights reserved",
+    "follow": "フォローする"
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Massage wellness tips and health information",
+    "empty": "No posts yet",
+    "back": "Back to all posts",
+    "read_more": "Read more",
+    "read_time": "{min} min read",
+    "cta_title": "Ready to experience professional massage?",
+    "cta_desc": "Book with Lively Foot and let us create a personalised treatment plan for you."
+  },
   "faq": {
     "title": "よくある質問",
     "subtitle": "マッサージサービスに関するご質問にお答えします",

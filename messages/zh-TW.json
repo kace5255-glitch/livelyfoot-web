@@ -4,7 +4,8 @@
     "home": "首頁",
     "services": "服務價目",
     "about": "專業療程",
-    "contact": "聯絡我們"
+    "contact": "聯絡我們",
+    "blog": "健康專欄"
   },
   "home": {
     "hero_title": "由內而外喚醒健康體魄",
@@ -126,6 +127,16 @@
   "footer": {
     "rights": "版權所有",
     "follow": "追蹤我們"
+  },
+  "blog": {
+    "title": "健康專欄",
+    "subtitle": "按摩養生知識與健康資訊",
+    "empty": "暫時沒有文章",
+    "back": "返回文章列表",
+    "read_more": "閱讀全文",
+    "read_time": "約 {min} 分鐘閱讀",
+    "cta_title": "想體驗專業按摩？",
+    "cta_desc": "歡迎預約活力足，讓我們為您量身定制療程方案。"
   },
   "faq": {
     "title": "常見問題",

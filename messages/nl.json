@@ -1,22 +1,109 @@
 {
   "brand": "Lively Foot - 活力足",
-  "nav": { "home": "Home", "services": "Prijzen", "about": "Behandelingen", "contact": "Contact" },
-  "home": { "hero_title": "Ontwaak Uw Lichaam Van Binnenuit", "hero_subtitle": "Wij kijken ernaar uit u de meest professionele massage- en verzorgingsdiensten te bieden", "hero_cta": "Bekijk Diensten", "treatments_title": "Professionele Behandelingen", "treatments_subtitle": "Ontdek het verzorgingsplan dat bij u past — verjong van binnenuit." },
+  "nav": {
+    "home": "Home",
+    "services": "Prijzen",
+    "about": "Behandelingen",
+    "contact": "Contact",
+    "blog": "Blog"
+  },
+  "home": {
+    "hero_title": "Ontwaak Uw Lichaam Van Binnenuit",
+    "hero_subtitle": "Wij kijken ernaar uit u de meest professionele massage- en verzorgingsdiensten te bieden",
+    "hero_cta": "Bekijk Diensten",
+    "treatments_title": "Professionele Behandelingen",
+    "treatments_subtitle": "Ontdek het verzorgingsplan dat bij u past — verjong van binnenuit."
+  },
   "treatments": {
-    "foot_reflex": { "name": "Voetreflexologie", "description": "Stimuleert reflexzones op beide voeten om de bijbehorende organen in het hele lichaam te reguleren. Verbetert effectief de bloedsomloop, verlicht zware benen en verbetert de slaapkwaliteit — de topkeuze voor drukke stedelingen." },
-    "body_acupoint": { "name": "Volledige Lichaam Acupressuur", "description": "Richt zich op schouder-, nek- en rugpijn veroorzaakt door langdurige slechte houding. Therapeuten gebruiken vingerdruk en kneedtechnieken om acupunctuurpunten nauwkeurig te lokaliseren, gespannen spieren diep los te maken en meridianen te deblokkeren." },
-    "lymph": { "name": "Lymfedrainage Massage", "description": "Gebruikt zachte, ritmische technieken om de lymfestroom te begeleiden en de stofwisseling van overtollig vocht en afvalstoffen te versnellen. Helpt lichaamszwelling te verminderen, de immuunfunctie te versterken en de algehele constitutie te verbeteren." },
-    "prenatal": { "name": "Prenatale Ontspanningsmassage", "description": "Zachte massage ontworpen voor aanstaande moeders. Verlicht veelvoorkomende zwangerschapsklachten waaronder zwelling van de onderste ledematen, lumbale druk en spierkrampen, waarbij therapeuten gedurende de hele sessie veilige positionering gebruiken." },
-    "nail": { "name": "Shanghai-Stijl Nagelverzorging", "description": "Erfgenaam van authentiek Shanghais nagelambacht, met professioneel gereedschap voor zorgvuldige behandeling van eelt, dode huid en nagelproblemen. Meer dan cosmetisch — het is diepe reiniging en onderhoud voor de gezondheid van uw voeten." },
-    "guasha": { "name": "Gua Sha Therapie", "description": "Stimuleert meridianen op het lichaamsoppervlak om opgehoopte gifstoffen en hitte te verdrijven. Verlicht effectief vroege verkoudheidssymptomen, nek- en schouderstijfheid en hitteberoerte, en versterkt de weerstand van het lichaam." }
+    "foot_reflex": {
+      "name": "Voetreflexologie",
+      "description": "Stimuleert reflexzones op beide voeten om de bijbehorende organen in het hele lichaam te reguleren. Verbetert effectief de bloedsomloop, verlicht zware benen en verbetert de slaapkwaliteit — de topkeuze voor drukke stedelingen."
+    },
+    "body_acupoint": {
+      "name": "Volledige Lichaam Acupressuur",
+      "description": "Richt zich op schouder-, nek- en rugpijn veroorzaakt door langdurige slechte houding. Therapeuten gebruiken vingerdruk en kneedtechnieken om acupunctuurpunten nauwkeurig te lokaliseren, gespannen spieren diep los te maken en meridianen te deblokkeren."
+    },
+    "lymph": {
+      "name": "Lymfedrainage Massage",
+      "description": "Gebruikt zachte, ritmische technieken om de lymfestroom te begeleiden en de stofwisseling van overtollig vocht en afvalstoffen te versnellen. Helpt lichaamszwelling te verminderen, de immuunfunctie te versterken en de algehele constitutie te verbeteren."
+    },
+    "prenatal": {
+      "name": "Prenatale Ontspanningsmassage",
+      "description": "Zachte massage ontworpen voor aanstaande moeders. Verlicht veelvoorkomende zwangerschapsklachten waaronder zwelling van de onderste ledematen, lumbale druk en spierkrampen, waarbij therapeuten gedurende de hele sessie veilige positionering gebruiken."
+    },
+    "nail": {
+      "name": "Shanghai-Stijl Nagelverzorging",
+      "description": "Erfgenaam van authentiek Shanghais nagelambacht, met professioneel gereedschap voor zorgvuldige behandeling van eelt, dode huid en nagelproblemen. Meer dan cosmetisch — het is diepe reiniging en onderhoud voor de gezondheid van uw voeten."
+    },
+    "guasha": {
+      "name": "Gua Sha Therapie",
+      "description": "Stimuleert meridianen op het lichaamsoppervlak om opgehoopte gifstoffen en hitte te verdrijven. Verlicht effectief vroege verkoudheidssymptomen, nek- en schouderstijfheid en hitteberoerte, en versterkt de weerstand van het lichaam."
+    }
   },
-  "services": { "title": "Prijslijst Diensten", "subtitle": "Prijzen", "currency": "$", "min": "Min", "minutes": "min", "main_title": "Hoofddiensten", "combo_title": "Combopakketten", "combo_subtitle": "Combo's", "other_title": "Overige Professionele Verzorging", "voucher_title": "Cadeaubon Aanbiedingen", "voucher_bonus": "Bonus", "voucher_note": "Cadeaubonnen zijn niet restitueerbaar. Geldig gedurende 18 maanden vanaf aankoopdatum.",
-    "main": { "foot": "Voetmassage", "body": "Volledige Lichaamsmassage", "oil_body": "Aromatherapie Volledige Lichaam", "lymph": "Volledige Lichaam Lymfemassage", "prenatal": "Prenatale Massage" },
-    "combo": { "foot_neck": "Voet (50m) + Hoofd/Nek/Schouder (25m)", "foot_hand": "Voet (50m) + Hand (25m)", "foot25_body25": "Voet (25m) + Volledige Lichaam (25m)", "foot50_body50": "Voet (50m) + Volledige Lichaam (50m)" },
-    "other": { "neck_hand": "Hoofd/Nek/Schouder / Hand", "pain_relief": "Pijnverlichting (30m)", "nail_guasha": "Nagelverzorging / Gua Sha", "eyelash": "Wimperextensions" }
+  "services": {
+    "title": "Prijslijst Diensten",
+    "subtitle": "Prijzen",
+    "currency": "$",
+    "min": "Min",
+    "minutes": "min",
+    "main_title": "Hoofddiensten",
+    "combo_title": "Combopakketten",
+    "combo_subtitle": "Combo's",
+    "other_title": "Overige Professionele Verzorging",
+    "voucher_title": "Cadeaubon Aanbiedingen",
+    "voucher_bonus": "Bonus",
+    "voucher_note": "Cadeaubonnen zijn niet restitueerbaar. Geldig gedurende 18 maanden vanaf aankoopdatum.",
+    "main": {
+      "foot": "Voetmassage",
+      "body": "Volledige Lichaamsmassage",
+      "oil_body": "Aromatherapie Volledige Lichaam",
+      "lymph": "Volledige Lichaam Lymfemassage",
+      "prenatal": "Prenatale Massage"
+    },
+    "combo": {
+      "foot_neck": "Voet (50m) + Hoofd/Nek/Schouder (25m)",
+      "foot_hand": "Voet (50m) + Hand (25m)",
+      "foot25_body25": "Voet (25m) + Volledige Lichaam (25m)",
+      "foot50_body50": "Voet (50m) + Volledige Lichaam (50m)"
+    },
+    "other": {
+      "neck_hand": "Hoofd/Nek/Schouder / Hand",
+      "pain_relief": "Pijnverlichting (30m)",
+      "nail_guasha": "Nagelverzorging / Gua Sha",
+      "eyelash": "Wimperextensions"
+    }
   },
-  "about": { "title": "Over Ons", "story_title": "Genezingsexperts gespecialiseerd in diepe ontspanning", "story_p1": "Lively Foot - 活力足 bedient Happy Valley al meer dan tien jaar. Wij richten ons uitsluitend op één ding: u de diepste en meest effectieve massage-ervaring bieden.", "story_p2": "Wij zijn gespecialiseerd in Chinese voetmassage en volledige lichaamsmassage, uitgevoerd door ervaren meesters met meer dan tien jaar praktijkervaring. Met exclusieve technieken bereiken wij uw vermoeidheidspunten diep, en verbeteren wij effectief rugpijn, schouder- en nekstijfheid en andere klachten. Wij bieden niet alleen ontspanning — wij helpen uw lichaam zijn balans en gezondheid te herstellen.", "story_p3": "Onze ruimte is schoon en comfortabel, voor een ervaring in alle rust. Als u op zoek bent naar een professionele massage die lichamelijke vermoeidheid echt oplost, is Lively Foot - 活力足 uw eerste keuze. Bel ons gerust om een afspraak te maken.", "team_title": "Ons Team", "environment_title": "Onze Ruimte" },
-  "contact": { "title": "Welkom", "subtitle": "Wij kijken ernaar uit u de meest professionele massage- en verzorgingsdiensten te bieden", "info_title": "Contactgegevens", "address_label": "Adres", "address": "Mezzanine, King Cheung Mansion, 5 King Kwong Street, Happy Valley", "phone_label": "Telefoon", "phone": "2803 2880", "phone2": "2803 2801", "hours_label": "Openingstijden", "hours": "Dagelijks 10:00 - 00:00", "whatsapp": "WhatsApp Vraag", "call": "Bel om te Reserveren", "map": "Google Maps", "map_title": "LivelyFoot - Mezzanine, King Cheung Mansion, 5 King Kwong Street, Happy Valley", "form_title": "Stuur Ons een Bericht", "form_name": "Naam", "form_email": "E-mail", "form_message": "Bericht", "form_submit": "Bericht Versturen", "form_success": "Bericht verzonden! We nemen snel contact met u op." },
+  "about": {
+    "title": "Over Ons",
+    "story_title": "Genezingsexperts gespecialiseerd in diepe ontspanning",
+    "story_p1": "Lively Foot - 活力足 bedient Happy Valley al meer dan tien jaar. Wij richten ons uitsluitend op één ding: u de diepste en meest effectieve massage-ervaring bieden.",
+    "story_p2": "Wij zijn gespecialiseerd in Chinese voetmassage en volledige lichaamsmassage, uitgevoerd door ervaren meesters met meer dan tien jaar praktijkervaring. Met exclusieve technieken bereiken wij uw vermoeidheidspunten diep, en verbeteren wij effectief rugpijn, schouder- en nekstijfheid en andere klachten. Wij bieden niet alleen ontspanning — wij helpen uw lichaam zijn balans en gezondheid te herstellen.",
+    "story_p3": "Onze ruimte is schoon en comfortabel, voor een ervaring in alle rust. Als u op zoek bent naar een professionele massage die lichamelijke vermoeidheid echt oplost, is Lively Foot - 活力足 uw eerste keuze. Bel ons gerust om een afspraak te maken.",
+    "team_title": "Ons Team",
+    "environment_title": "Onze Ruimte"
+  },
+  "contact": {
+    "title": "Welkom",
+    "subtitle": "Wij kijken ernaar uit u de meest professionele massage- en verzorgingsdiensten te bieden",
+    "info_title": "Contactgegevens",
+    "address_label": "Adres",
+    "address": "Mezzanine, King Cheung Mansion, 5 King Kwong Street, Happy Valley",
+    "phone_label": "Telefoon",
+    "phone": "2803 2880",
+    "phone2": "2803 2801",
+    "hours_label": "Openingstijden",
+    "hours": "Dagelijks 10:00 - 00:00",
+    "whatsapp": "WhatsApp Vraag",
+    "call": "Bel om te Reserveren",
+    "map": "Google Maps",
+    "map_title": "LivelyFoot - Mezzanine, King Cheung Mansion, 5 King Kwong Street, Happy Valley",
+    "form_title": "Stuur Ons een Bericht",
+    "form_name": "Naam",
+    "form_email": "E-mail",
+    "form_message": "Bericht",
+    "form_submit": "Bericht Versturen",
+    "form_success": "Bericht verzonden! We nemen snel contact met u op."
+  },
   "meta": {
     "home_title": "Professionele Massage in Happy Valley",
     "home_desc": "LivelyFoot in Happy Valley, Hong Kong biedt voetreflexologie, volledige lichaamsmassage, lymfedrainage, prenatale massage en meer. Dagelijks geopend tot middernacht.",
@@ -37,7 +124,20 @@
     "pricing": "Prijzen",
     "all_services": "Alle diensten bekijken"
   },
-  "footer": { "rights": "Alle rechten voorbehouden", "follow": "Volg Ons" },
+  "footer": {
+    "rights": "Alle rechten voorbehouden",
+    "follow": "Volg Ons"
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Massage wellness tips and health information",
+    "empty": "No posts yet",
+    "back": "Back to all posts",
+    "read_more": "Read more",
+    "read_time": "{min} min read",
+    "cta_title": "Ready to experience professional massage?",
+    "cta_desc": "Book with Lively Foot and let us create a personalised treatment plan for you."
+  },
   "faq": {
     "title": "Veelgestelde Vragen",
     "subtitle": "Antwoorden op uw vragen over onze massagediensten",

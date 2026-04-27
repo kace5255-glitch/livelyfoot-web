@@ -1,22 +1,109 @@
 {
   "brand": "Lively Foot - 活力足",
-  "nav": { "home": "Startseite", "services": "Preise", "about": "Behandlungen", "contact": "Kontakt" },
-  "home": { "hero_title": "Erwecken Sie Ihren Körper von innen", "hero_subtitle": "Wir freuen uns darauf, Ihnen die professionellsten Massage- und Pflegeleistungen zu bieten", "hero_cta": "Leistungen ansehen", "treatments_title": "Professionelle Behandlungen", "treatments_subtitle": "Entdecken Sie den Pflegeplan, der zu Ihnen passt — Erneuerung von innen heraus." },
+  "nav": {
+    "home": "Startseite",
+    "services": "Preise",
+    "about": "Behandlungen",
+    "contact": "Kontakt",
+    "blog": "Blog"
+  },
+  "home": {
+    "hero_title": "Erwecken Sie Ihren Körper von innen",
+    "hero_subtitle": "Wir freuen uns darauf, Ihnen die professionellsten Massage- und Pflegeleistungen zu bieten",
+    "hero_cta": "Leistungen ansehen",
+    "treatments_title": "Professionelle Behandlungen",
+    "treatments_subtitle": "Entdecken Sie den Pflegeplan, der zu Ihnen passt — Erneuerung von innen heraus."
+  },
   "treatments": {
-    "foot_reflex": { "name": "Fußreflexzonenmassage", "description": "Stimuliert die Reflexzonen beider Füße, um die entsprechenden Organe im gesamten Körper zu regulieren. Verbessert effektiv die Durchblutung, lindert schwere Beine und fördert die Schlafqualität — die erste Wahl für vielbeschäftigte Stadtmenschen." },
-    "body_acupoint": { "name": "Ganzkörper-Akupressur", "description": "Zielt auf Schulter-, Nacken- und Rückenschmerzen ab, die durch langanhaltende Fehlhaltungen verursacht werden. Therapeuten setzen Fingerdruck und Knettechniken ein, um Akupunkturpunkte präzise zu lokalisieren, verspannte Muskeln tief zu lösen und Meridiane freizugeben." },
-    "lymph": { "name": "Lymphdrainage-Massage", "description": "Verwendet sanfte, rhythmische Techniken, um den Lymphfluss zu leiten und den Stoffwechsel überschüssiger Flüssigkeiten und Abfallstoffe zu beschleunigen. Hilft, Körperschwellungen zu reduzieren, die Immunfunktion zu stärken und die allgemeine Konstitution zu verbessern." },
-    "prenatal": { "name": "Pränatale Entspannungsmassage", "description": "Sanfte Massage speziell für werdende Mütter. Lindert häufige Schwangerschaftsbeschwerden wie Schwellungen der unteren Extremitäten, Lendendruck und Muskelkrämpfe, wobei die Therapeuten durchgehend sichere Lagerungstechniken anwenden." },
-    "nail": { "name": "Shanghaier Nagelpflege", "description": "In der Tradition authentischer Shanghaier Nagelkunst werden mit professionellen Werkzeugen Hornhaut, abgestorbene Haut und Nagelprobleme sorgfältig behandelt. Mehr als Kosmetik — es ist Tiefenreinigung und Pflege für die Fußgesundheit." },
-    "guasha": { "name": "Gua-Sha-Therapie", "description": "Stimuliert die Meridiane auf der Körperoberfläche, um angesammelte Giftstoffe und Hitze auszuleiten. Lindert effektiv frühe Erkältungssymptome, Nacken- und Schultersteifheit sowie Hitzschlag und stärkt die Widerstandskraft des Körpers." }
+    "foot_reflex": {
+      "name": "Fußreflexzonenmassage",
+      "description": "Stimuliert die Reflexzonen beider Füße, um die entsprechenden Organe im gesamten Körper zu regulieren. Verbessert effektiv die Durchblutung, lindert schwere Beine und fördert die Schlafqualität — die erste Wahl für vielbeschäftigte Stadtmenschen."
+    },
+    "body_acupoint": {
+      "name": "Ganzkörper-Akupressur",
+      "description": "Zielt auf Schulter-, Nacken- und Rückenschmerzen ab, die durch langanhaltende Fehlhaltungen verursacht werden. Therapeuten setzen Fingerdruck und Knettechniken ein, um Akupunkturpunkte präzise zu lokalisieren, verspannte Muskeln tief zu lösen und Meridiane freizugeben."
+    },
+    "lymph": {
+      "name": "Lymphdrainage-Massage",
+      "description": "Verwendet sanfte, rhythmische Techniken, um den Lymphfluss zu leiten und den Stoffwechsel überschüssiger Flüssigkeiten und Abfallstoffe zu beschleunigen. Hilft, Körperschwellungen zu reduzieren, die Immunfunktion zu stärken und die allgemeine Konstitution zu verbessern."
+    },
+    "prenatal": {
+      "name": "Pränatale Entspannungsmassage",
+      "description": "Sanfte Massage speziell für werdende Mütter. Lindert häufige Schwangerschaftsbeschwerden wie Schwellungen der unteren Extremitäten, Lendendruck und Muskelkrämpfe, wobei die Therapeuten durchgehend sichere Lagerungstechniken anwenden."
+    },
+    "nail": {
+      "name": "Shanghaier Nagelpflege",
+      "description": "In der Tradition authentischer Shanghaier Nagelkunst werden mit professionellen Werkzeugen Hornhaut, abgestorbene Haut und Nagelprobleme sorgfältig behandelt. Mehr als Kosmetik — es ist Tiefenreinigung und Pflege für die Fußgesundheit."
+    },
+    "guasha": {
+      "name": "Gua-Sha-Therapie",
+      "description": "Stimuliert die Meridiane auf der Körperoberfläche, um angesammelte Giftstoffe und Hitze auszuleiten. Lindert effektiv frühe Erkältungssymptome, Nacken- und Schultersteifheit sowie Hitzschlag und stärkt die Widerstandskraft des Körpers."
+    }
   },
-  "services": { "title": "Preisliste", "subtitle": "Preise", "currency": "$", "min": "Min", "minutes": "Min", "main_title": "Hauptleistungen", "combo_title": "Kombi-Pakete", "combo_subtitle": "Kombis", "other_title": "Weitere professionelle Pflege", "voucher_title": "Bargutschein-Angebote", "voucher_bonus": "Bonus", "voucher_note": "Bargutscheine sind nicht erstattungsfähig. Gültig für 18 Monate ab Kaufdatum.",
-    "main": { "foot": "Fußmassage", "body": "Ganzkörpermassage", "oil_body": "Aromatherapie-Ganzkörpermassage", "lymph": "Ganzkörper-Lymphmassage", "prenatal": "Pränatale Massage" },
-    "combo": { "foot_neck": "Fuß (50 Min) + Kopf/Nacken/Schulter (25 Min)", "foot_hand": "Fuß (50 Min) + Hand (25 Min)", "foot25_body25": "Fuß (25 Min) + Ganzkörper (25 Min)", "foot50_body50": "Fuß (50 Min) + Ganzkörper (50 Min)" },
-    "other": { "neck_hand": "Kopf/Nacken/Schulter / Hand", "pain_relief": "Schmerzlinderung (30 Min)", "nail_guasha": "Nagelpflege / Gua Sha", "eyelash": "Wimpernverlängerung" }
+  "services": {
+    "title": "Preisliste",
+    "subtitle": "Preise",
+    "currency": "$",
+    "min": "Min",
+    "minutes": "Min",
+    "main_title": "Hauptleistungen",
+    "combo_title": "Kombi-Pakete",
+    "combo_subtitle": "Kombis",
+    "other_title": "Weitere professionelle Pflege",
+    "voucher_title": "Bargutschein-Angebote",
+    "voucher_bonus": "Bonus",
+    "voucher_note": "Bargutscheine sind nicht erstattungsfähig. Gültig für 18 Monate ab Kaufdatum.",
+    "main": {
+      "foot": "Fußmassage",
+      "body": "Ganzkörpermassage",
+      "oil_body": "Aromatherapie-Ganzkörpermassage",
+      "lymph": "Ganzkörper-Lymphmassage",
+      "prenatal": "Pränatale Massage"
+    },
+    "combo": {
+      "foot_neck": "Fuß (50 Min) + Kopf/Nacken/Schulter (25 Min)",
+      "foot_hand": "Fuß (50 Min) + Hand (25 Min)",
+      "foot25_body25": "Fuß (25 Min) + Ganzkörper (25 Min)",
+      "foot50_body50": "Fuß (50 Min) + Ganzkörper (50 Min)"
+    },
+    "other": {
+      "neck_hand": "Kopf/Nacken/Schulter / Hand",
+      "pain_relief": "Schmerzlinderung (30 Min)",
+      "nail_guasha": "Nagelpflege / Gua Sha",
+      "eyelash": "Wimpernverlängerung"
+    }
   },
-  "about": { "title": "Über uns", "story_title": "Heilungsexperten mit Fokus auf Tiefenentspannung", "story_p1": "Lively Foot - 活力足 ist seit über zehn Jahren in Happy Valley tätig. Wir konzentrieren uns ausschließlich auf eines: Ihnen das tiefgreifendste und wirksamste Massageerlebnis zu bieten.", "story_p2": "Wir sind spezialisiert auf chinesische Fußmassage und Ganzkörpermassage, durchgeführt von erfahrenen Meistern mit über zehn Jahren Berufserfahrung. Mit exklusiven Techniken erreichen wir Ihre Ermüdungspunkte in der Tiefe und verbessern wirksam Rückenschmerzen, Schulter- und Nackenverspannungen sowie weitere Beschwerden. Wir bieten nicht nur Entspannung, sondern helfen Ihrem Körper, sein Gleichgewicht und seine Gesundheit wiederzufinden.", "story_p3": "Unsere Räumlichkeiten sind sauber und komfortabel — für ein Erlebnis in völliger Geborgenheit. Wenn Sie eine professionelle Massage suchen, die Ihre körperliche Erschöpfung wirklich löst, ist Lively Foot - 活力足 Ihre erste Wahl. Rufen Sie uns gerne an, um einen Termin zu vereinbaren.", "team_title": "Unser Team", "environment_title": "Unsere Räumlichkeiten" },
-  "contact": { "title": "Willkommen", "subtitle": "Wir freuen uns darauf, Ihnen die professionellsten Massage- und Pflegeleistungen zu bieten", "info_title": "Kontaktinformationen", "address_label": "Adresse", "address": "M/F, King Cheung Mansion, 5 King Kwong Street, Happy Valley", "phone_label": "Telefon", "phone": "2803 2880", "phone2": "2803 2801", "hours_label": "Öffnungszeiten", "hours": "Täglich 10:00 - 00:00 Uhr", "whatsapp": "WhatsApp-Anfrage", "call": "Anrufen und buchen", "map": "Google Maps", "map_title": "LivelyFoot - M/F, King Cheung Mansion, 5 King Kwong Street, Happy Valley", "form_title": "Schreiben Sie uns", "form_name": "Name", "form_email": "E-Mail", "form_message": "Nachricht", "form_submit": "Nachricht senden", "form_success": "Nachricht gesendet! Wir melden uns bald bei Ihnen." },
+  "about": {
+    "title": "Über uns",
+    "story_title": "Heilungsexperten mit Fokus auf Tiefenentspannung",
+    "story_p1": "Lively Foot - 活力足 ist seit über zehn Jahren in Happy Valley tätig. Wir konzentrieren uns ausschließlich auf eines: Ihnen das tiefgreifendste und wirksamste Massageerlebnis zu bieten.",
+    "story_p2": "Wir sind spezialisiert auf chinesische Fußmassage und Ganzkörpermassage, durchgeführt von erfahrenen Meistern mit über zehn Jahren Berufserfahrung. Mit exklusiven Techniken erreichen wir Ihre Ermüdungspunkte in der Tiefe und verbessern wirksam Rückenschmerzen, Schulter- und Nackenverspannungen sowie weitere Beschwerden. Wir bieten nicht nur Entspannung, sondern helfen Ihrem Körper, sein Gleichgewicht und seine Gesundheit wiederzufinden.",
+    "story_p3": "Unsere Räumlichkeiten sind sauber und komfortabel — für ein Erlebnis in völliger Geborgenheit. Wenn Sie eine professionelle Massage suchen, die Ihre körperliche Erschöpfung wirklich löst, ist Lively Foot - 活力足 Ihre erste Wahl. Rufen Sie uns gerne an, um einen Termin zu vereinbaren.",
+    "team_title": "Unser Team",
+    "environment_title": "Unsere Räumlichkeiten"
+  },
+  "contact": {
+    "title": "Willkommen",
+    "subtitle": "Wir freuen uns darauf, Ihnen die professionellsten Massage- und Pflegeleistungen zu bieten",
+    "info_title": "Kontaktinformationen",
+    "address_label": "Adresse",
+    "address": "M/F, King Cheung Mansion, 5 King Kwong Street, Happy Valley",
+    "phone_label": "Telefon",
+    "phone": "2803 2880",
+    "phone2": "2803 2801",
+    "hours_label": "Öffnungszeiten",
+    "hours": "Täglich 10:00 - 00:00 Uhr",
+    "whatsapp": "WhatsApp-Anfrage",
+    "call": "Anrufen und buchen",
+    "map": "Google Maps",
+    "map_title": "LivelyFoot - M/F, King Cheung Mansion, 5 King Kwong Street, Happy Valley",
+    "form_title": "Schreiben Sie uns",
+    "form_name": "Name",
+    "form_email": "E-Mail",
+    "form_message": "Nachricht",
+    "form_submit": "Nachricht senden",
+    "form_success": "Nachricht gesendet! Wir melden uns bald bei Ihnen."
+  },
   "meta": {
     "home_title": "Professionelle Massage in Happy Valley",
     "home_desc": "Lively Foot in Happy Valley, Hongkong: Fußreflexzonenmassage, Ganzkörpermassage, Lymphdrainage und mehr. Täglich bis Mitternacht.",
@@ -37,7 +124,20 @@
     "pricing": "Preise",
     "all_services": "Alle Dienste anzeigen"
   },
-  "footer": { "rights": "Alle Rechte vorbehalten", "follow": "Folgen Sie uns" },
+  "footer": {
+    "rights": "Alle Rechte vorbehalten",
+    "follow": "Folgen Sie uns"
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Massage wellness tips and health information",
+    "empty": "No posts yet",
+    "back": "Back to all posts",
+    "read_more": "Read more",
+    "read_time": "{min} min read",
+    "cta_title": "Ready to experience professional massage?",
+    "cta_desc": "Book with Lively Foot and let us create a personalised treatment plan for you."
+  },
   "faq": {
     "title": "FAQ",
     "subtitle": "Antworten auf Ihre Fragen zu unseren Massageleistungen",

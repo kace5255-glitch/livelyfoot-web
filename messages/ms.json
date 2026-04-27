@@ -1,22 +1,109 @@
 {
   "brand": "Lively Foot - 活力足",
-  "nav": { "home": "Utama", "services": "Harga", "about": "Rawatan", "contact": "Hubungi" },
-  "home": { "hero_title": "Bangkitkan Tubuh Anda Dari Dalam", "hero_subtitle": "Kami berharap dapat memberikan anda perkhidmatan urutan dan penjagaan yang paling profesional", "hero_cta": "Lihat Perkhidmatan", "treatments_title": "Rawatan Profesional", "treatments_subtitle": "Temui pelan penjagaan yang sesuai untuk anda — pulihkan tenaga dari dalam." },
+  "nav": {
+    "home": "Utama",
+    "services": "Harga",
+    "about": "Rawatan",
+    "contact": "Hubungi",
+    "blog": "Blog"
+  },
+  "home": {
+    "hero_title": "Bangkitkan Tubuh Anda Dari Dalam",
+    "hero_subtitle": "Kami berharap dapat memberikan anda perkhidmatan urutan dan penjagaan yang paling profesional",
+    "hero_cta": "Lihat Perkhidmatan",
+    "treatments_title": "Rawatan Profesional",
+    "treatments_subtitle": "Temui pelan penjagaan yang sesuai untuk anda — pulihkan tenaga dari dalam."
+  },
   "treatments": {
-    "foot_reflex": { "name": "Refleksologi Kaki", "description": "Merangsang zon refleks pada kedua-dua kaki untuk mengawal organ yang berkaitan di seluruh badan. Berkesan meningkatkan peredaran darah, melegakan rasa berat pada kaki, dan meningkatkan kualiti tidur — pilihan utama bagi penduduk bandar yang sibuk." },
-    "body_acupoint": { "name": "Akupresur Seluruh Badan", "description": "Menyasarkan kesakitan bahu, leher, dan belakang yang disebabkan oleh postur buruk yang berpanjangan. Terapis menggunakan tekanan jari dan teknik menguli untuk mengesan titik akupunktur dengan tepat, melegakan otot tegang secara mendalam dan melancarkan meridian." },
-    "lymph": { "name": "Urutan Saliran Limfa", "description": "Menggunakan teknik lembut dan berirama untuk mengarahkan aliran limfa dan mempercepatkan metabolisme cecair berlebihan dan sisa buangan. Membantu mengurangkan bengkak badan, meningkatkan fungsi imun, dan memperbaiki perlembagaan keseluruhan." },
-    "prenatal": { "name": "Urutan Relaksasi Pranatal", "description": "Urutan lembut yang direka khas untuk ibu mengandung. Melegakan ketidakselesaan kehamilan biasa termasuk bengkak anggota bawah, tekanan lumbar, dan kekejangan otot, dengan terapis menggunakan posisi selamat sepanjang sesi." },
-    "nail": { "name": "Penjagaan Kuku Gaya Shanghai", "description": "Mewarisi seni penjagaan kuku asli Shanghai, menggunakan alat profesional untuk merawat kapalan, kulit mati, dan masalah kuku dengan teliti. Lebih daripada kosmetik — ia adalah pembersihan mendalam dan penyelenggaraan untuk kesihatan kaki." },
-    "guasha": { "name": "Terapi Gua Sha", "description": "Merangsang meridian pada permukaan badan untuk mengeluarkan toksin dan haba terkumpul. Berkesan melegakan gejala awal selsema, kekakuan leher dan bahu, dan strok haba, meningkatkan daya tahan badan." }
+    "foot_reflex": {
+      "name": "Refleksologi Kaki",
+      "description": "Merangsang zon refleks pada kedua-dua kaki untuk mengawal organ yang berkaitan di seluruh badan. Berkesan meningkatkan peredaran darah, melegakan rasa berat pada kaki, dan meningkatkan kualiti tidur — pilihan utama bagi penduduk bandar yang sibuk."
+    },
+    "body_acupoint": {
+      "name": "Akupresur Seluruh Badan",
+      "description": "Menyasarkan kesakitan bahu, leher, dan belakang yang disebabkan oleh postur buruk yang berpanjangan. Terapis menggunakan tekanan jari dan teknik menguli untuk mengesan titik akupunktur dengan tepat, melegakan otot tegang secara mendalam dan melancarkan meridian."
+    },
+    "lymph": {
+      "name": "Urutan Saliran Limfa",
+      "description": "Menggunakan teknik lembut dan berirama untuk mengarahkan aliran limfa dan mempercepatkan metabolisme cecair berlebihan dan sisa buangan. Membantu mengurangkan bengkak badan, meningkatkan fungsi imun, dan memperbaiki perlembagaan keseluruhan."
+    },
+    "prenatal": {
+      "name": "Urutan Relaksasi Pranatal",
+      "description": "Urutan lembut yang direka khas untuk ibu mengandung. Melegakan ketidakselesaan kehamilan biasa termasuk bengkak anggota bawah, tekanan lumbar, dan kekejangan otot, dengan terapis menggunakan posisi selamat sepanjang sesi."
+    },
+    "nail": {
+      "name": "Penjagaan Kuku Gaya Shanghai",
+      "description": "Mewarisi seni penjagaan kuku asli Shanghai, menggunakan alat profesional untuk merawat kapalan, kulit mati, dan masalah kuku dengan teliti. Lebih daripada kosmetik — ia adalah pembersihan mendalam dan penyelenggaraan untuk kesihatan kaki."
+    },
+    "guasha": {
+      "name": "Terapi Gua Sha",
+      "description": "Merangsang meridian pada permukaan badan untuk mengeluarkan toksin dan haba terkumpul. Berkesan melegakan gejala awal selsema, kekakuan leher dan bahu, dan strok haba, meningkatkan daya tahan badan."
+    }
   },
-  "services": { "title": "Senarai Harga Perkhidmatan", "subtitle": "Harga", "currency": "$", "min": "Min", "minutes": "minit", "main_title": "Perkhidmatan Utama", "combo_title": "Pakej Kombo", "combo_subtitle": "Kombo", "other_title": "Penjagaan Profesional Lain", "voucher_title": "Tawaran Baucar Tunai", "voucher_bonus": "Bonus", "voucher_note": "Baucar tunai tidak boleh dikembalikan. Sah selama 18 bulan dari tarikh pembelian.",
-    "main": { "foot": "Urutan Kaki", "body": "Urutan Seluruh Badan", "oil_body": "Aromaterapi Seluruh Badan", "lymph": "Urutan Limfa Seluruh Badan", "prenatal": "Urutan Pranatal" },
-    "combo": { "foot_neck": "Kaki (50m) + Kepala/Leher/Bahu (25m)", "foot_hand": "Kaki (50m) + Tangan (25m)", "foot25_body25": "Kaki (25m) + Seluruh Badan (25m)", "foot50_body50": "Kaki (50m) + Seluruh Badan (50m)" },
-    "other": { "neck_hand": "Kepala/Leher/Bahu / Tangan", "pain_relief": "Legakan Sakit (30m)", "nail_guasha": "Penjagaan Kuku / Gua Sha", "eyelash": "Sambungan Bulu Mata" }
+  "services": {
+    "title": "Senarai Harga Perkhidmatan",
+    "subtitle": "Harga",
+    "currency": "$",
+    "min": "Min",
+    "minutes": "minit",
+    "main_title": "Perkhidmatan Utama",
+    "combo_title": "Pakej Kombo",
+    "combo_subtitle": "Kombo",
+    "other_title": "Penjagaan Profesional Lain",
+    "voucher_title": "Tawaran Baucar Tunai",
+    "voucher_bonus": "Bonus",
+    "voucher_note": "Baucar tunai tidak boleh dikembalikan. Sah selama 18 bulan dari tarikh pembelian.",
+    "main": {
+      "foot": "Urutan Kaki",
+      "body": "Urutan Seluruh Badan",
+      "oil_body": "Aromaterapi Seluruh Badan",
+      "lymph": "Urutan Limfa Seluruh Badan",
+      "prenatal": "Urutan Pranatal"
+    },
+    "combo": {
+      "foot_neck": "Kaki (50m) + Kepala/Leher/Bahu (25m)",
+      "foot_hand": "Kaki (50m) + Tangan (25m)",
+      "foot25_body25": "Kaki (25m) + Seluruh Badan (25m)",
+      "foot50_body50": "Kaki (50m) + Seluruh Badan (50m)"
+    },
+    "other": {
+      "neck_hand": "Kepala/Leher/Bahu / Tangan",
+      "pain_relief": "Legakan Sakit (30m)",
+      "nail_guasha": "Penjagaan Kuku / Gua Sha",
+      "eyelash": "Sambungan Bulu Mata"
+    }
   },
-  "about": { "title": "Tentang Kami", "story_title": "Pakar Penyembuhan yang Mengkhusus dalam Relaksasi Mendalam", "story_p1": "Lively Foot - 活力足 telah berkhidmat di Happy Valley selama lebih sepuluh tahun. Kami hanya fokus pada satu perkara: memberikan anda pengalaman urutan yang paling mendalam dan berkesan.", "story_p2": "Kami pakar dalam urutan kaki Cina dan urutan seluruh badan, dengan tukang urut berpengalaman lebih sepuluh tahun. Dengan teknik eksklusif, kami mencapai titik keletihan anda secara mendalam, memperbaiki sakit pinggang, kekakuan bahu dan leher serta masalah lain dengan berkesan. Kami bukan sekadar merehatkan — kami membantu badan anda memulihkan keseimbangan dan kesihatan.", "story_p3": "Ruang kami bersih dan selesa, memberikan anda pengalaman yang paling menenangkan. Jika anda mencari urutan profesional yang benar-benar dapat mengatasi keletihan badan, Lively Foot - 活力足 adalah pilihan pertama anda. Hubungi kami untuk membuat temu janji.", "team_title": "Pasukan Kami", "environment_title": "Ruang Kami" },
-  "contact": { "title": "Selamat Datang", "subtitle": "Kami berharap dapat memberikan anda perkhidmatan urutan dan penjagaan yang paling profesional", "info_title": "Maklumat Hubungan", "address_label": "Alamat", "address": "Tingkat Mezanin, King Cheung Mansion, 5 King Kwong Street, Happy Valley", "phone_label": "Telefon", "phone": "2803 2880", "phone2": "2803 2801", "hours_label": "Waktu Operasi", "hours": "Setiap Hari 10:00 PG - 12:00 TN", "whatsapp": "Pertanyaan WhatsApp", "call": "Hubungi untuk Tempahan", "map": "Google Maps", "map_title": "LivelyFoot - Tingkat Mezanin, King Cheung Mansion, 5 King Kwong Street, Happy Valley", "form_title": "Hantar Mesej Kepada Kami", "form_name": "Nama", "form_email": "E-mel", "form_message": "Mesej", "form_submit": "Hantar Mesej", "form_success": "Mesej dihantar! Kami akan menghubungi anda tidak lama lagi." },
+  "about": {
+    "title": "Tentang Kami",
+    "story_title": "Pakar Penyembuhan yang Mengkhusus dalam Relaksasi Mendalam",
+    "story_p1": "Lively Foot - 活力足 telah berkhidmat di Happy Valley selama lebih sepuluh tahun. Kami hanya fokus pada satu perkara: memberikan anda pengalaman urutan yang paling mendalam dan berkesan.",
+    "story_p2": "Kami pakar dalam urutan kaki Cina dan urutan seluruh badan, dengan tukang urut berpengalaman lebih sepuluh tahun. Dengan teknik eksklusif, kami mencapai titik keletihan anda secara mendalam, memperbaiki sakit pinggang, kekakuan bahu dan leher serta masalah lain dengan berkesan. Kami bukan sekadar merehatkan — kami membantu badan anda memulihkan keseimbangan dan kesihatan.",
+    "story_p3": "Ruang kami bersih dan selesa, memberikan anda pengalaman yang paling menenangkan. Jika anda mencari urutan profesional yang benar-benar dapat mengatasi keletihan badan, Lively Foot - 活力足 adalah pilihan pertama anda. Hubungi kami untuk membuat temu janji.",
+    "team_title": "Pasukan Kami",
+    "environment_title": "Ruang Kami"
+  },
+  "contact": {
+    "title": "Selamat Datang",
+    "subtitle": "Kami berharap dapat memberikan anda perkhidmatan urutan dan penjagaan yang paling profesional",
+    "info_title": "Maklumat Hubungan",
+    "address_label": "Alamat",
+    "address": "Tingkat Mezanin, King Cheung Mansion, 5 King Kwong Street, Happy Valley",
+    "phone_label": "Telefon",
+    "phone": "2803 2880",
+    "phone2": "2803 2801",
+    "hours_label": "Waktu Operasi",
+    "hours": "Setiap Hari 10:00 PG - 12:00 TN",
+    "whatsapp": "Pertanyaan WhatsApp",
+    "call": "Hubungi untuk Tempahan",
+    "map": "Google Maps",
+    "map_title": "LivelyFoot - Tingkat Mezanin, King Cheung Mansion, 5 King Kwong Street, Happy Valley",
+    "form_title": "Hantar Mesej Kepada Kami",
+    "form_name": "Nama",
+    "form_email": "E-mel",
+    "form_message": "Mesej",
+    "form_submit": "Hantar Mesej",
+    "form_success": "Mesej dihantar! Kami akan menghubungi anda tidak lama lagi."
+  },
   "meta": {
     "home_title": "Urutan Profesional di Happy Valley",
     "home_desc": "LivelyFoot di Happy Valley, Hong Kong menawarkan refleksologi kaki, urutan seluruh badan, saliran limfa, urutan pranatal dan banyak lagi. Dibuka setiap hari sehingga tengah malam.",
@@ -37,7 +124,20 @@
     "pricing": "Harga",
     "all_services": "Lihat semua perkhidmatan"
   },
-  "footer": { "rights": "Hak cipta terpelihara", "follow": "Ikuti Kami" },
+  "footer": {
+    "rights": "Hak cipta terpelihara",
+    "follow": "Ikuti Kami"
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Massage wellness tips and health information",
+    "empty": "No posts yet",
+    "back": "Back to all posts",
+    "read_more": "Read more",
+    "read_time": "{min} min read",
+    "cta_title": "Ready to experience professional massage?",
+    "cta_desc": "Book with Lively Foot and let us create a personalised treatment plan for you."
+  },
   "faq": {
     "title": "Soalan Lazim",
     "subtitle": "Jawapan kepada soalan anda tentang perkhidmatan urutan kami",

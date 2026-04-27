@@ -1,9 +1,10 @@
 import { MetadataRoute } from 'next';
 import { locales } from '@/i18n/routing';
 import { serviceIds } from '@/data/services';
+import { getAllSlugs } from '@/lib/blog';
 
 const BASE_URL = 'https://livelyfoot-hk.com';
-const pages = ['', '/services', '/about', '/contact'];
+const pages = ['', '/services', '/about', '/contact', '/blog'];
 
 function buildAlternates(path: string) {
   const languages: Record<string, string> = {};
@@ -34,6 +35,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
         changeFrequency: 'monthly',
         priority: 0.7,
         alternates: buildAlternates(`/services/${id}`),
+      });
+    }
+  }
+
+  const blogSlugs = [...new Set([...getAllSlugs('zh-TW'), ...getAllSlugs('en')])];
+
+  for (const locale of locales) {
+    for (const slug of blogSlugs) {
+      entries.push({
+        url: `${BASE_URL}/${locale}/blog/${slug}`,
+        lastModified: new Date(),
+        changeFrequency: 'monthly',
+        priority: 0.6,
+        alternates: buildAlternates(`/blog/${slug}`),
       });
     }
   }

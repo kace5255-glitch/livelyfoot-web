@@ -13,7 +13,10 @@
       "Bash(git init *)",
       "Bash(git add *)",
       "Bash(git commit *)",
-      "Bash(git push *)"
+      "Bash(git push *)",
+      "Bash(curl -s -X POST https://yktdqlghwheyjwotrzik.supabase.co/auth/v1/admin/users -H 'apikey: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InlrdGRxbGdod2hleWp3b3RyemlrIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc3NzAxOTIzOCwiZXhwIjoyMDkyNTk1MjM4fQ.bw7og8V7wIU760nQOXtsZrv-2-nw7xRHCO4i5bC2jkI' -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InlrdGRxbGdod2hleWp3b3RyemlrIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc3NzAxOTIzOCwiZXhwIjoyMDkyNTk1MjM4fQ.bw7og8V7wIU760nQOXtsZrv-2-nw7xRHCO4i5bC2jkI' -H 'Content-Type: application/json' -d '{\"email\":\"admin@staff.local\",\"password\":\"525567\",\"email_confirm\":true,\"user_metadata\":{\"name\":\"Admin\",\"role\":\"admin\"}}')",
+      "Bash(curl -s 'https://yktdqlghwheyjwotrzik.supabase.co/rest/v1/profiles?id=eq.5aa19272-e2bd-4614-bdf6-fa00bcbaa22e&select=*' -H 'apikey: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InlrdGRxbGdod2hleWp3b3RyemlrIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc3NzAxOTIzOCwiZXhwIjoyMDkyNTk1MjM4fQ.bw7og8V7wIU760nQOXtsZrv-2-nw7xRHCO4i5bC2jkI' -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InlrdGRxbGdod2hleWp3b3RyemlrIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc3NzAxOTIzOCwiZXhwIjoyMDkyNTk1MjM4fQ.bw7og8V7wIU760nQOXtsZrv-2-nw7xRHCO4i5bC2jkI')",
+      "Bash(curl -s -X POST https://yktdqlghwheyjwotrzik.supabase.co/rest/v1/rpc -H 'apikey: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InlrdGRxbGdod2hleWp3b3RyemlrIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc3NzAxOTIzOCwiZXhwIjoyMDkyNTk1MjM4fQ.bw7og8V7wIU760nQOXtsZrv-2-nw7xRHCO4i5bC2jkI' -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InlrdGRxbGdod2hleWp3b3RyemlrIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc3NzAxOTIzOCwiZXhwIjoyMDkyNTk1MjM4fQ.bw7og8V7wIU760nQOXtsZrv-2-nw7xRHCO4i5bC2jkI' -H 'Content-Type: application/json' -d '{}')"
     ]
   }
 }

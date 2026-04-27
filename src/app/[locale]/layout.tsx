@@ -92,15 +92,13 @@ export default async function LocaleLayout({
   const dir = locale === 'ar' ? 'rtl' : 'ltr';
 
   return (
-    <html lang={locale} dir={dir}>
-      <body className={`${notoSans.variable} ${notoSerif.variable} min-h-screen flex flex-col`}>
-        <LocalBusinessJsonLd />
-        <NextIntlClientProvider messages={messages}>
-          <Header />
-          <main className="flex-1">{children}</main>
-          <Footer />
-        </NextIntlClientProvider>
-      </body>
-    </html>
+    <div lang={locale} dir={dir} className={`${notoSans.variable} ${notoSerif.variable} min-h-screen flex flex-col`}>
+      <LocalBusinessJsonLd />
+      <NextIntlClientProvider messages={messages}>
+        <Header />
+        <main className="flex-1">{children}</main>
+        <Footer />
+      </NextIntlClientProvider>
+    </div>
   );
 }
