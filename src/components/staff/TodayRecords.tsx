@@ -10,7 +10,7 @@ type ServiceRecord = {
   services: { label: string };
 };
 
-const serviceColors: Record<string, { bg: string; text: string }> = {};
+const serviceColors: Record<string, { bg: string; text: string; hex: string }> = {};
 const colorPool = [
   { bg: 'bg-[#009688]/10', text: 'text-[#009688]', hex: '#009688' },
   { bg: 'bg-[#1976D2]/10', text: 'text-[#1976D2]', hex: '#1976D2' },
