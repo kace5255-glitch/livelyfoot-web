@@ -199,11 +199,6 @@ export default function HomePage() {
               key={key}
               className="bg-white rounded-xl md:rounded-2xl p-4 md:p-6 shadow-sm border border-cream-dark/30 hover:border-gold/40 hover:shadow-md transition-all group"
             >
-              <div className="w-12 h-12 md:w-14 md:h-14 bg-cream-dark rounded-xl flex items-center justify-center mb-3 md:mb-4 group-hover:bg-gold/20 transition-colors">
-                <svg className="w-6 h-6 md:w-7 md:h-7 text-forest group-hover:text-warm-brown transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d={treatmentIcons[key]} />
-                </svg>
-              </div>
               <h3 className="font-serif font-semibold text-sm md:text-lg text-warm-brown-dark mb-1.5 md:mb-2">
                 {tt(`${key}.name`)}
               </h3>
