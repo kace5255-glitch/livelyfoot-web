@@ -9,10 +9,10 @@ export default function Footer() {
 
   return (
     <footer className="bg-warm-brown-dark text-cream">
-      <div className="max-w-6xl mx-auto px-4 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div className="max-w-6xl mx-auto px-4 py-8 md:py-12">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
           <div>
-            <h3 className="text-xl font-serif font-bold text-gold mb-4">{brand}</h3>
+            <h3 className="text-lg md:text-xl font-serif font-bold text-gold mb-3 md:mb-4">{brand}</h3>
             <p className="text-cream/70 text-sm leading-relaxed">
               {contact('address')}
             </p>
@@ -21,8 +21,8 @@ export default function Footer() {
           </div>
 
           <div>
-            <div className="h-6 mb-4" />
-            <nav className="flex flex-col gap-2">
+            <div className="h-0 md:h-6 md:mb-4" />
+            <nav className="flex flex-row md:flex-col flex-wrap gap-x-6 gap-y-2">
               <Link href="/" className="text-sm text-cream/70 hover:text-gold transition-colors">{nav('home')}</Link>
               <Link href="/services" className="text-sm text-cream/70 hover:text-gold transition-colors">{nav('services')}</Link>
               <Link href="/about" className="text-sm text-cream/70 hover:text-gold transition-colors">{nav('about')}</Link>
@@ -31,9 +31,9 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="font-semibold text-gold mb-4">{contact('hours_label')}</h4>
+            <h4 className="font-semibold text-gold mb-3 md:mb-4">{contact('hours_label')}</h4>
             <p className="text-sm text-cream/70">{contact('hours')}</p>
-            <div className="flex gap-4 mt-6">
+            <div className="flex gap-4 mt-4 md:mt-6">
               <a href="https://www.facebook.com/livelyfoothk/" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="text-cream/50 hover:text-gold transition-colors">
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
               </a>
@@ -44,7 +44,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-cream/20 mt-8 pt-6 text-center text-sm text-cream/50">
+        <div className="border-t border-cream/20 mt-6 md:mt-8 pt-4 md:pt-6 text-center text-xs md:text-sm text-cream/50">
           &copy; {new Date().getFullYear()} {brand}. {t('rights')}.
         </div>
       </div>

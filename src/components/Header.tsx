@@ -21,9 +21,9 @@ export default function Header() {
 
   return (
     <header className="sticky top-0 z-50 bg-cream/90 backdrop-blur-md border-b border-cream-dark">
-      <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-2 text-2xl font-serif font-bold text-warm-brown">
-          <img src="/LivelyfootLogo.png" alt={brand} className="h-10 w-auto" />
+      <div className="max-w-6xl mx-auto px-4 h-14 md:h-16 flex items-center justify-between">
+        <Link href="/" className="flex items-center gap-2 text-xl md:text-2xl font-serif font-bold text-warm-brown">
+          <img src="/LivelyfootLogo.png" alt={brand} className="h-8 md:h-10 w-auto" />
           {brand}
         </Link>
 
@@ -44,7 +44,7 @@ export default function Header() {
 
         <button
           onClick={() => setMobileOpen(!mobileOpen)}
-          className="md:hidden p-2 text-warm-brown"
+          className="md:hidden p-2 -mr-2 text-warm-brown"
           aria-label="Toggle menu"
         >
           <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -64,7 +64,7 @@ export default function Header() {
               key={key}
               href={href}
               onClick={() => setMobileOpen(false)}
-              className={`block py-3 text-sm font-medium border-b border-cream-dark/50 ${
+              className={`block py-3.5 text-sm font-medium border-b border-cream-dark/50 active:bg-cream-dark/30 transition-colors ${
                 pathname === href ? 'text-warm-brown' : 'text-warm-brown-dark/70'
               }`}
             >
