@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;600&family=Noto+Serif+TC:wght@300;400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Noto Serif TC", serif;
+  --font-sans: "Noto Sans TC", sans-serif;
+  
+  --color-spa-bg: #FAF8F5;
+  --color-spa-ink: #2C2A26;
+  --color-spa-olive: #6B705C;
+  --color-spa-sand: #D4CFC9;
+  --color-spa-gold: #B38E5D;
+}
+
+body {
+  font-family: "Noto Sans TC", sans-serif;
+  background-color: var(--color-spa-bg);
+  color: var(--color-spa-ink);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, .font-serif {
+  font-family: "Noto Serif TC", serif;
+}
+
+/* Base custom classes for the luxury layout */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.text-balance {
+  text-wrap: balance;
+}

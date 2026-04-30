@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;600&family=Noto+Serif+TC:wght@300;400;500;600&display=swap');
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
 
@@ -5,14 +6,17 @@
   --color-warm-brown: #8B6F47;
   --color-warm-brown-light: #A68B5B;
   --color-warm-brown-dark: #6B5535;
-  --color-cream: #F5F0E8;
+  --color-cream: #FAF8F5;
   --color-cream-dark: #E8E4DE;
   --color-forest: #2D5016;
   --color-forest-light: #3D6B1E;
-  --color-gold: #C4A265;
-  --color-gold-light: #D4B87A;
-  --font-sans: "Noto Sans", system-ui, sans-serif;
-  --font-serif: "Noto Serif", Georgia, serif;
+  --color-gold: #B38E5D;
+  --color-gold-light: #C4A265;
+  --color-spa-ink: #2C2A26;
+  --color-spa-olive: #6B705C;
+  --color-spa-sand: #D4CFC9;
+  --font-sans: "Noto Sans TC", system-ui, sans-serif;
+  --font-serif: "Noto Serif TC", Georgia, serif;
 }
 
 html {
@@ -27,9 +31,24 @@ html::-webkit-scrollbar {
 
 body {
   font-family: var(--font-sans);
-  color: #3a3a3a;
+  color: var(--color-spa-ink);
   background-color: var(--color-cream);
-  background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='40' height='40' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E");
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, .font-serif {
+  font-family: var(--font-serif);
+}
+
+.glass-panel {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.text-balance {
+  text-wrap: balance;
 }
 
 @keyframes fade-in {
