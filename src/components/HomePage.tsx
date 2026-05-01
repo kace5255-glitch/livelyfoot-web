@@ -38,7 +38,7 @@ export default function HomePage() {
       {/* Hero */}
       <section className="relative pt-20 pb-16 md:pt-32 md:pb-24 px-6 overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <img src="/massagephoto.jpg" alt="Spa" className="w-full h-full object-cover opacity-[0.15]" />
+          <img src="/massagephoto.jpg" alt="Spa" className="w-full h-full object-cover opacity-[0.25]" />
           <div className="absolute inset-0 bg-gradient-to-b from-cream/40 via-cream/80 to-cream" />
         </div>
         <div className="max-w-7xl mx-auto relative z-10 grid md:grid-cols-2 gap-10 md:gap-12 items-center">
@@ -68,7 +68,7 @@ export default function HomePage() {
 
           <div className="relative hidden md:block">
             <div className="aspect-[4/5] rounded-[2rem] overflow-hidden">
-              <img src="/massage.jpg" alt="Foot Massage" className="w-full h-full object-cover" />
+              <img src="/massagephoto.jpg" alt="Foot Massage" className="w-full h-full object-cover" />
             </div>
             <div className="absolute -bottom-6 -left-6 bg-white p-5 md:p-6 rounded-2xl shadow-xl glass-panel">
               <div className="flex items-center gap-4">
@@ -132,23 +132,13 @@ export default function HomePage() {
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
             {treatmentKeys.map((key) => (
-              <div key={key} className="group bg-white rounded-[1.5rem] md:rounded-[2rem] overflow-hidden shadow-sm border border-spa-sand/20 hover:shadow-lg transition-all duration-300">
-                <div className="aspect-[16/10] overflow-hidden relative">
-                  <img
-                    src={treatmentPhotos[key]}
-                    alt={key}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
-                </div>
-                <div className="p-5 md:p-6">
-                  <h3 className="font-serif text-base md:text-lg font-semibold mb-2 group-hover:text-gold transition-colors">
-                    {tt(`${key}.name`)}
-                  </h3>
-                  <p className="text-sm text-spa-ink/70 leading-relaxed font-light line-clamp-3">
-                    {tt(`${key}.description`)}
-                  </p>
-                </div>
+              <div key={key} className="group bg-white rounded-[1.5rem] md:rounded-[2rem] p-5 md:p-6 shadow-sm border border-spa-sand/20 hover:shadow-lg transition-all duration-300">
+                <h3 className="font-serif text-base md:text-lg font-semibold mb-2 group-hover:text-gold transition-colors">
+                  {tt(`${key}.name`)}
+                </h3>
+                <p className="text-sm text-spa-ink/70 leading-relaxed font-light">
+                  {tt(`${key}.description`)}
+                </p>
               </div>
             ))}
           </div>
