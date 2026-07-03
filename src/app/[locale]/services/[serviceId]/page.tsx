@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { serviceIds, serviceToTreatment, mainServices, type ServiceId } from '@/data/services';
-import { locales } from '@/i18n/routing';
 import ServiceDetailPage from '@/components/ServiceDetailPage';
 import { ServiceJsonLd, BreadcrumbJsonLd } from '@/components/JsonLd';
+import { buildAlternates, buildOpenGraph } from '@/lib/seo';
 
 const BASE_URL = 'https://livelyfoot-hk.com';
 
@@ -22,21 +22,21 @@ export async function generateMetadata({
 
   const t = await getTranslations({ locale, namespace: 'meta' });
   const tt = await getTranslations({ locale, namespace: 'treatments' });
+  const brand = (await getTranslations({ locale }))('brand');
   const treatmentKey = serviceToTreatment[serviceId as ServiceId];
   const name = tt(`${treatmentKey}.name`);
-
-  const languages: Record<string, string> = {};
-  for (const l of locales) {
-    languages[l] = `${BASE_URL}/${l}/services/${serviceId}`;
-  }
 
   return {
     title: name,
     description: t(`service_${serviceId}_desc`),
-    alternates: {
-      canonical: `${BASE_URL}/${locale}/services/${serviceId}`,
-      languages,
-    },
+    alternates: buildAlternates(`/services/${serviceId}`, locale),
+    openGraph: buildOpenGraph({
+      title: name,
+      description: t(`service_${serviceId}_desc`),
+      path: `/services/${serviceId}`,
+      locale,
+      siteName: brand,
+    }),
   };
 }
 

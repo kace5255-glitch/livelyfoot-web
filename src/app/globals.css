@@ -1,32 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;600&family=Noto+Serif+TC:wght@300;400;500;600&display=swap');
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
 
 @theme {
-  --color-warm-brown: #8B6F47;
-  --color-warm-brown-light: #A68B5B;
-  --color-warm-brown-dark: #6B5535;
   --color-cream: #FAF8F5;
   --color-cream-dark: #E8E4DE;
-  --color-forest: #2D5016;
-  --color-forest-light: #3D6B1E;
   --color-gold: #B38E5D;
   --color-gold-light: #C4A265;
   --color-spa-ink: #2C2A26;
   --color-spa-olive: #6B705C;
   --color-spa-sand: #D4CFC9;
-  --font-sans: "Noto Sans TC", system-ui, sans-serif;
-  --font-serif: "Noto Serif TC", Georgia, serif;
+  --color-spa-bronze: #6B5A39;
+  --font-sans: var(--font-sans-next, "Noto Sans TC"), system-ui, sans-serif;
+  --font-serif: var(--font-serif-next, "Noto Serif TC"), Georgia, serif;
 }
 
 html {
   scroll-behavior: smooth;
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-}
-
-html::-webkit-scrollbar {
-  display: none;
 }
 
 body {
@@ -38,6 +27,11 @@ body {
 
 h1, h2, h3, h4, .font-serif {
   font-family: var(--font-serif);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-gold);
+  outline-offset: 2px;
 }
 
 .glass-panel {

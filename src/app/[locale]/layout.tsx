@@ -1,26 +1,13 @@
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
-import { routing, locales } from '@/i18n/routing';
+import { routing } from '@/i18n/routing';
 import type { Metadata } from 'next';
-import { Noto_Sans, Noto_Serif } from 'next/font/google';
+import { buildAlternates, buildOpenGraph } from '@/lib/seo';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import MobileBookingBar from '@/components/MobileBookingBar';
 import { LocalBusinessJsonLd } from '@/components/JsonLd';
-
-const notoSans = Noto_Sans({
-  subsets: ['latin'],
-  weight: ['300', '400', '500', '600', '700'],
-  variable: '--font-sans',
-  display: 'swap',
-});
-
-const notoSerif = Noto_Serif({
-  subsets: ['latin'],
-  weight: ['400', '600', '700'],
-  variable: '--font-serif',
-  display: 'swap',
-});
 
 const BASE_URL = 'https://livelyfoot-hk.com';
 
@@ -37,11 +24,6 @@ export async function generateMetadata({
   const t = await getTranslations({ locale, namespace: 'meta' });
   const brand = (await getTranslations({ locale }))('brand');
 
-  const languages: Record<string, string> = {};
-  for (const l of locales) {
-    languages[l] = `${BASE_URL}/${l}`;
-  }
-
   return {
     title: {
       template: `%s | ${brand}`,
@@ -49,28 +31,19 @@ export async function generateMetadata({
     },
     description: t('home_desc'),
     metadataBase: new URL(BASE_URL),
-    alternates: {
-      canonical: `${BASE_URL}/${locale}`,
-      languages,
-    },
-    openGraph: {
+    alternates: buildAlternates('', locale),
+    openGraph: buildOpenGraph({
       title: `${brand} — ${t('home_title')}`,
       description: t('home_desc'),
-      url: `${BASE_URL}/${locale}`,
-      siteName: brand,
+      path: '',
       locale,
-      type: 'website',
-      images: [{ url: '/og-image.svg', width: 1200, height: 630 }],
-    },
+      siteName: brand,
+    }),
     twitter: {
       card: 'summary_large_image',
       title: `${brand} — ${t('home_title')}`,
       description: t('home_desc'),
-      images: ['/og-image.svg'],
-    },
-    icons: {
-      icon: '/LivelyfootLogo.png',
-      apple: '/LivelyfootLogo.png',
+      images: ['/og-image.jpg'],
     },
   };
 }
@@ -92,12 +65,13 @@ export default async function LocaleLayout({
   const dir = locale === 'ar' ? 'rtl' : 'ltr';
 
   return (
-    <div lang={locale} dir={dir} className={`${notoSans.variable} ${notoSerif.variable} min-h-screen flex flex-col`}>
+    <div lang={locale} dir={dir} className="min-h-screen flex flex-col">
       <LocalBusinessJsonLd />
       <NextIntlClientProvider messages={messages}>
         <Header />
-        <main className="flex-1">{children}</main>
+        <main className="flex-1 pb-16 md:pb-0">{children}</main>
         <Footer />
+        <MobileBookingBar />
       </NextIntlClientProvider>
     </div>
   );

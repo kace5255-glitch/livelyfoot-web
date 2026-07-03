@@ -2,8 +2,8 @@ import type { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
 import HomePage from '@/components/HomePage';
 import { FaqJsonLd } from '@/components/JsonLd';
+import { buildAlternates, buildOpenGraph } from '@/lib/seo';
 
-const BASE_URL = 'https://livelyfoot-hk.com';
 const faqKeys = ['booking', 'duration', 'prenatal', 'voucher', 'hours', 'location'] as const;
 
 export async function generateMetadata({
@@ -19,7 +19,14 @@ export async function generateMetadata({
   return {
     title: { absolute: `${brand} | ${t('home_title')}` },
     description: t('home_desc'),
-    alternates: { canonical: `${BASE_URL}/${locale}` },
+    alternates: buildAlternates('', locale),
+    openGraph: buildOpenGraph({
+      title: `${brand} | ${t('home_title')}`,
+      description: t('home_desc'),
+      path: '',
+      locale,
+      siteName: brand,
+    }),
   };
 }
 

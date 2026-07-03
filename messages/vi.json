@@ -11,10 +11,16 @@
     "hero_title": "Đánh Thức Cơ Thể Từ Bên Trong",
     "hero_subtitle": "Chúng tôi mong được mang đến cho bạn dịch vụ massage và chăm sóc chuyên nghiệp nhất",
     "hero_cta": "Xem Dịch Vụ",
+    "hero_book": "Liên Hệ Đặt Lịch",
+    "hero_image_alt": "Liệu trình massage chuyên nghiệp tại LivelyFoot",
+    "location_badge": "Happy Valley, Hồng Kông",
     "about_badge": "Est. 2012",
     "about_title": "Over a Decade of Professional Experience",
+    "kicker_why": "Why Choose Us",
+    "kicker_pricing": "Pricing",
+    "kicker_faq": "FAQ",
     "features_title": "Why Choose Us",
-    "features_subtitle": "The features we offer to you.",
+    "features_subtitle": "Mười năm tay nghề, cho bạn một cơ thể nhẹ nhõm",
     "feature_experience": "10+ Years",
     "feature_experience_desc": "Serving Happy Valley for over a decade",
     "feature_team": "Expert Team",
@@ -24,7 +30,22 @@
     "feature_comfort": "Comfort",
     "feature_comfort_desc": "Clean, relaxing space",
     "treatments_title": "Liệu Trình Chuyên Nghiệp",
-    "treatments_subtitle": "Khám phá kế hoạch chăm sóc phù hợp với bạn — tái tạo từ bên trong ra bên ngoài."
+    "treatments_subtitle": "Khám phá kế hoạch chăm sóc phù hợp với bạn — tái tạo từ bên trong ra bên ngoài.",
+    "cta_title": "Tối Nay, Hãy Để Cơ Thể Bạn Tan Ca Trước",
+    "cta_desc": "Mở cửa hàng ngày đến 12 giờ đêm. Sau một ngày dài, hãy để các chuyên viên giàu kinh nghiệm của chúng tôi chăm sóc bạn. Đặt lịch qua WhatsApp hoặc điện thoại."
+  },
+  "cta": {
+    "title": "Sẵn Sàng Thư Giãn?",
+    "subtitle": "Đặt lịch vào khung giờ bạn mong muốn qua WhatsApp hoặc điện thoại",
+    "whatsapp": "Đặt Lịch Qua WhatsApp",
+    "call": "Gọi Đặt Lịch",
+    "book_now": "Đặt Lịch Ngay",
+    "wa_generic": "Xin chào, tôi muốn đặt lịch massage. Hôm nay còn chỗ không?",
+    "wa_service": "Xin chào, tôi muốn đặt lịch {service}. Hôm nay còn chỗ không?"
+  },
+  "openStatus": {
+    "open_now": "Đang mở cửa · đến 12:00 đêm",
+    "closed_now": "Đã đóng cửa · mở lại lúc 10:00 sáng"
   },
   "treatments": {
     "foot_reflex": {
@@ -34,6 +55,10 @@
     "body_acupoint": {
       "name": "Bấm Huyệt Toàn Thân",
       "description": "Nhắm vào các cơn đau vai, cổ và lưng do tư thế sai kéo dài. Chuyên viên sử dụng áp lực ngón tay và kỹ thuật nhào nặn để xác định chính xác các huyệt đạo, giải phóng sâu các cơ căng thẳng và khai thông kinh lạc."
+    },
+    "oil_body": {
+      "name": "Massage Toàn Thân Tinh Dầu",
+      "description": "Kết hợp tinh dầu thơm với kỹ thuật chuyên nghiệp, dùng các động tác vuốt dài, uyển chuyển để thư giãn sâu các cơ, giải tỏa căng thẳng và áp lực, đồng thời nuôi dưỡng làn da — đưa cơ thể và tâm trí trở về trạng thái cân bằng."
     },
     "lymph": {
       "name": "Massage Dẫn Lưu Bạch Huyết",
@@ -52,11 +77,108 @@
       "description": "Kích thích kinh lạc trên bề mặt cơ thể để đào thải độc tố và nhiệt tích tụ. Giảm hiệu quả các triệu chứng cảm lạnh sớm, cứng cổ vai và say nắng, tăng cường sức đề kháng của cơ thể."
     }
   },
+  "serviceDetail": {
+    "common": {
+      "steps_title": "Quy Trình Liệu Trình",
+      "suitable_title": "Phù Hợp Với",
+      "notes_title": "Lưu Ý",
+      "others_title": "Liệu Trình Khác"
+    },
+    "foot": {
+      "steps": {
+        "1": "Ngâm chân nước ấm thư giãn trong khi chuyên viên tìm hiểu nhu cầu và tình trạng cơ thể của bạn",
+        "2": "Thoa kem massage, làm ấm dần từ mắt cá chân đến lòng bàn chân",
+        "3": "Dùng khớp ngón tay ấn sâu vào các vùng phản xạ để điều hòa chức năng toàn thân",
+        "4": "Khai thông kinh lạc bắp chân và kết thúc nhẹ nhàng với khăn nóng"
+      },
+      "suitable": {
+        "1": "Người đứng hoặc đi bộ nhiều giờ, chân dễ mỏi và phù nề",
+        "2": "Người ngủ không ngon giấc hoặc tay chân lạnh",
+        "3": "Cư dân thành thị bận rộn, áp lực cao, cần thư giãn sâu"
+      },
+      "notes": {
+        "1": "Không phù hợp với người có vết thương hở, giãn tĩnh mạch nặng hoặc bệnh da liễu ở chân",
+        "2": "Sau bữa ăn, vui lòng chờ khoảng một giờ trước khi massage"
+      },
+      "aftercare": "Sau liệu trình, hãy uống nhiều nước ấm để hỗ trợ trao đổi chất và tránh tắm nước lạnh trong tối hôm đó."
+    },
+    "body": {
+      "steps": {
+        "1": "Chuyên viên tìm hiểu vị trí đau nhức và mức độ lực bạn ưa thích",
+        "2": "Bắt đầu từ vai và cổ, từng bước giải phóng các cơ căng cứng",
+        "3": "Bấm huyệt sâu dọc lưng và thắt lưng để khai thông kinh lạc",
+        "4": "Kéo giãn toàn thân và kết thúc nhẹ nhàng, cân bằng thư giãn"
+      },
+      "suitable": {
+        "1": "Người làm việc văn phòng lâu dài, đau mỏi vai, cổ và lưng",
+        "2": "Người cơ bắp căng cứng sau vận động, cần giải phóng sâu",
+        "3": "Người thường xuyên mệt mỏi, cơ thể cứng nhắc"
+      },
+      "notes": {
+        "1": "Không phù hợp khi đang sốt, bong gân cấp tính hoặc loãng xương nặng",
+        "2": "Bạn có thể yêu cầu chuyên viên điều chỉnh lực bất cứ lúc nào"
+      },
+      "aftercare": "Sau liệu trình chuyên sâu, một số vùng có thể hơi ê nhẹ — đây là phản ứng bình thường. Hãy uống nước ấm và nghỉ ngơi đầy đủ."
+    },
+    "oil_body": {
+      "steps": {
+        "1": "Chọn loại tinh dầu phù hợp trong khi chuyên viên tìm hiểu nhu cầu thư giãn của bạn",
+        "2": "Tinh dầu được làm ấm và thoa bằng động tác vuốt dài để đánh thức các cơ vùng lưng",
+        "3": "Vuốt sâu, chậm rãi khắp toàn thân để giải phóng căng thẳng và mệt mỏi tích tụ",
+        "4": "Kết thúc nhẹ nhàng, nằm thư giãn vài phút để tinh dầu nuôi dưỡng làn da"
+      },
+      "suitable": {
+        "1": "Người áp lực cao, căng thẳng, cần thư giãn sâu",
+        "2": "Người da khô, yêu thích chăm sóc dịu nhẹ và nuôi dưỡng",
+        "3": "Người ưa chuộng động tác uyển chuyển hơn là lực ấn mạnh"
+      },
+      "notes": {
+        "1": "Vui lòng báo trước nếu bạn dị ứng với tinh dầu hoặc hương liệu",
+        "2": "Mẹ bầu vui lòng chọn liệu trình massage trước sinh chuyên biệt"
+      },
+      "aftercare": "Sau liệu trình, có thể để tinh dầu trên da để tiếp tục nuôi dưỡng — nên chờ vài giờ trước khi tắm."
+    },
+    "lymph": {
+      "steps": {
+        "1": "Chuyên viên đánh giá tình trạng cơ thể và các vùng phù nề",
+        "2": "Vuốt nhẹ nhàng, nhịp nhàng theo đường dẫn lưu bạch huyết",
+        "3": "Tập trung dẫn lưu để hướng dòng bạch huyết và đào thải chất chuyển hóa",
+        "4": "Kết thúc thư giãn toàn thân với khăn ấm dịu nhẹ"
+      },
+      "suitable": {
+        "1": "Người dễ phù nề do ngồi hoặc đứng lâu",
+        "2": "Người trao đổi chất chậm, muốn cải thiện thể trạng",
+        "3": "Người cần thư giãn dịu nhẹ, không thích lực ấn mạnh"
+      },
+      "notes": {
+        "1": "Không phù hợp khi nhiễm trùng cấp tính, sốt hoặc bệnh tim/thận nặng",
+        "2": "Sau liệu trình có thể cần đi vệ sinh thường xuyên hơn — đây là phản ứng chuyển hóa bình thường"
+      },
+      "aftercare": "Sau liệu trình, hãy uống nhiều nước ấm để hỗ trợ dẫn lưu bạch huyết và tăng cường hiệu quả."
+    },
+    "prenatal": {
+      "steps": {
+        "1": "Chuyên viên tìm hiểu số tuần thai và tình trạng cơ thể của bạn",
+        "2": "Tư thế nằm nghiêng an toàn, được nâng đỡ bằng gối mềm",
+        "3": "Nhẹ nhàng làm dịu áp lực thắt lưng, phù chân và chuột rút",
+        "4": "Kết thúc dịu nhẹ, hỗ trợ bạn từ từ ngồi dậy và nghỉ ngơi"
+      },
+      "suitable": {
+        "1": "Mẹ bầu qua tam cá nguyệt đầu tiên, bị đau lưng hoặc phù chân",
+        "2": "Mẹ bầu ngủ không ngon giấc hoặc dễ chuột rút về đêm",
+        "3": "Người mang thai cần thư giãn an toàn, dịu nhẹ"
+      },
+      "notes": {
+        "1": "Khuyến nghị thực hiện sau tam cá nguyệt đầu tiên; thai kỳ nguy cơ cao vui lòng hỏi ý kiến bác sĩ trước",
+        "2": "Nếu cảm thấy bất kỳ khó chịu nào trong liệu trình, vui lòng báo ngay cho chuyên viên"
+      },
+      "aftercare": "Sau liệu trình, hãy từ từ ngồi dậy và uống nước ấm. Nếu cảm thấy không khỏe, vui lòng hỏi ý kiến bác sĩ."
+    }
+  },
   "services": {
     "title": "Bảng Giá Dịch Vụ",
-    "subtitle": "Bảng giá",
+    "subtitle": "Giá cả minh bạch, lựa chọn an tâm",
     "currency": "$",
-    "min": "Phút",
     "minutes": "phút",
     "main_title": "Dịch Vụ Chính",
     "combo_title": "Gói Combo",
@@ -86,11 +208,16 @@
     }
   },
   "about": {
-    "title": "Giới Thiệu",
+    "title": "Liệu Trình Chuyên Nghiệp",
     "story_title": "Chuyên Gia Trị Liệu Chuyên Sâu Về Thư Giãn Sâu",
     "story_p1": "Lively Foot - 活力足 đã phục vụ tại Happy Valley hơn mười năm. Chúng tôi chỉ tập trung vào một điều duy nhất: mang đến cho bạn trải nghiệm massage sâu và hiệu quả nhất.",
     "story_p2": "Chúng tôi chuyên về massage chân kiểu Trung Hoa và massage toàn thân, với các chuyên viên dày dạn kinh nghiệm hơn mười năm. Bằng kỹ thuật độc quyền, chúng tôi tiếp cận sâu vào các điểm mệt mỏi của bạn, cải thiện hiệu quả đau lưng, cứng vai gáy và các vấn đề khác. Chúng tôi không chỉ thư giãn — mà còn giúp cơ thể bạn phục hồi sự cân bằng và sức khỏe.",
     "story_p3": "Không gian của chúng tôi sạch sẽ và thoải mái, mang đến cho bạn trải nghiệm an tâm nhất. Nếu bạn đang tìm kiếm dịch vụ massage chuyên nghiệp thực sự có thể giải quyết sự mệt mỏi cơ thể, Lively Foot - 活力足 là lựa chọn hàng đầu của bạn. Hãy gọi cho chúng tôi để đặt lịch hẹn.",
+    "treatments_title": "Sáu Liệu Trình Đặc Trưng",
+    "hygiene_title": "Cam Kết Chất Lượng & Vệ Sinh",
+    "hygiene_1": "Khăn và ga giường được thay mới cho từng khách, giặt và khử trùng ở nhiệt độ cao",
+    "hygiene_2": "Dụng cụ chăm sóc móng và cạo gió được khử trùng kỹ lưỡng sau mỗi lần sử dụng",
+    "hygiene_3": "Phòng được vệ sinh và thông gió định kỳ, giữ không gian trong lành, an tâm",
     "team_title": "Đội Ngũ Của Chúng Tôi",
     "environment_title": "Không Gian Của Chúng Tôi"
   },
@@ -176,7 +303,7 @@
       },
       "location": {
         "q": "Làm thế nào để đến địa điểm của bạn?",
-        "a": "Chúng tôi tọa lạc tại Tầng 5 & Gác lửng, King Cheung Mansion, Đường King Kwong, Happy Valley. Đi xe điện đến trạm cuối Happy Valley — chúng tôi cách đó khoảng 3 phút đi bộ."
+        "a": "Chúng tôi tọa lạc tại Tầng lửng (M/F), King Cheung Mansion, 5 Đường King Kwong, Happy Valley. Đi xe điện đến trạm cuối Happy Valley — chúng tôi cách đó khoảng 3 phút đi bộ."
       }
     }
   }

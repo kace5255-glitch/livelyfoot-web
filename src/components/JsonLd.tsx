@@ -1,17 +1,23 @@
+import { business } from '@/data/business';
+
 export function LocalBusinessJsonLd() {
   const data = {
     '@context': 'https://schema.org',
     '@type': 'HealthAndBeautyBusiness',
-    name: '活力足 LivelyFoot',
-    image: 'https://livelyfoot-hk.com/og-image.jpg',
-    url: 'https://livelyfoot-hk.com',
+    '@id': `${business.baseUrl}/#business`,
+    name: business.name,
+    image: `${business.baseUrl}/og-image.jpg`,
+    url: business.baseUrl,
     telephone: '+852-2803-2880',
-    priceRange: '$218-$760',
+    priceRange: 'HK$218-HK$760',
+    currenciesAccepted: 'HKD',
+    hasMap: business.links.map,
+    sameAs: [business.links.facebook, business.links.instagram],
     openingHoursSpecification: {
       '@type': 'OpeningHoursSpecification',
       dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
-      opens: '10:00',
-      closes: '23:59',
+      opens: business.hours.opens,
+      closes: business.hours.closes,
     },
     address: {
       '@type': 'PostalAddress',
@@ -22,8 +28,8 @@ export function LocalBusinessJsonLd() {
     },
     geo: {
       '@type': 'GeoCoordinates',
-      latitude: 22.271,
-      longitude: 114.183,
+      latitude: business.geo.latitude,
+      longitude: business.geo.longitude,
     },
   };
 

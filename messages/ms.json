@@ -11,10 +11,16 @@
     "hero_title": "Bangkitkan Tubuh Anda Dari Dalam",
     "hero_subtitle": "Kami berharap dapat memberikan anda perkhidmatan urutan dan penjagaan yang paling profesional",
     "hero_cta": "Lihat Perkhidmatan",
+    "hero_book": "Hubungi Kami untuk Tempahan",
+    "hero_image_alt": "Rawatan urutan profesional di LivelyFoot",
+    "location_badge": "Happy Valley, Hong Kong",
     "about_badge": "Est. 2012",
     "about_title": "Over a Decade of Professional Experience",
+    "kicker_why": "Why Choose Us",
+    "kicker_pricing": "Pricing",
+    "kicker_faq": "FAQ",
     "features_title": "Why Choose Us",
-    "features_subtitle": "The features we offer to you.",
+    "features_subtitle": "Sedekad kemahiran tangan, untuk tubuh yang lebih ringan",
     "feature_experience": "10+ Years",
     "feature_experience_desc": "Serving Happy Valley for over a decade",
     "feature_team": "Expert Team",
@@ -24,7 +30,22 @@
     "feature_comfort": "Comfort",
     "feature_comfort_desc": "Clean, relaxing space",
     "treatments_title": "Rawatan Profesional",
-    "treatments_subtitle": "Temui pelan penjagaan yang sesuai untuk anda — pulihkan tenaga dari dalam."
+    "treatments_subtitle": "Temui pelan penjagaan yang sesuai untuk anda — pulihkan tenaga dari dalam.",
+    "cta_title": "Malam Ini, Biarkan Tubuh Anda Berehat Dahulu",
+    "cta_desc": "Dibuka setiap hari sehingga tengah malam. Selepas hari yang meletihkan, serahkan kepada terapis kanan kami. Tempah melalui WhatsApp atau telefon."
+  },
+  "cta": {
+    "title": "Bersedia untuk Bersantai?",
+    "subtitle": "Tempah waktu pilihan anda melalui WhatsApp atau telefon",
+    "whatsapp": "Tempah di WhatsApp",
+    "call": "Hubungi untuk Tempahan",
+    "book_now": "Tempah Sekarang",
+    "wa_generic": "Hai, saya ingin menempah urutan. Adakah slot tersedia hari ini?",
+    "wa_service": "Hai, saya ingin menempah {service}. Adakah slot tersedia hari ini?"
+  },
+  "openStatus": {
+    "open_now": "Dibuka sekarang · sehingga 12:00 tengah malam",
+    "closed_now": "Ditutup · dibuka pada 10:00 pagi"
   },
   "treatments": {
     "foot_reflex": {
@@ -34,6 +55,10 @@
     "body_acupoint": {
       "name": "Akupresur Seluruh Badan",
       "description": "Menyasarkan kesakitan bahu, leher, dan belakang yang disebabkan oleh postur buruk yang berpanjangan. Terapis menggunakan tekanan jari dan teknik menguli untuk mengesan titik akupunktur dengan tepat, melegakan otot tegang secara mendalam dan melancarkan meridian."
+    },
+    "oil_body": {
+      "name": "Urutan Aromaterapi Seluruh Badan",
+      "description": "Menggabungkan minyak pati aromaterapi dengan teknik profesional, menggunakan urutan panjang yang lembut dan mengalir untuk merehatkan otot secara mendalam, melegakan tekanan dan ketegangan, sambil menyuburkan kulit — memulihkan keseimbangan tubuh dan minda."
     },
     "lymph": {
       "name": "Urutan Saliran Limfa",
@@ -52,11 +77,108 @@
       "description": "Merangsang meridian pada permukaan badan untuk mengeluarkan toksin dan haba terkumpul. Berkesan melegakan gejala awal selsema, kekakuan leher dan bahu, dan strok haba, meningkatkan daya tahan badan."
     }
   },
+  "serviceDetail": {
+    "common": {
+      "steps_title": "Perjalanan Rawatan",
+      "suitable_title": "Sesuai Untuk",
+      "notes_title": "Perhatian",
+      "others_title": "Rawatan Lain"
+    },
+    "foot": {
+      "steps": {
+        "1": "Rendaman kaki air suam untuk berehat, sementara terapis memahami keadaan dan keperluan anda",
+        "2": "Krim urut disapu, memanaskan badan dari buku lali hingga tapak kaki",
+        "3": "Tekanan buku jari yang mendalam pada zon refleks untuk mengimbangi fungsi tubuh",
+        "4": "Melancarkan meridian betis dan sentuhan akhir dengan tuala panas"
+      },
+      "suitable": {
+        "1": "Mereka yang berdiri atau berjalan lama, dengan kaki letih dan bengkak",
+        "2": "Mereka yang kualiti tidurnya kurang baik atau tangan dan kaki sejuk",
+        "3": "Penduduk bandar yang sibuk dan tertekan, memerlukan relaksasi mendalam"
+      },
+      "notes": {
+        "1": "Tidak sesuai bagi mereka yang mempunyai luka terbuka, urat varikos teruk, atau masalah kulit pada kaki",
+        "2": "Sila tunggu kira-kira sejam selepas makan sebelum urutan"
+      },
+      "aftercare": "Minum banyak air suam selepas urutan untuk membantu metabolisme, dan elakkan mandi air sejuk pada malam itu."
+    },
+    "body": {
+      "steps": {
+        "1": "Terapis memahami titik kesakitan dan pilihan tekanan anda",
+        "2": "Bermula dari bahu dan leher, melegakan otot tegang secara beransur-ansur",
+        "3": "Akupresur mendalam di sepanjang belakang dan pinggang untuk melancarkan meridian",
+        "4": "Regangan seluruh badan dan pengakhiran lembut untuk mengembalikan keseimbangan"
+      },
+      "suitable": {
+        "1": "Pekerja pejabat dengan sakit bahu, leher, dan belakang",
+        "2": "Mereka yang ototnya tegang selepas bersenam dan memerlukan pelepasan mendalam",
+        "3": "Sesiapa yang kerap keletihan atau badan kaku"
+      },
+      "notes": {
+        "1": "Tidak sesuai semasa demam, terseliuh akut, atau osteoporosis teruk",
+        "2": "Anda boleh meminta terapis melaraskan tekanan pada bila-bila masa"
+      },
+      "aftercare": "Rasa lenguh ringan di sesetengah bahagian adalah normal selepas urutan mendalam — minum air suam dan berehat secukupnya."
+    },
+    "oil_body": {
+      "steps": {
+        "1": "Pilih minyak urut anda, sementara terapis memahami keperluan anda",
+        "2": "Minyak yang disuamkan disapu dengan urutan panjang untuk membangkitkan otot belakang",
+        "3": "Urutan seluruh badan yang perlahan dan mendalam untuk melepaskan tekanan dan keletihan terkumpul",
+        "4": "Pengakhiran lembut, kemudian beberapa minit tenang sementara minyak menyuburkan kulit anda"
+      },
+      "suitable": {
+        "1": "Mereka yang tertekan dan tegang, memerlukan relaksasi mendalam",
+        "2": "Mereka yang berkulit kering dan menyukai penjagaan lembut yang menyuburkan",
+        "3": "Sesiapa yang lebih menyukai urutan mengalir berbanding tekanan kuat"
+      },
+      "notes": {
+        "1": "Sila maklumkan terlebih dahulu jika anda alah kepada minyak atau haruman",
+        "2": "Ibu mengandung disarankan memilih urutan pranatal khas kami"
+      },
+      "aftercare": "Minyak boleh dibiarkan untuk terus menyuburkan kulit anda — kami cadangkan menunggu beberapa jam sebelum mandi."
+    },
+    "lymph": {
+      "steps": {
+        "1": "Terapis menilai keadaan anda dan bahagian yang bengkak",
+        "2": "Urutan lembut dan berirama mengikut laluan limfa",
+        "3": "Saliran fokus untuk mengarahkan aliran limfa dan menyingkirkan sisa metabolik",
+        "4": "Pengakhiran yang menenangkan dengan tuala suam"
+      },
+      "suitable": {
+        "1": "Mereka yang mudah bengkak akibat duduk atau berdiri sepanjang hari",
+        "2": "Mereka yang metabolismenya perlahan dan ingin memperbaiki keadaan badan",
+        "3": "Sesiapa yang lebih menyukai sentuhan lembut berbanding tekanan kuat"
+      },
+      "notes": {
+        "1": "Tidak sesuai semasa jangkitan akut, demam, atau masalah jantung/buah pinggang yang teruk",
+        "2": "Kerap ke tandas selepas rawatan adalah tindak balas metabolik yang normal"
+      },
+      "aftercare": "Minum banyak air suam selepas rawatan untuk menyokong saliran limfa dan meningkatkan keberkesanan."
+    },
+    "prenatal": {
+      "steps": {
+        "1": "Terapis memahami peringkat kehamilan dan keadaan anda",
+        "2": "Posisi mengiring yang selamat, disokong dengan kusyen lembut",
+        "3": "Kelegaan lembut untuk tekanan lumbar, bengkak kaki, dan kekejangan otot",
+        "4": "Pengakhiran lembut, dengan bantuan bangun perlahan-lahan dan berehat"
+      },
+      "suitable": {
+        "1": "Ibu mengandung yang telah melepasi trimester pertama, dengan sakit belakang atau kaki bengkak",
+        "2": "Mereka yang kurang tidur atau kerap kejang kaki pada waktu malam",
+        "3": "Sesiapa dalam tempoh kehamilan yang memerlukan relaksasi selamat dan lembut"
+      },
+      "notes": {
+        "1": "Disarankan selepas trimester pertama; rujuk doktor anda terlebih dahulu bagi kehamilan berisiko tinggi",
+        "2": "Sila maklumkan terapis dengan segera jika anda berasa tidak selesa"
+      },
+      "aftercare": "Bangun perlahan-lahan selepas rawatan dan minum air suam. Rujuk doktor anda jika berasa tidak sihat."
+    }
+  },
   "services": {
     "title": "Senarai Harga Perkhidmatan",
-    "subtitle": "Harga",
+    "subtitle": "Harga telus, tempah dengan yakin",
     "currency": "$",
-    "min": "Min",
     "minutes": "minit",
     "main_title": "Perkhidmatan Utama",
     "combo_title": "Pakej Kombo",
@@ -86,11 +208,16 @@
     }
   },
   "about": {
-    "title": "Tentang Kami",
+    "title": "Rawatan Profesional Kami",
     "story_title": "Pakar Penyembuhan yang Mengkhusus dalam Relaksasi Mendalam",
     "story_p1": "Lively Foot - 活力足 telah berkhidmat di Happy Valley selama lebih sepuluh tahun. Kami hanya fokus pada satu perkara: memberikan anda pengalaman urutan yang paling mendalam dan berkesan.",
     "story_p2": "Kami pakar dalam urutan kaki Cina dan urutan seluruh badan, dengan tukang urut berpengalaman lebih sepuluh tahun. Dengan teknik eksklusif, kami mencapai titik keletihan anda secara mendalam, memperbaiki sakit pinggang, kekakuan bahu dan leher serta masalah lain dengan berkesan. Kami bukan sekadar merehatkan — kami membantu badan anda memulihkan keseimbangan dan kesihatan.",
     "story_p3": "Ruang kami bersih dan selesa, memberikan anda pengalaman yang paling menenangkan. Jika anda mencari urutan profesional yang benar-benar dapat mengatasi keletihan badan, Lively Foot - 活力足 adalah pilihan pertama anda. Hubungi kami untuk membuat temu janji.",
+    "treatments_title": "Enam Rawatan Istimewa Kami",
+    "hygiene_title": "Komitmen Kualiti & Kebersihan",
+    "hygiene_1": "Tuala dan cadar ditukar untuk setiap tetamu, dicuci dan disanitasi pada suhu tinggi",
+    "hygiene_2": "Alat penjagaan kuku dan gua sha dinyahkuman sepenuhnya selepas setiap penggunaan",
+    "hygiene_3": "Bilik dibersihkan dan diudarakan secara berkala untuk persekitaran yang segar dan menenangkan",
     "team_title": "Pasukan Kami",
     "environment_title": "Ruang Kami"
   },
@@ -176,7 +303,7 @@
       },
       "location": {
         "q": "Bagaimana untuk ke lokasi anda?",
-        "a": "Kami terletak di 5/F & Cockloft, King Cheung Mansion, King Kwong Street, Happy Valley. Naik trem ke terminal Happy Valley — kami kira-kira 3 minit berjalan kaki dari situ."
+        "a": "Kami terletak di Tingkat Mezanin (M/F), King Cheung Mansion, 5 King Kwong Street, Happy Valley. Naik trem ke terminal Happy Valley — kami kira-kira 3 minit berjalan kaki dari situ."
       }
     }
   }

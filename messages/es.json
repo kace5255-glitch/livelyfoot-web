@@ -11,10 +11,16 @@
     "hero_title": "Despierta tu cuerpo desde dentro",
     "hero_subtitle": "Esperamos ofrecerle los servicios de masaje y cuidado más profesionales",
     "hero_cta": "Ver servicios",
+    "hero_book": "Contáctenos para reservar",
+    "hero_image_alt": "Tratamiento de masaje profesional en LivelyFoot",
+    "location_badge": "Happy Valley, Hong Kong",
     "about_badge": "Est. 2012",
     "about_title": "Over a Decade of Professional Experience",
+    "kicker_why": "Why Choose Us",
+    "kicker_pricing": "Pricing",
+    "kicker_faq": "FAQ",
     "features_title": "Why Choose Us",
-    "features_subtitle": "The features we offer to you.",
+    "features_subtitle": "Una década de oficio, para un cuerpo más ligero",
     "feature_experience": "10+ Years",
     "feature_experience_desc": "Serving Happy Valley for over a decade",
     "feature_team": "Expert Team",
@@ -24,7 +30,22 @@
     "feature_comfort": "Comfort",
     "feature_comfort_desc": "Clean, relaxing space",
     "treatments_title": "Tratamientos profesionales",
-    "treatments_subtitle": "Descubre el plan de cuidado que mejor se adapta a ti — rejuvenece desde el interior."
+    "treatments_subtitle": "Descubre el plan de cuidado que mejor se adapta a ti — rejuvenece desde el interior.",
+    "cta_title": "Esta noche, deje que su cuerpo termine la jornada primero",
+    "cta_desc": "Abierto todos los días hasta la medianoche. Tras un largo día, déjese en manos de nuestros terapeutas expertos. Reserve por WhatsApp o por teléfono."
+  },
+  "cta": {
+    "title": "¿Listo para relajarse?",
+    "subtitle": "Reserve su horario preferido por WhatsApp o por teléfono",
+    "whatsapp": "Reservar por WhatsApp",
+    "call": "Llamar para reservar",
+    "book_now": "Reservar ahora",
+    "wa_generic": "Hola, me gustaría reservar un masaje. ¿Hay disponibilidad hoy?",
+    "wa_service": "Hola, me gustaría reservar un {service}. ¿Hay disponibilidad hoy?"
+  },
+  "openStatus": {
+    "open_now": "Abierto ahora · hasta las 12:00 de la medianoche",
+    "closed_now": "Cerrado · abrimos a las 10:00 AM"
   },
   "treatments": {
     "foot_reflex": {
@@ -34,6 +55,10 @@
     "body_acupoint": {
       "name": "Acupresión corporal completa",
       "description": "Dirigido al dolor de hombros, cuello y espalda causado por malas posturas prolongadas. Los terapeutas utilizan presión digital y técnicas de amasamiento para localizar con precisión los puntos de acupuntura, liberando profundamente los músculos tensos y desbloqueando los meridianos."
+    },
+    "oil_body": {
+      "name": "Masaje corporal con aceites esenciales",
+      "description": "Combina aceites esenciales de aromaterapia con técnicas profesionales: maniobras largas y fluidas que relajan profundamente los músculos, alivian el estrés y la tensión, y nutren la piel — devolviendo el equilibrio a cuerpo y mente."
     },
     "lymph": {
       "name": "Masaje de drenaje linfático",
@@ -52,11 +77,108 @@
       "description": "Estimula los meridianos en la superficie corporal para expulsar toxinas y calor acumulados. Alivia eficazmente los síntomas iniciales del resfriado, la rigidez de cuello y hombros y la insolación, reforzando la resistencia del organismo."
     }
   },
+  "serviceDetail": {
+    "common": {
+      "steps_title": "Cómo es la sesión",
+      "suitable_title": "Ideal para",
+      "notes_title": "A tener en cuenta",
+      "others_title": "Otros tratamientos"
+    },
+    "foot": {
+      "steps": {
+        "1": "Baño de pies con agua tibia mientras su terapeuta conoce sus necesidades",
+        "2": "Aplicación de crema de masaje, calentando desde los tobillos hasta las plantas",
+        "3": "Presión profunda con los nudillos sobre las zonas reflejas para regular las funciones del cuerpo",
+        "4": "Liberación de los meridianos de las pantorrillas y toques finales con toalla caliente"
+      },
+      "suitable": {
+        "1": "Quienes pasan muchas horas de pie o caminando, con piernas cansadas e hinchadas",
+        "2": "Quienes duermen mal o tienen manos y pies fríos",
+        "3": "Urbanitas ocupados y estresados que necesitan una relajación profunda"
+      },
+      "notes": {
+        "1": "No recomendado si hay heridas abiertas, varices severas o afecciones cutáneas en los pies",
+        "2": "Le sugerimos esperar aproximadamente una hora después de comer antes del masaje"
+      },
+      "aftercare": "Beba abundante agua tibia después de la sesión para favorecer el metabolismo, y evite las duchas frías esa noche."
+    },
+    "body": {
+      "steps": {
+        "1": "Su terapeuta conoce sus puntos de dolor y su preferencia de presión",
+        "2": "Comenzando por hombros y cuello, liberando gradualmente los músculos tensos",
+        "3": "Acupresión profunda a lo largo de la espalda y la zona lumbar para desbloquear los meridianos",
+        "4": "Estiramientos de cuerpo completo y un cierre suave para reequilibrar"
+      },
+      "suitable": {
+        "1": "Trabajadores de oficina con dolor de hombros, cuello y espalda",
+        "2": "Quienes tienen los músculos tensos tras el ejercicio y necesitan una liberación profunda",
+        "3": "Cualquiera que sufra fatiga o rigidez frecuentes"
+      },
+      "notes": {
+        "1": "No recomendado en caso de fiebre, esguinces agudos u osteoporosis severa",
+        "2": "No dude en pedir a su terapeuta que ajuste la presión en cualquier momento"
+      },
+      "aftercare": "Es normal sentir molestias leves en algunas zonas tras un trabajo de tejido profundo — beba agua tibia y descanse bien."
+    },
+    "oil_body": {
+      "steps": {
+        "1": "Elija su aceite de masaje mientras su terapeuta conoce sus necesidades",
+        "2": "Aceite templado aplicado con maniobras largas para despertar los músculos de la espalda",
+        "3": "Maniobras lentas y profundas por todo el cuerpo para liberar el estrés y la fatiga acumulados",
+        "4": "Un cierre suave y unos minutos de calma mientras el aceite nutre su piel"
+      },
+      "suitable": {
+        "1": "Quienes viven bajo estrés y tensión y necesitan una relajación profunda",
+        "2": "Quienes tienen la piel seca y disfrutan de un cuidado suave y nutritivo",
+        "3": "Cualquiera que prefiera maniobras fluidas en lugar de presión intensa"
+      },
+      "notes": {
+        "1": "Infórmenos con antelación de cualquier alergia a aceites o fragancias",
+        "2": "Las futuras mamás deben elegir nuestro masaje prenatal específico"
+      },
+      "aftercare": "El aceite puede dejarse sobre la piel para seguir nutriéndola — le sugerimos esperar unas horas antes de ducharse."
+    },
+    "lymph": {
+      "steps": {
+        "1": "Su terapeuta evalúa su estado y las zonas con hinchazón",
+        "2": "Maniobras suaves y rítmicas siguiendo las vías linfáticas",
+        "3": "Drenaje focalizado para guiar el flujo linfático y eliminar los desechos metabólicos",
+        "4": "Un cierre relajante con toallas calientes"
+      },
+      "suitable": {
+        "1": "Quienes tienden a hincharse por pasar todo el día sentados o de pie",
+        "2": "Quienes tienen un metabolismo lento y desean mejorar su constitución",
+        "3": "Cualquiera que prefiera un toque suave en lugar de presión profunda"
+      },
+      "notes": {
+        "1": "No recomendado durante infecciones agudas, fiebre o afecciones cardíacas o renales severas",
+        "2": "Necesitar ir al baño con más frecuencia después de la sesión es una respuesta metabólica normal"
+      },
+      "aftercare": "Beba abundante agua tibia después de la sesión para favorecer el drenaje linfático y potenciar los resultados."
+    },
+    "prenatal": {
+      "steps": {
+        "1": "Su terapeuta conoce su etapa del embarazo y su estado",
+        "2": "Posición lateral segura con el apoyo de cojines suaves",
+        "3": "Alivio suave de la presión lumbar, la hinchazón de piernas y los calambres musculares",
+        "4": "Un cierre delicado, con ayuda para incorporarse lentamente y descansar"
+      },
+      "suitable": {
+        "1": "Futuras mamás que han superado el primer trimestre, con dolor de espalda o piernas hinchadas",
+        "2": "Quienes duermen mal o sufren calambres nocturnos en las piernas",
+        "3": "Cualquier persona embarazada que necesite una relajación segura y suave"
+      },
+      "notes": {
+        "1": "Recomendado a partir del segundo trimestre; en embarazos de riesgo, consulte primero a su médico",
+        "2": "Informe de inmediato a su terapeuta si siente cualquier molestia"
+      },
+      "aftercare": "Incorpórese lentamente después del tratamiento y beba agua tibia. Consulte a su médico si no se encuentra bien."
+    }
+  },
   "services": {
     "title": "Lista de precios",
-    "subtitle": "Tarifas",
+    "subtitle": "Precios transparentes, reserve con confianza",
     "currency": "$",
-    "min": "Min",
     "minutes": "min",
     "main_title": "Servicios principales",
     "combo_title": "Paquetes combinados",
@@ -86,11 +208,16 @@
     }
   },
   "about": {
-    "title": "Sobre nosotros",
+    "title": "Nuestros tratamientos",
     "story_title": "Expertos en sanación especializados en relajación profunda",
     "story_p1": "Lively Foot - 活力足 lleva más de diez años ofreciendo sus servicios en Happy Valley. Nos dedicamos exclusivamente a una cosa: brindarle la experiencia de masaje más profunda y efectiva.",
     "story_p2": "Somos especialistas en masaje chino de pies y masaje corporal completo, con maestros experimentados de más de diez años de trayectoria. Con técnicas exclusivas, alcanzamos en profundidad sus puntos de fatiga, mejorando eficazmente el dolor lumbar, la rigidez de hombros y cuello, entre otras molestias. No solo relajamos, sino que ayudamos a su cuerpo a recuperar el equilibrio y la salud.",
     "story_p3": "Nuestro espacio es limpio y confortable, para que disfrute de una experiencia con total tranquilidad. Si busca un masaje profesional que realmente resuelva la fatiga corporal, Lively Foot - 活力足 es su primera elección. Le invitamos a llamar para reservar.",
+    "treatments_title": "Seis tratamientos de autor",
+    "hygiene_title": "Compromiso de calidad e higiene",
+    "hygiene_1": "Toallas y ropa de cama renovadas para cada cliente, lavadas y desinfectadas a alta temperatura",
+    "hygiene_2": "Herramientas de cuidado de uñas y gua sha desinfectadas a fondo después de cada uso",
+    "hygiene_3": "Salas limpiadas y ventiladas con regularidad, para un ambiente fresco y con total tranquilidad",
     "team_title": "Nuestro equipo",
     "environment_title": "Nuestro espacio"
   },
@@ -176,7 +303,7 @@
       },
       "location": {
         "q": "¿Cómo llego a su local?",
-        "a": "Estamos ubicados en 5/F y entresuelo, King Cheung Mansion, King Kwong Street, Happy Valley. Tome el tranvía hasta la terminal de Happy Valley — estamos a unos 3 minutos a pie."
+        "a": "Estamos ubicados en M/F (entresuelo), King Cheung Mansion, 5 King Kwong Street, Happy Valley. Tome el tranvía hasta la terminal de Happy Valley — estamos a unos 3 minutos a pie."
       }
     }
   }

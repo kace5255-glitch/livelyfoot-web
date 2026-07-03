@@ -11,10 +11,16 @@
     "hero_title": "Bangkitkan Tubuh Anda dari Dalam",
     "hero_subtitle": "Kami siap memberikan layanan pijat dan perawatan paling profesional untuk Anda",
     "hero_cta": "Lihat Layanan",
+    "hero_book": "Hubungi Kami untuk Reservasi",
+    "hero_image_alt": "Perawatan pijat profesional di LivelyFoot",
+    "location_badge": "Happy Valley, Hong Kong",
     "about_badge": "Est. 2012",
     "about_title": "Over a Decade of Professional Experience",
+    "kicker_why": "Why Choose Us",
+    "kicker_pricing": "Pricing",
+    "kicker_faq": "FAQ",
     "features_title": "Why Choose Us",
-    "features_subtitle": "The features we offer to you.",
+    "features_subtitle": "Sepuluh tahun keahlian, demi tubuh Anda yang lebih ringan",
     "feature_experience": "10+ Years",
     "feature_experience_desc": "Serving Happy Valley for over a decade",
     "feature_team": "Expert Team",
@@ -24,7 +30,22 @@
     "feature_comfort": "Comfort",
     "feature_comfort_desc": "Clean, relaxing space",
     "treatments_title": "Perawatan Profesional",
-    "treatments_subtitle": "Temukan rencana perawatan yang cocok untuk Anda — pulihkan diri dari dalam ke luar."
+    "treatments_subtitle": "Temukan rencana perawatan yang cocok untuk Anda — pulihkan diri dari dalam ke luar.",
+    "cta_title": "Malam Ini, Biarkan Tubuh Anda Beristirahat Lebih Dulu",
+    "cta_desc": "Buka setiap hari hingga tengah malam. Setelah hari yang panjang, serahkan pada terapis senior kami. Reservasi melalui WhatsApp atau telepon."
+  },
+  "cta": {
+    "title": "Siap untuk Bersantai?",
+    "subtitle": "Reservasi waktu pilihan Anda melalui WhatsApp atau telepon",
+    "whatsapp": "Reservasi via WhatsApp",
+    "call": "Telepon untuk Reservasi",
+    "book_now": "Reservasi Sekarang",
+    "wa_generic": "Halo, saya ingin memesan sesi pijat. Apakah ada slot tersedia hari ini?",
+    "wa_service": "Halo, saya ingin memesan {service}. Apakah ada slot tersedia hari ini?"
+  },
+  "openStatus": {
+    "open_now": "Buka sekarang · hingga 00:00",
+    "closed_now": "Tutup · buka pukul 10:00 pagi"
   },
   "treatments": {
     "foot_reflex": {
@@ -34,6 +55,10 @@
     "body_acupoint": {
       "name": "Akupresur Seluruh Tubuh",
       "description": "Menargetkan nyeri bahu, leher, dan punggung akibat postur buruk yang berkepanjangan. Terapis menggunakan tekanan jari dan teknik pemijatan untuk menemukan titik akupresur secara tepat, melepaskan otot tegang secara mendalam dan melancarkan meridian."
+    },
+    "oil_body": {
+      "name": "Pijat Aromaterapi Seluruh Tubuh",
+      "description": "Memadukan minyak esensial dengan teknik profesional, menggunakan usapan panjang yang mengalir untuk merelaksasi otot secara mendalam, meredakan stres dan ketegangan, sekaligus menutrisi kulit — mengembalikan keseimbangan tubuh dan pikiran."
     },
     "lymph": {
       "name": "Pijat Drainase Limfatik",
@@ -52,11 +77,108 @@
       "description": "Merangsang meridian pada permukaan tubuh untuk mengeluarkan racun dan panas yang terakumulasi. Secara efektif meredakan gejala awal flu, kekakuan leher dan bahu, serta sengatan panas, meningkatkan daya tahan tubuh."
     }
   },
+  "serviceDetail": {
+    "common": {
+      "steps_title": "Alur Perawatan",
+      "suitable_title": "Cocok Untuk",
+      "notes_title": "Perlu Diperhatikan",
+      "others_title": "Perawatan Lainnya"
+    },
+    "foot": {
+      "steps": {
+        "1": "Rendam kaki dengan air hangat sambil terapis memahami kondisi dan kebutuhan Anda",
+        "2": "Krim pijat dioleskan, pemanasan bertahap dari pergelangan hingga telapak kaki",
+        "3": "Tekanan buku jari yang dalam pada zona refleks untuk menyelaraskan fungsi tubuh",
+        "4": "Pelepasan meridian betis dan sentuhan penutup dengan handuk hangat"
+      },
+      "suitable": {
+        "1": "Mereka yang lama berdiri atau berjalan, dengan kaki lelah dan bengkak",
+        "2": "Mereka yang kualitas tidurnya kurang baik atau tangan dan kakinya dingin",
+        "3": "Warga kota yang sibuk dan tertekan, yang membutuhkan relaksasi mendalam"
+      },
+      "notes": {
+        "1": "Tidak dianjurkan bagi yang memiliki luka terbuka, varises parah, atau kondisi kulit pada kaki",
+        "2": "Mohon beri jeda sekitar satu jam setelah makan sebelum sesi pijat"
+      },
+      "aftercare": "Perbanyak minum air hangat setelahnya untuk membantu metabolisme, dan hindari mandi air dingin pada malam itu."
+    },
+    "body": {
+      "steps": {
+        "1": "Terapis memahami titik nyeri dan preferensi tekanan Anda",
+        "2": "Dimulai dari bahu dan leher, otot yang tegang dilepaskan secara bertahap",
+        "3": "Akupresur mendalam di sepanjang punggung dan pinggang untuk melancarkan meridian",
+        "4": "Peregangan seluruh tubuh dan penutup yang lembut untuk mengembalikan keseimbangan"
+      },
+      "suitable": {
+        "1": "Pekerja kantoran dengan nyeri bahu, leher, dan punggung",
+        "2": "Mereka yang ototnya tegang setelah berolahraga dan membutuhkan pelepasan mendalam",
+        "3": "Siapa pun yang sering merasa lelah atau kaku"
+      },
+      "notes": {
+        "1": "Tidak dianjurkan saat demam, keseleo akut, atau osteoporosis berat",
+        "2": "Jangan ragu meminta terapis menyesuaikan tekanan kapan saja"
+      },
+      "aftercare": "Rasa pegal ringan di beberapa area adalah hal wajar setelah pijat mendalam — minumlah air hangat dan istirahat yang cukup."
+    },
+    "oil_body": {
+      "steps": {
+        "1": "Pilih minyak pijat Anda sambil terapis memahami kebutuhan Anda",
+        "2": "Minyak hangat diaplikasikan dengan usapan panjang untuk membangunkan otot punggung",
+        "3": "Usapan seluruh tubuh yang lambat dan dalam untuk melepaskan stres dan kelelahan yang menumpuk",
+        "4": "Penutup yang lembut, lalu beberapa menit berbaring tenang sementara minyak menutrisi kulit Anda"
+      },
+      "suitable": {
+        "1": "Mereka yang tertekan dan tegang, membutuhkan relaksasi mendalam",
+        "2": "Mereka yang berkulit kering dan menyukai perawatan lembut yang menutrisi",
+        "3": "Siapa pun yang lebih menyukai usapan mengalir daripada tekanan kuat"
+      },
+      "notes": {
+        "1": "Mohon beri tahu kami sebelumnya jika Anda alergi terhadap minyak atau wewangian",
+        "2": "Ibu hamil sebaiknya memilih pijat prenatal khusus kami"
+      },
+      "aftercare": "Minyak dapat dibiarkan menutrisi kulit Anda — kami sarankan menunggu beberapa jam sebelum mandi."
+    },
+    "lymph": {
+      "steps": {
+        "1": "Terapis menilai kondisi Anda dan area yang bengkak",
+        "2": "Usapan lembut dan berirama mengikuti jalur limfatik",
+        "3": "Drainase terfokus untuk mengarahkan aliran limfa dan membuang limbah metabolisme",
+        "4": "Penutup yang menenangkan dengan handuk hangat"
+      },
+      "suitable": {
+        "1": "Mereka yang mudah bengkak karena duduk atau berdiri seharian",
+        "2": "Mereka yang metabolismenya lambat dan ingin memperbaiki kondisi tubuh",
+        "3": "Siapa pun yang lebih menyukai sentuhan lembut daripada tekanan dalam"
+      },
+      "notes": {
+        "1": "Tidak dianjurkan saat infeksi akut, demam, atau kondisi jantung/ginjal yang berat",
+        "2": "Lebih sering buang air kecil setelahnya adalah respons metabolisme yang normal"
+      },
+      "aftercare": "Perbanyak minum air hangat setelahnya untuk mendukung drainase limfatik dan hasil yang lebih optimal."
+    },
+    "prenatal": {
+      "steps": {
+        "1": "Terapis memahami usia kehamilan dan kondisi Anda",
+        "2": "Posisi berbaring miring yang aman, ditopang bantal yang lembut",
+        "3": "Peredaan lembut untuk tekanan pinggang, kaki bengkak, dan kram otot",
+        "4": "Penutup yang lembut, dibantu bangun perlahan dan beristirahat"
+      },
+      "suitable": {
+        "1": "Ibu hamil yang telah melewati trimester pertama dengan nyeri pinggang atau kaki bengkak",
+        "2": "Mereka yang tidurnya kurang nyenyak atau sering kram kaki di malam hari",
+        "3": "Siapa pun dalam masa kehamilan yang membutuhkan relaksasi yang aman dan lembut"
+      },
+      "notes": {
+        "1": "Dianjurkan setelah trimester pertama; untuk kehamilan berisiko tinggi, konsultasikan dengan dokter terlebih dahulu",
+        "2": "Segera beri tahu terapis jika Anda merasakan ketidaknyamanan apa pun"
+      },
+      "aftercare": "Bangunlah perlahan setelah perawatan dan minumlah air hangat. Konsultasikan dengan dokter jika merasa tidak nyaman."
+    }
+  },
   "services": {
     "title": "Daftar Harga Layanan",
-    "subtitle": "Harga",
+    "subtitle": "Harga transparan, pilih dengan tenang",
     "currency": "$",
-    "min": "Menit",
     "minutes": "menit",
     "main_title": "Layanan Utama",
     "combo_title": "Paket Combo",
@@ -86,11 +208,16 @@
     }
   },
   "about": {
-    "title": "Tentang Kami",
+    "title": "Perawatan Profesional",
     "story_title": "Ahli Penyembuhan yang Berfokus pada Relaksasi Mendalam",
     "story_p1": "Lively Foot - 活力足 telah melayani Happy Valley selama lebih dari sepuluh tahun. Kami hanya berfokus pada satu hal: memberikan Anda pengalaman pijat yang paling mendalam dan efektif.",
     "story_p2": "Kami ahli dalam pijat kaki Tiongkok dan pijat seluruh tubuh, dengan terapis berpengalaman lebih dari sepuluh tahun. Dengan teknik eksklusif, kami menjangkau titik-titik kelelahan Anda secara mendalam, memperbaiki nyeri pinggang, kekakuan bahu dan leher, serta keluhan lainnya secara efektif. Kami bukan sekadar relaksasi — kami membantu tubuh Anda memulihkan keseimbangan dan kesehatannya.",
     "story_p3": "Ruangan kami bersih dan nyaman, memberikan Anda pengalaman yang paling menenangkan. Jika Anda mencari pijat profesional yang benar-benar dapat mengatasi kelelahan tubuh, Lively Foot - 活力足 adalah pilihan utama Anda. Hubungi kami untuk membuat janji.",
+    "treatments_title": "Enam Perawatan Andalan",
+    "hygiene_title": "Komitmen Kualitas & Kebersihan",
+    "hygiene_1": "Handuk dan linen diganti untuk setiap tamu, dicuci dan disterilkan dengan suhu tinggi",
+    "hygiene_2": "Alat perawatan kuku dan gua sha didisinfeksi menyeluruh setelah setiap penggunaan",
+    "hygiene_3": "Ruangan dibersihkan dan diventilasi secara berkala demi lingkungan yang segar dan nyaman",
     "team_title": "Tim Kami",
     "environment_title": "Ruang Kami"
   },
@@ -176,7 +303,7 @@
       },
       "location": {
         "q": "Bagaimana cara menuju lokasi Anda?",
-        "a": "Kami berlokasi di Lantai 5 & Loteng, King Cheung Mansion, Jalan King Kwong, Happy Valley. Naik trem ke terminal Happy Valley — kami sekitar 3 menit berjalan kaki dari sana."
+        "a": "Kami berlokasi di Lantai M (mezanin), King Cheung Mansion, 5 Jalan King Kwong, Happy Valley. Naik trem ke terminal Happy Valley — kami sekitar 3 menit berjalan kaki dari sana."
       }
     }
   }

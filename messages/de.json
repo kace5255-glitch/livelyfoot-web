@@ -11,10 +11,16 @@
     "hero_title": "Erwecken Sie Ihren Körper von innen",
     "hero_subtitle": "Wir freuen uns darauf, Ihnen die professionellsten Massage- und Pflegeleistungen zu bieten",
     "hero_cta": "Leistungen ansehen",
+    "hero_book": "Kontaktieren Sie uns für eine Buchung",
+    "hero_image_alt": "Professionelle Massagebehandlung bei LivelyFoot",
+    "location_badge": "Happy Valley, Hongkong",
     "about_badge": "Est. 2012",
     "about_title": "Over a Decade of Professional Experience",
+    "kicker_why": "Why Choose Us",
+    "kicker_pricing": "Pricing",
+    "kicker_faq": "FAQ",
     "features_title": "Why Choose Us",
-    "features_subtitle": "The features we offer to you.",
+    "features_subtitle": "Ein Jahrzehnt Handwerkskunst — für Ihre spürbare Leichtigkeit",
     "feature_experience": "10+ Years",
     "feature_experience_desc": "Serving Happy Valley for over a decade",
     "feature_team": "Expert Team",
@@ -24,7 +30,22 @@
     "feature_comfort": "Comfort",
     "feature_comfort_desc": "Clean, relaxing space",
     "treatments_title": "Professionelle Behandlungen",
-    "treatments_subtitle": "Entdecken Sie den Pflegeplan, der zu Ihnen passt — Erneuerung von innen heraus."
+    "treatments_subtitle": "Entdecken Sie den Pflegeplan, der zu Ihnen passt — Erneuerung von innen heraus.",
+    "cta_title": "Heute Abend darf Ihr Körper zuerst Feierabend machen",
+    "cta_desc": "Täglich bis Mitternacht geöffnet. Nach einem langen Tag legen Sie sich in die Hände unserer erfahrenen Therapeuten. Buchen Sie gerne per WhatsApp oder telefonisch."
+  },
+  "cta": {
+    "title": "Bereit, loszulassen?",
+    "subtitle": "Buchen Sie Ihre Wunschzeit per WhatsApp oder Telefon",
+    "whatsapp": "Per WhatsApp buchen",
+    "call": "Telefonisch buchen",
+    "book_now": "Jetzt buchen",
+    "wa_generic": "Hallo, ich möchte gerne eine Massage buchen. Haben Sie heute einen Termin frei?",
+    "wa_service": "Hallo, ich möchte gerne eine {service} buchen. Haben Sie heute einen Termin frei?"
+  },
+  "openStatus": {
+    "open_now": "Jetzt geöffnet · bis 00:00 Uhr",
+    "closed_now": "Geschlossen · öffnet um 10:00 Uhr"
   },
   "treatments": {
     "foot_reflex": {
@@ -34,6 +55,10 @@
     "body_acupoint": {
       "name": "Ganzkörper-Akupressur",
       "description": "Zielt auf Schulter-, Nacken- und Rückenschmerzen ab, die durch langanhaltende Fehlhaltungen verursacht werden. Therapeuten setzen Fingerdruck und Knettechniken ein, um Akupunkturpunkte präzise zu lokalisieren, verspannte Muskeln tief zu lösen und Meridiane freizugeben."
+    },
+    "oil_body": {
+      "name": "Aromaöl-Ganzkörpermassage",
+      "description": "Verbindet ätherische Öle mit professionellen Techniken: Lange, fließende Streichungen entspannen die Muskulatur in der Tiefe, lösen Stress und Anspannung und pflegen zugleich die Haut — für ein neues Gleichgewicht von Körper und Geist."
     },
     "lymph": {
       "name": "Lymphdrainage-Massage",
@@ -52,11 +77,108 @@
       "description": "Stimuliert die Meridiane auf der Körperoberfläche, um angesammelte Giftstoffe und Hitze auszuleiten. Lindert effektiv frühe Erkältungssymptome, Nacken- und Schultersteifheit sowie Hitzschlag und stärkt die Widerstandskraft des Körpers."
     }
   },
+  "serviceDetail": {
+    "common": {
+      "steps_title": "Ablauf der Behandlung",
+      "suitable_title": "Ideal für",
+      "notes_title": "Bitte beachten",
+      "others_title": "Weitere Behandlungen"
+    },
+    "foot": {
+      "steps": {
+        "1": "Entspannendes warmes Fußbad, während Ihr Therapeut Ihre Bedürfnisse kennenlernt",
+        "2": "Auftragen von Massagecreme, sanftes Aufwärmen von den Knöcheln bis zu den Fußsohlen",
+        "3": "Tiefer Fingerknöcheldruck auf die Reflexzonen zur Regulierung der Körperfunktionen",
+        "4": "Meridianausstreichung der Waden und ein warmes Handtuch zum Abschluss"
+      },
+      "suitable": {
+        "1": "Menschen, die lange stehen oder gehen und unter müden, geschwollenen Beinen leiden",
+        "2": "Menschen mit unruhigem Schlaf oder kalten Händen und Füßen",
+        "3": "Gestresste Stadtmenschen, die tiefe Entspannung suchen"
+      },
+      "notes": {
+        "1": "Nicht geeignet bei offenen Wunden, ausgeprägten Krampfadern oder Hauterkrankungen an den Füßen",
+        "2": "Bitte lassen Sie nach einer Mahlzeit etwa eine Stunde verstreichen"
+      },
+      "aftercare": "Trinken Sie danach reichlich warmes Wasser, um den Stoffwechsel zu unterstützen, und verzichten Sie am Abend auf kalte Duschen."
+    },
+    "body": {
+      "steps": {
+        "1": "Ihr Therapeut erfragt Ihre Schmerzpunkte und Ihre bevorzugte Druckstärke",
+        "2": "Beginn an Schultern und Nacken, schrittweises Lösen verspannter Muskeln",
+        "3": "Tiefe Akupressur entlang von Rücken und Taille zur Öffnung der Meridiane",
+        "4": "Ganzkörperdehnungen und ein sanfter Ausklang für neues Gleichgewicht"
+      },
+      "suitable": {
+        "1": "Schreibtischarbeitende mit Schulter-, Nacken- und Rückenschmerzen",
+        "2": "Menschen mit verspannten Muskeln nach dem Sport, die eine tiefe Lösung brauchen",
+        "3": "Alle, die häufig erschöpft oder steif sind"
+      },
+      "notes": {
+        "1": "Nicht geeignet bei Fieber, akuten Verstauchungen oder schwerer Osteoporose",
+        "2": "Bitten Sie Ihren Therapeuten jederzeit, die Druckstärke anzupassen"
+      },
+      "aftercare": "Ein leichtes Ziehen in einzelnen Bereichen ist nach der Tiefenmassage normal — trinken Sie warmes Wasser und gönnen Sie sich Ruhe."
+    },
+    "oil_body": {
+      "steps": {
+        "1": "Wählen Sie Ihr Massageöl, während Ihr Therapeut Ihre Wünsche kennenlernt",
+        "2": "Erwärmtes Öl wird mit langen Streichungen aufgetragen, um die Rückenmuskulatur zu wecken",
+        "3": "Langsame, tiefe Ganzkörperstreichungen lösen angestauten Stress und Müdigkeit",
+        "4": "Ein sanfter Ausklang und einige ruhige Minuten, in denen das Öl Ihre Haut pflegt"
+      },
+      "suitable": {
+        "1": "Menschen unter Stress und Anspannung, die tiefe Entspannung suchen",
+        "2": "Menschen mit trockener Haut, die sanfte, pflegende Anwendungen schätzen",
+        "3": "Alle, die fließende Streichungen kräftigem Druck vorziehen"
+      },
+      "notes": {
+        "1": "Bitte informieren Sie uns vorab über Allergien gegen Öle oder Duftstoffe",
+        "2": "Werdende Mütter wählen bitte unsere spezielle Pränatalmassage"
+      },
+      "aftercare": "Das Öl darf auf der Haut bleiben und weiter pflegen — wir empfehlen, mit dem Duschen einige Stunden zu warten."
+    },
+    "lymph": {
+      "steps": {
+        "1": "Ihr Therapeut beurteilt Ihren Zustand und die geschwollenen Bereiche",
+        "2": "Sanfte, rhythmische Streichungen entlang der Lymphbahnen",
+        "3": "Gezielte Drainage, um den Lymphfluss zu leiten und Stoffwechselabfälle abzutransportieren",
+        "4": "Entspannender Abschluss mit warmen Handtüchern"
+      },
+      "suitable": {
+        "1": "Menschen, die durch langes Sitzen oder Stehen zu Schwellungen neigen",
+        "2": "Menschen mit trägem Stoffwechsel, die ihre Konstitution verbessern möchten",
+        "3": "Alle, die eine sanfte Berührung starkem Druck vorziehen"
+      },
+      "notes": {
+        "1": "Nicht geeignet bei akuten Infektionen, Fieber oder schweren Herz-/Nierenerkrankungen",
+        "2": "Ein häufigerer Toilettengang danach ist eine normale Stoffwechselreaktion"
+      },
+      "aftercare": "Trinken Sie danach reichlich warmes Wasser, um die Lymphdrainage zu unterstützen und die Wirkung zu vertiefen."
+    },
+    "prenatal": {
+      "steps": {
+        "1": "Ihre Therapeutin erfragt Schwangerschaftswoche und Befinden",
+        "2": "Sichere Seitenlage, gestützt durch weiche Kissen",
+        "3": "Sanfte Linderung von Lendendruck, Beinschwellungen und Muskelkrämpfen",
+        "4": "Ein sanfter Ausklang mit Hilfe beim langsamen Aufstehen und Ausruhen"
+      },
+      "suitable": {
+        "1": "Werdende Mütter nach dem ersten Trimester mit Rückenschmerzen oder geschwollenen Beinen",
+        "2": "Werdende Mütter mit unruhigem Schlaf oder nächtlichen Wadenkrämpfen",
+        "3": "Alle Schwangeren, die sichere, sanfte Entspannung suchen"
+      },
+      "notes": {
+        "1": "Empfohlen ab dem zweiten Trimester; bei Risikoschwangerschaften bitte zuerst ärztlichen Rat einholen",
+        "2": "Bitte informieren Sie Ihre Therapeutin sofort, wenn Sie sich unwohl fühlen"
+      },
+      "aftercare": "Stehen Sie nach der Behandlung langsam auf und trinken Sie warmes Wasser. Bei Unwohlsein wenden Sie sich bitte an Ihren Arzt."
+    }
+  },
   "services": {
     "title": "Preisliste",
-    "subtitle": "Preise",
+    "subtitle": "Transparente Preise, sorgenfrei wählen",
     "currency": "$",
-    "min": "Min",
     "minutes": "Min",
     "main_title": "Hauptleistungen",
     "combo_title": "Kombi-Pakete",
@@ -86,11 +208,16 @@
     }
   },
   "about": {
-    "title": "Über uns",
+    "title": "Unsere Behandlungen",
     "story_title": "Heilungsexperten mit Fokus auf Tiefenentspannung",
     "story_p1": "Lively Foot - 活力足 ist seit über zehn Jahren in Happy Valley tätig. Wir konzentrieren uns ausschließlich auf eines: Ihnen das tiefgreifendste und wirksamste Massageerlebnis zu bieten.",
     "story_p2": "Wir sind spezialisiert auf chinesische Fußmassage und Ganzkörpermassage, durchgeführt von erfahrenen Meistern mit über zehn Jahren Berufserfahrung. Mit exklusiven Techniken erreichen wir Ihre Ermüdungspunkte in der Tiefe und verbessern wirksam Rückenschmerzen, Schulter- und Nackenverspannungen sowie weitere Beschwerden. Wir bieten nicht nur Entspannung, sondern helfen Ihrem Körper, sein Gleichgewicht und seine Gesundheit wiederzufinden.",
     "story_p3": "Unsere Räumlichkeiten sind sauber und komfortabel — für ein Erlebnis in völliger Geborgenheit. Wenn Sie eine professionelle Massage suchen, die Ihre körperliche Erschöpfung wirklich löst, ist Lively Foot - 活力足 Ihre erste Wahl. Rufen Sie uns gerne an, um einen Termin zu vereinbaren.",
+    "treatments_title": "Sechs Signature-Behandlungen",
+    "hygiene_title": "Unser Qualitäts- und Hygieneversprechen",
+    "hygiene_1": "Handtücher und Bettwäsche werden für jeden Gast frisch gewechselt und bei hohen Temperaturen gewaschen und desinfiziert",
+    "hygiene_2": "Nagelpflege- und Gua-Sha-Werkzeuge werden nach jedem Gebrauch gründlich desinfiziert",
+    "hygiene_3": "Die Räume werden regelmäßig gereinigt und gelüftet — für eine frische, unbeschwerte Atmosphäre",
     "team_title": "Unser Team",
     "environment_title": "Unsere Räumlichkeiten"
   },
@@ -176,7 +303,7 @@
       },
       "location": {
         "q": "Wie finde ich zu Ihnen?",
-        "a": "Wir befinden uns in der 5/F & Cockloft, King Cheung Mansion, King Kwong Street, Happy Valley. Nehmen Sie die Straßenbahn bis zur Endhaltestelle Happy Valley — wir sind etwa 3 Gehminuten entfernt."
+        "a": "Wir befinden uns im M/F (Mezzanin), King Cheung Mansion, 5 King Kwong Street, Happy Valley. Nehmen Sie die Straßenbahn bis zur Endhaltestelle Happy Valley — wir sind etwa 3 Gehminuten entfernt."
       }
     }
   }

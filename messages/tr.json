@@ -11,10 +11,16 @@
     "hero_title": "Bedeninizi İçten Uyandırın",
     "hero_subtitle": "Size en profesyonel masaj ve bakım hizmetlerini sunmayı dört gözle bekliyoruz",
     "hero_cta": "Hizmetleri Görüntüle",
+    "hero_book": "Rezervasyon İçin Bize Ulaşın",
+    "hero_image_alt": "LivelyFoot'ta profesyonel masaj uygulaması",
+    "location_badge": "Happy Valley, Hong Kong",
     "about_badge": "Est. 2012",
     "about_title": "Over a Decade of Professional Experience",
+    "kicker_why": "Neden Biz",
+    "kicker_pricing": "Fiyatlar",
+    "kicker_faq": "SSS",
     "features_title": "Why Choose Us",
-    "features_subtitle": "The features we offer to you.",
+    "features_subtitle": "On yıllık ustalık, daha hafif bir beden için",
     "feature_experience": "10+ Years",
     "feature_experience_desc": "Serving Happy Valley for over a decade",
     "feature_team": "Expert Team",
@@ -24,7 +30,22 @@
     "feature_comfort": "Comfort",
     "feature_comfort_desc": "Clean, relaxing space",
     "treatments_title": "Profesyonel Tedaviler",
-    "treatments_subtitle": "Size uygun bakım planını keşfedin — içten dışa yenilenin."
+    "treatments_subtitle": "Size uygun bakım planını keşfedin — içten dışa yenilenin.",
+    "cta_title": "Bu Akşam, Önce Bedeniniz Mesaiyi Bıraksın",
+    "cta_desc": "Her gün gece yarısına kadar açığız. Yoğun bir günün ardından kendinizi kıdemli terapistlerimize bırakın. WhatsApp veya telefonla rezervasyon yapabilirsiniz."
+  },
+  "cta": {
+    "title": "Rahatlamaya Hazır mısınız?",
+    "subtitle": "WhatsApp veya telefonla size uygun saati hemen ayırtın",
+    "whatsapp": "WhatsApp ile Rezervasyon",
+    "call": "Telefonla Rezervasyon",
+    "book_now": "Hemen Rezervasyon",
+    "wa_generic": "Merhaba, masaj için rezervasyon yaptırmak istiyorum. Bugün müsaitlik var mı?",
+    "wa_service": "Merhaba, {service} için rezervasyon yaptırmak istiyorum. Bugün müsaitlik var mı?"
+  },
+  "openStatus": {
+    "open_now": "Şu an açık · gece 12:00'ye kadar",
+    "closed_now": "Kapalı · sabah 10:00'da açılıyor"
   },
   "treatments": {
     "foot_reflex": {
@@ -34,6 +55,10 @@
     "body_acupoint": {
       "name": "Tüm Vücut Akupresür",
       "description": "Uzun süreli kötü duruştan kaynaklanan omuz, boyun ve sırt ağrılarını hedefler. Terapistler, akupunktur noktalarını hassas bir şekilde bulmak için parmak basıncı ve yoğurma teknikleri kullanarak gergin kasları derinlemesine gevşetir ve meridyenlerin tıkanıklığını açar."
+    },
+    "oil_body": {
+      "name": "Aromaterapi Tüm Vücut Masajı",
+      "description": "Uçucu yağları profesyonel tekniklerle birleştirir; uzun ve akıcı hareketlerle kasları derinlemesine gevşetir, stresi ve gerginliği hafifletir, aynı zamanda cildi besler — beden ve zihni yeniden dengeye kavuşturur."
     },
     "lymph": {
       "name": "Lenf Drenaj Masajı",
@@ -52,11 +77,108 @@
       "description": "Birikmiş toksinleri ve ısıyı atmak için vücut yüzeyindeki meridyenleri uyarır. Erken soğuk algınlığı belirtilerini, boyun ve omuz sertliğini ve sıcak çarpmasını etkili bir şekilde hafifletir, vücudun direncini artırır."
     }
   },
+  "serviceDetail": {
+    "common": {
+      "steps_title": "Seans Akışı",
+      "suitable_title": "Kimler İçin Uygun",
+      "notes_title": "Dikkat Edilmesi Gerekenler",
+      "others_title": "Diğer Tedaviler"
+    },
+    "foot": {
+      "steps": {
+        "1": "Ilık ayak banyosuyla rahatlarken terapistiniz ihtiyaçlarınızı öğrenir",
+        "2": "Masaj kremi uygulanır; ayak bileğinden tabana doğru yavaşça ısınılır",
+        "3": "Refleks bölgelerine parmak eklemleriyle derin baskı uygulanarak vücut fonksiyonları düzenlenir",
+        "4": "Baldır meridyenleri açılır ve sıcak havluyla seans tamamlanır"
+      },
+      "suitable": {
+        "1": "Uzun süre ayakta kalan veya yürüyen, bacakları yorgun ve şiş hissedenler",
+        "2": "Uyku kalitesi düşük olanlar veya elleri ve ayakları üşüyenler",
+        "3": "Yoğun tempoda çalışan ve derin rahatlamaya ihtiyaç duyan şehir insanları"
+      },
+      "notes": {
+        "1": "Ayaklarda açık yara, ileri derecede varis veya cilt rahatsızlığı olanlar için uygun değildir",
+        "2": "Yemeklerden sonra masaj için yaklaşık bir saat beklemenizi öneririz"
+      },
+      "aftercare": "Seans sonrasında metabolizmayı desteklemek için bol ılık su için ve o akşam soğuk duştan kaçının."
+    },
+    "body": {
+      "steps": {
+        "1": "Terapistiniz ağrı noktalarınızı ve baskı tercihinizi öğrenir",
+        "2": "Omuz ve boyundan başlanarak gergin kaslar kademeli olarak gevşetilir",
+        "3": "Sırt ve bel boyunca derin akupresürle meridyenler açılır",
+        "4": "Tüm vücut esnetmeleri ve yumuşak bir kapanışla denge yeniden sağlanır"
+      },
+      "suitable": {
+        "1": "Masa başında çalışan, omuz, boyun ve sırt ağrısı çekenler",
+        "2": "Egzersiz sonrası kasları gerginleşen ve derin gevşemeye ihtiyaç duyanlar",
+        "3": "Sık sık yorgunluk veya vücut sertliği hissedenler"
+      },
+      "notes": {
+        "1": "Ateş, akut burkulma veya ileri derecede kemik erimesi durumlarında uygun değildir",
+        "2": "Baskı şiddetini dilediğiniz an terapistinize söyleyerek ayarlatabilirsiniz"
+      },
+      "aftercare": "Derin doku çalışması sonrası bazı bölgelerde hafif hassasiyet normaldir — ılık su için ve iyi dinlenin."
+    },
+    "oil_body": {
+      "steps": {
+        "1": "Masaj yağınızı seçerken terapistiniz ihtiyaçlarınızı öğrenir",
+        "2": "Isıtılmış yağ uzun hareketlerle uygulanarak sırt kasları uyandırılır",
+        "3": "Yavaş ve derin tüm vücut hareketleriyle biriken stres ve yorgunluk atılır",
+        "4": "Yumuşak bir kapanışın ardından yağ cildinizi beslerken birkaç dakika dinlenirsiniz"
+      },
+      "suitable": {
+        "1": "Stres ve gerginlik yaşayan, derin rahatlamaya ihtiyaç duyanlar",
+        "2": "Cildi kuru olan ve nazik, besleyici bakımdan hoşlananlar",
+        "3": "Güçlü baskı yerine akıcı hareketleri tercih edenler"
+      },
+      "notes": {
+        "1": "Yağ veya koku alerjiniz varsa lütfen önceden bildirin",
+        "2": "Anne adayları bunun yerine özel doğum öncesi masajımızı tercih etmelidir"
+      },
+      "aftercare": "Yağ ciltte bırakılarak beslemeye devam edebilir — duş için birkaç saat beklemenizi öneririz."
+    },
+    "lymph": {
+      "steps": {
+        "1": "Terapistiniz genel durumunuzu ve şişlik bölgelerinizi değerlendirir",
+        "2": "Lenf yollarını izleyen nazik ve ritmik hareketler uygulanır",
+        "3": "Odaklı drenajla lenf akışı yönlendirilir ve metabolik atıklar temizlenir",
+        "4": "Sıcak havlularla rahatlatıcı bir kapanış yapılır"
+      },
+      "suitable": {
+        "1": "Gün boyu oturmak veya ayakta kalmaktan şişkinlik yaşayanlar",
+        "2": "Metabolizması yavaş olan ve bünyesini iyileştirmek isteyenler",
+        "3": "Derin baskı yerine nazik dokunuşu tercih edenler"
+      },
+      "notes": {
+        "1": "Akut enfeksiyon, ateş veya ciddi kalp/böbrek rahatsızlıkları durumunda uygun değildir",
+        "2": "Seans sonrasında tuvalete daha sık gitmek normal bir metabolik tepkidir"
+      },
+      "aftercare": "Seans sonrasında lenf drenajını desteklemek ve etkiyi artırmak için bol ılık su için."
+    },
+    "prenatal": {
+      "steps": {
+        "1": "Terapistiniz gebelik haftanızı ve genel durumunuzu öğrenir",
+        "2": "Yumuşak yastıklarla desteklenen güvenli yan yatış pozisyonu uygulanır",
+        "3": "Bel basıncı, bacak şişliği ve kas krampları nazikçe hafifletilir",
+        "4": "Yumuşak bir kapanışla yavaşça kalkmanıza ve dinlenmenize yardımcı olunur"
+      },
+      "suitable": {
+        "1": "İlk trimesteri geçmiş, bel ağrısı veya bacak şişliği yaşayan anne adayları",
+        "2": "Uyku kalitesi düşük olan veya geceleri bacak krampı yaşayanlar",
+        "3": "Gebelik döneminde güvenli ve nazik rahatlamaya ihtiyaç duyanlar"
+      },
+      "notes": {
+        "1": "İlk trimesterden sonra önerilir; riskli gebeliklerde önce doktorunuza danışın",
+        "2": "Herhangi bir rahatsızlık hissederseniz lütfen hemen terapistinize bildirin"
+      },
+      "aftercare": "Seans sonrasında yavaşça kalkın ve ılık su için. Kendinizi iyi hissetmezseniz doktorunuza danışın."
+    }
+  },
   "services": {
     "title": "Hizmet Fiyat Listesi",
-    "subtitle": "Fiyatlar",
+    "subtitle": "Şeffaf fiyatlar, gönül rahatlığıyla seçin",
     "currency": "$",
-    "min": "Dk",
     "minutes": "dk",
     "main_title": "Ana Hizmetler",
     "combo_title": "Kombo Paketler",
@@ -86,11 +208,16 @@
     }
   },
   "about": {
-    "title": "Hakkımızda",
+    "title": "Profesyonel Tedaviler",
     "story_title": "Derin Rahatlamaya Odaklanan İyileştirme Uzmanları",
     "story_p1": "Lively Foot - 活力足, Happy Valley'de on yılı aşkın süredir hizmet vermektedir. Yalnızca tek bir şeye odaklanıyoruz: size en derin ve en etkili masaj deneyimini sunmak.",
     "story_p2": "Çin ayak masajı ve tüm vücut masajında uzmanız; on yılı aşkın deneyime sahip kıdemli ustalarımız, özel teknikleriyle yorgunluk noktalarınıza derinlemesine ulaşır. Bel ağrısı, omuz ve boyun sertliği gibi sorunları etkili bir şekilde iyileştirir. Sadece rahatlama değil, vücudunuzun dengesini ve sağlığını yeniden kazanmasına yardımcı oluyoruz.",
     "story_p3": "Mekanımız temiz ve konforludur — tam bir huzur içinde deneyim yaşamanız için. Bedensel yorgunluğu gerçekten çözebilecek profesyonel bir masaj arıyorsanız, Lively Foot - 活力足 ilk tercihinizdir. Randevu için bizi aramaktan çekinmeyin.",
+    "treatments_title": "Altı İmza Tedavimiz",
+    "hygiene_title": "Kalite ve Hijyen Taahhüdümüz",
+    "hygiene_1": "Havlular ve çarşaflar her misafir için değiştirilir, yüksek sıcaklıkta yıkanıp dezenfekte edilir",
+    "hygiene_2": "Tırnak bakımı ve gua sha aletleri her kullanımdan sonra titizlikle dezenfekte edilir",
+    "hygiene_3": "Odalar düzenli olarak temizlenir ve havalandırılır — ferah ve güvenli bir ortam için",
     "team_title": "Ekibimiz",
     "environment_title": "Mekanımız"
   },
@@ -176,7 +303,7 @@
       },
       "location": {
         "q": "Konumunuza nasıl ulaşabilirim?",
-        "a": "5/F & Cockloft, King Cheung Mansion, King Kwong Street, Happy Valley adresindeyiz. Happy Valley son durağına tramvayla gelin — yaklaşık 3 dakikalık yürüme mesafesindeyiz."
+        "a": "Asma Kat (M/F), King Cheung Mansion, 5 King Kwong Street, Happy Valley adresindeyiz. Happy Valley son durağına tramvayla gelin — yaklaşık 3 dakikalık yürüme mesafesindeyiz."
       }
     }
   }

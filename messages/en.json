@@ -11,10 +11,16 @@
     "hero_title": "Awaken Your Body From Within",
     "hero_subtitle": "We look forward to providing you with the most professional massage and care services",
     "hero_cta": "View Services",
+    "hero_book": "Contact Us to Book",
+    "hero_image_alt": "Professional massage treatment at LivelyFoot",
+    "location_badge": "Happy Valley, Hong Kong",
     "about_badge": "Est. 2012",
     "about_title": "Over a Decade of Professional Experience",
+    "kicker_why": "Why Choose Us",
+    "kicker_pricing": "Pricing",
+    "kicker_faq": "FAQ",
     "features_title": "Why Choose Us",
-    "features_subtitle": "The features we offer to you.",
+    "features_subtitle": "A decade of craft, for a lighter you",
     "feature_experience": "10+ Years",
     "feature_experience_desc": "Serving Happy Valley for over a decade",
     "feature_team": "Expert Team",
@@ -24,7 +30,22 @@
     "feature_comfort": "Comfort",
     "feature_comfort_desc": "Clean, relaxing space",
     "treatments_title": "Professional Treatments",
-    "treatments_subtitle": "Discover the care plan that suits you — rejuvenate from the inside out."
+    "treatments_subtitle": "Discover the care plan that suits you — rejuvenate from the inside out.",
+    "cta_title": "Tonight, Let Your Body Clock Off First",
+    "cta_desc": "Open daily until midnight. After a long day, leave it to our senior therapists. Book via WhatsApp or phone."
+  },
+  "cta": {
+    "title": "Ready to Unwind?",
+    "subtitle": "Book your preferred time via WhatsApp or phone",
+    "whatsapp": "Book on WhatsApp",
+    "call": "Call to Book",
+    "book_now": "Book Now",
+    "wa_generic": "Hi, I'd like to book a massage. Is there availability today?",
+    "wa_service": "Hi, I'd like to book a {service}. Is there availability today?"
+  },
+  "openStatus": {
+    "open_now": "Open now · until 12:00 MN",
+    "closed_now": "Closed · opens at 10:00 AM"
   },
   "treatments": {
     "foot_reflex": {
@@ -34,6 +55,10 @@
     "body_acupoint": {
       "name": "Full Body Acupressure",
       "description": "Targets shoulder, neck, and back pain caused by prolonged poor posture. Therapists use finger pressure and kneading techniques to precisely locate acupoints, deeply releasing tense muscles and unblocking meridians."
+    },
+    "oil_body": {
+      "name": "Aromatherapy Full Body Massage",
+      "description": "Combines essential oils with professional techniques, using long, flowing strokes to deeply relax muscles, relieve stress and tension, and nourish the skin — restoring balance to body and mind."
     },
     "lymph": {
       "name": "Lymphatic Drainage Massage",
@@ -52,11 +77,108 @@
       "description": "Stimulates meridians on the body surface to expel accumulated toxins and heat. Effectively relieves early cold symptoms, neck and shoulder stiffness, and heatstroke, boosting the body's resistance."
     }
   },
+  "serviceDetail": {
+    "common": {
+      "steps_title": "What to Expect",
+      "suitable_title": "Ideal For",
+      "notes_title": "Please Note",
+      "others_title": "Other Treatments"
+    },
+    "foot": {
+      "steps": {
+        "1": "Warm foot bath to relax while your therapist learns about your needs",
+        "2": "Massage cream applied, warming up from ankles to soles",
+        "3": "Deep knuckle pressure on reflex zones to regulate body functions",
+        "4": "Calf meridian release and finishing touches with a hot towel"
+      },
+      "suitable": {
+        "1": "Those who stand or walk for long hours with tired, swollen legs",
+        "2": "Those with poor sleep quality or cold hands and feet",
+        "3": "Busy urbanites under stress who need deep relaxation"
+      },
+      "notes": {
+        "1": "Not suitable for open wounds, severe varicose veins, or skin conditions on the feet",
+        "2": "Please allow about an hour after meals before your massage"
+      },
+      "aftercare": "Drink plenty of warm water afterwards to aid metabolism, and avoid cold showers that evening."
+    },
+    "body": {
+      "steps": {
+        "1": "Your therapist learns your pain points and pressure preference",
+        "2": "Starting from the shoulders and neck, gradually releasing tight muscles",
+        "3": "Deep acupressure along the back and waist to unblock meridians",
+        "4": "Full-body stretches and a gentle finish to rebalance"
+      },
+      "suitable": {
+        "1": "Desk workers with shoulder, neck, and back pain",
+        "2": "Those with tight muscles after exercise needing deep release",
+        "3": "Anyone frequently fatigued or stiff"
+      },
+      "notes": {
+        "1": "Not suitable during fever, acute sprains, or severe osteoporosis",
+        "2": "Feel free to ask your therapist to adjust the pressure at any time"
+      },
+      "aftercare": "Mild soreness in some areas is normal after deep tissue work — drink warm water and rest well."
+    },
+    "oil_body": {
+      "steps": {
+        "1": "Choose your massage oil while your therapist learns your needs",
+        "2": "Warmed oil applied with long strokes to awaken the back muscles",
+        "3": "Slow, deep full-body strokes to release accumulated stress and fatigue",
+        "4": "A gentle finish, then a few quiet minutes as the oil nourishes your skin"
+      },
+      "suitable": {
+        "1": "Those under stress and tension needing deep relaxation",
+        "2": "Those with dry skin who enjoy gentle, nourishing care",
+        "3": "Anyone who prefers flowing strokes over strong pressure"
+      },
+      "notes": {
+        "1": "Please let us know in advance of any oil or fragrance allergies",
+        "2": "Expectant mothers should choose our dedicated prenatal massage instead"
+      },
+      "aftercare": "The oil can be left on to keep nourishing your skin — we suggest waiting a few hours before showering."
+    },
+    "lymph": {
+      "steps": {
+        "1": "Your therapist assesses your condition and areas of swelling",
+        "2": "Gentle, rhythmic strokes following the lymphatic pathways",
+        "3": "Focused drainage to guide lymph flow and clear metabolic waste",
+        "4": "A relaxing finish with warm towels"
+      },
+      "suitable": {
+        "1": "Those prone to swelling from sitting or standing all day",
+        "2": "Those with sluggish metabolism looking to improve their constitution",
+        "3": "Anyone who prefers a gentle touch over deep pressure"
+      },
+      "notes": {
+        "1": "Not suitable during acute infections, fever, or severe heart/kidney conditions",
+        "2": "Needing the bathroom more often afterwards is a normal metabolic response"
+      },
+      "aftercare": "Drink plenty of warm water afterwards to support lymphatic drainage and enhance results."
+    },
+    "prenatal": {
+      "steps": {
+        "1": "Your therapist learns your stage of pregnancy and condition",
+        "2": "Safe side-lying position supported with soft cushions",
+        "3": "Gentle relief for lumbar pressure, leg swelling, and muscle cramps",
+        "4": "A soft finish, with help getting up slowly and resting"
+      },
+      "suitable": {
+        "1": "Mothers-to-be past the first trimester with back pain or swollen legs",
+        "2": "Those with poor sleep or night-time leg cramps",
+        "3": "Anyone in pregnancy needing safe, gentle relaxation"
+      },
+      "notes": {
+        "1": "Recommended after the first trimester; consult your doctor first for high-risk pregnancies",
+        "2": "Please tell your therapist immediately if you feel any discomfort"
+      },
+      "aftercare": "Rise slowly after your treatment and drink warm water. Consult your doctor if you feel unwell."
+    }
+  },
   "services": {
     "title": "Service Price List",
-    "subtitle": "Pricing",
+    "subtitle": "Transparent pricing, book with confidence",
     "currency": "$",
-    "min": "Min",
     "minutes": "min",
     "main_title": "Main Services",
     "combo_title": "Combo Packages",
@@ -86,11 +208,16 @@
     }
   },
   "about": {
-    "title": "About Us",
+    "title": "Our Treatments",
     "story_title": "Specialists in Deep Relaxation Therapy",
     "story_p1": "Lively Foot has been serving Happy Valley for over a decade, focused on one thing: delivering the most effective and deeply relaxing massage experience.",
     "story_p2": "We specialize in Chinese foot reflexology and full body massage, led by senior therapists with over ten years of experience. Our exclusive techniques reach deep into your fatigue points, effectively relieving lower back pain, shoulder and neck stiffness. We go beyond relaxation — we help your body restore balance and health.",
     "story_p3": "Our space is clean, comfortable, and designed for your peace of mind. If you're looking for professional massage that truly addresses body fatigue, Lively Foot is your first choice. Call us to book.",
+    "treatments_title": "Six Signature Treatments",
+    "hygiene_title": "Quality & Hygiene Commitment",
+    "hygiene_1": "Towels and linens changed for every guest, washed and sanitised at high temperature",
+    "hygiene_2": "Nail care and gua sha tools thoroughly disinfected after every use",
+    "hygiene_3": "Rooms cleaned and ventilated regularly for a fresh, worry-free environment",
     "team_title": "Our Team",
     "environment_title": "Our Space"
   },
@@ -176,7 +303,7 @@
       },
       "location": {
         "q": "How do I get to your location?",
-        "a": "We are located at 5/F & Cockloft, King Cheung Mansion, King Kwong Street, Happy Valley. Take the tram to Happy Valley terminus — we're about a 3-minute walk away."
+        "a": "We are located at M/F, King Cheung Mansion, 5 King Kwong Street, Happy Valley. Take the tram to Happy Valley terminus — we're about a 3-minute walk away."
       }
     }
   }

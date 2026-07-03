@@ -4,7 +4,7 @@ export type ServiceId = (typeof serviceIds)[number];
 export const serviceToTreatment: Record<ServiceId, string> = {
   foot: 'foot_reflex',
   body: 'body_acupoint',
-  oil_body: 'body_acupoint',
+  oil_body: 'oil_body',
   lymph: 'lymph',
   prenatal: 'prenatal',
 };

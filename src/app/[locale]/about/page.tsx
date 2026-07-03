@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
 import AboutPage from '@/components/AboutPage';
 import { BreadcrumbJsonLd } from '@/components/JsonLd';
+import { buildAlternates, buildOpenGraph } from '@/lib/seo';
 
 const BASE_URL = 'https://livelyfoot-hk.com';
 
@@ -12,11 +13,19 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'meta' });
+  const brand = (await getTranslations({ locale }))('brand');
 
   return {
     title: t('about_title'),
     description: t('about_desc'),
-    alternates: { canonical: `${BASE_URL}/${locale}/about` },
+    alternates: buildAlternates('/about', locale),
+    openGraph: buildOpenGraph({
+      title: t('about_title'),
+      description: t('about_desc'),
+      path: '/about',
+      locale,
+      siteName: brand,
+    }),
   };
 }
 

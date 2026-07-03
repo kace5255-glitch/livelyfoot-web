@@ -11,10 +11,16 @@
     "hero_title": "Éveillez votre corps de l'intérieur",
     "hero_subtitle": "Nous avons hâte de vous offrir les services de massage et de soins les plus professionnels",
     "hero_cta": "Voir les services",
+    "hero_book": "Contactez-nous pour réserver",
+    "hero_image_alt": "Soin de massage professionnel chez LivelyFoot",
+    "location_badge": "Happy Valley, Hong Kong",
     "about_badge": "Est. 2012",
     "about_title": "Over a Decade of Professional Experience",
+    "kicker_why": "Why Choose Us",
+    "kicker_pricing": "Pricing",
+    "kicker_faq": "FAQ",
     "features_title": "Why Choose Us",
-    "features_subtitle": "The features we offer to you.",
+    "features_subtitle": "Dix ans de savoir-faire, pour une légèreté retrouvée",
     "feature_experience": "10+ Years",
     "feature_experience_desc": "Serving Happy Valley for over a decade",
     "feature_team": "Expert Team",
@@ -24,7 +30,22 @@
     "feature_comfort": "Comfort",
     "feature_comfort_desc": "Clean, relaxing space",
     "treatments_title": "Soins professionnels",
-    "treatments_subtitle": "Découvrez le programme de soins qui vous convient — régénérez-vous de l'intérieur."
+    "treatments_subtitle": "Découvrez le programme de soins qui vous convient — régénérez-vous de l'intérieur.",
+    "cta_title": "Ce soir, laissez votre corps quitter le travail en premier",
+    "cta_desc": "Ouvert tous les jours jusqu'à minuit. Après une longue journée, confiez-vous à nos thérapeutes expérimentés. Réservez via WhatsApp ou par téléphone."
+  },
+  "cta": {
+    "title": "Prêt à vous détendre ?",
+    "subtitle": "Réservez votre créneau préféré via WhatsApp ou par téléphone",
+    "whatsapp": "Réserver sur WhatsApp",
+    "call": "Appeler pour réserver",
+    "book_now": "Réserver maintenant",
+    "wa_generic": "Bonjour, je souhaite réserver un massage. Avez-vous de la disponibilité aujourd'hui ?",
+    "wa_service": "Bonjour, je souhaite réserver un {service}. Avez-vous de la disponibilité aujourd'hui ?"
+  },
+  "openStatus": {
+    "open_now": "Ouvert · jusqu'à minuit",
+    "closed_now": "Fermé · ouverture à 10h00"
   },
   "treatments": {
     "foot_reflex": {
@@ -34,6 +55,10 @@
     "body_acupoint": {
       "name": "Acupression corporelle complète",
       "description": "Cible les douleurs aux épaules, au cou et au dos causées par une mauvaise posture prolongée. Les thérapeutes utilisent la pression digitale et les techniques de pétrissage pour localiser précisément les points d'acupuncture, libérant en profondeur les muscles tendus et débloquant les méridiens."
+    },
+    "oil_body": {
+      "name": "Massage corporel aux huiles essentielles",
+      "description": "Allie les huiles essentielles d'aromathérapie à des techniques professionnelles : de longs mouvements fluides détendent les muscles en profondeur, apaisent le stress et les tensions tout en nourrissant la peau — pour un corps et un esprit retrouvant leur équilibre."
     },
     "lymph": {
       "name": "Massage drainage lymphatique",
@@ -52,11 +77,108 @@
       "description": "Stimule les méridiens à la surface du corps pour expulser les toxines et la chaleur accumulées. Soulage efficacement les premiers symptômes du rhume, la raideur du cou et des épaules et les coups de chaleur, renforçant la résistance de l'organisme."
     }
   },
+  "serviceDetail": {
+    "common": {
+      "steps_title": "Déroulement du soin",
+      "suitable_title": "Idéal pour",
+      "notes_title": "À noter",
+      "others_title": "Autres soins"
+    },
+    "foot": {
+      "steps": {
+        "1": "Bain de pieds chaud pour vous détendre, pendant que votre thérapeute prend connaissance de vos besoins",
+        "2": "Application d'une crème de massage, échauffement progressif des chevilles jusqu'à la plante des pieds",
+        "3": "Pression profonde des phalanges sur les zones réflexes pour réguler les fonctions de l'organisme",
+        "4": "Libération des méridiens des mollets et finition avec une serviette chaude"
+      },
+      "suitable": {
+        "1": "Les personnes debout ou marchant de longues heures, aux jambes fatiguées et gonflées",
+        "2": "Les personnes au sommeil de mauvaise qualité ou aux extrémités froides",
+        "3": "Les citadins stressés en quête d'une relaxation profonde"
+      },
+      "notes": {
+        "1": "Déconseillé en cas de plaies ouvertes, de varices sévères ou d'affections cutanées des pieds",
+        "2": "Merci de prévoir environ une heure après le repas avant votre massage"
+      },
+      "aftercare": "Buvez beaucoup d'eau tiède après la séance pour favoriser le métabolisme, et évitez les douches froides le soir même."
+    },
+    "body": {
+      "steps": {
+        "1": "Votre thérapeute identifie vos zones douloureuses et votre préférence de pression",
+        "2": "En commençant par les épaules et la nuque, relâchement progressif des muscles tendus",
+        "3": "Acupression profonde le long du dos et des lombaires pour débloquer les méridiens",
+        "4": "Étirements du corps entier et finition en douceur pour rétablir l'équilibre"
+      },
+      "suitable": {
+        "1": "Les personnes travaillant assises, souffrant de douleurs aux épaules, à la nuque et au dos",
+        "2": "Les personnes aux muscles tendus après l'effort, ayant besoin d'un relâchement profond",
+        "3": "Toute personne fréquemment fatiguée ou raide"
+      },
+      "notes": {
+        "1": "Déconseillé en cas de fièvre, d'entorse aiguë ou d'ostéoporose sévère",
+        "2": "N'hésitez pas à demander à votre thérapeute d'ajuster la pression à tout moment"
+      },
+      "aftercare": "Une légère sensibilité dans certaines zones est normale après un travail en profondeur — buvez de l'eau tiède et reposez-vous bien."
+    },
+    "oil_body": {
+      "steps": {
+        "1": "Choisissez votre huile de massage pendant que votre thérapeute prend connaissance de vos besoins",
+        "2": "Application d'huile chauffée en longs mouvements pour éveiller les muscles du dos",
+        "3": "Mouvements lents et profonds sur tout le corps pour libérer le stress et la fatigue accumulés",
+        "4": "Finition en douceur, puis quelques minutes de calme pendant que l'huile nourrit votre peau"
+      },
+      "suitable": {
+        "1": "Les personnes stressées et tendues ayant besoin d'une relaxation profonde",
+        "2": "Les personnes à la peau sèche appréciant un soin doux et nourrissant",
+        "3": "Toute personne préférant des mouvements fluides à une pression forte"
+      },
+      "notes": {
+        "1": "Merci de nous signaler à l'avance toute allergie aux huiles ou aux parfums",
+        "2": "Les futures mamans sont invitées à choisir notre massage prénatal dédié"
+      },
+      "aftercare": "L'huile peut être laissée sur la peau pour continuer à la nourrir — nous conseillons d'attendre quelques heures avant de vous doucher."
+    },
+    "lymph": {
+      "steps": {
+        "1": "Votre thérapeute évalue votre condition et les zones de gonflement",
+        "2": "Mouvements doux et rythmés suivant les voies lymphatiques",
+        "3": "Drainage ciblé pour guider la circulation lymphatique et éliminer les déchets métaboliques",
+        "4": "Finition relaxante avec des serviettes chaudes"
+      },
+      "suitable": {
+        "1": "Les personnes sujettes aux gonflements dues à une position assise ou debout prolongée",
+        "2": "Les personnes au métabolisme lent souhaitant améliorer leur constitution",
+        "3": "Toute personne préférant un toucher doux à une pression profonde"
+      },
+      "notes": {
+        "1": "Déconseillé en cas d'infection aiguë, de fièvre ou d'affections cardiaques ou rénales sévères",
+        "2": "Un besoin plus fréquent d'aller aux toilettes après la séance est une réaction métabolique normale"
+      },
+      "aftercare": "Buvez beaucoup d'eau tiède après la séance pour soutenir le drainage lymphatique et renforcer les résultats."
+    },
+    "prenatal": {
+      "steps": {
+        "1": "Votre thérapeute prend connaissance de votre stade de grossesse et de votre condition",
+        "2": "Position latérale sécurisée, soutenue par des coussins moelleux",
+        "3": "Soulagement en douceur de la pression lombaire, des jambes gonflées et des crampes musculaires",
+        "4": "Finition tout en douceur, avec assistance pour vous relever lentement et vous reposer"
+      },
+      "suitable": {
+        "1": "Les futures mamans ayant passé le premier trimestre, souffrant de douleurs dorsales ou de jambes gonflées",
+        "2": "Les personnes au sommeil difficile ou sujettes aux crampes nocturnes",
+        "3": "Toute femme enceinte ayant besoin d'une relaxation sûre et douce"
+      },
+      "notes": {
+        "1": "Recommandé après le premier trimestre ; consultez d'abord votre médecin en cas de grossesse à risque",
+        "2": "Merci de signaler immédiatement tout inconfort à votre thérapeute"
+      },
+      "aftercare": "Relevez-vous lentement après votre soin et buvez de l'eau tiède. Consultez votre médecin en cas de malaise."
+    }
+  },
   "services": {
     "title": "Grille tarifaire",
-    "subtitle": "Tarifs",
+    "subtitle": "Des prix transparents, réservez en toute confiance",
     "currency": "$",
-    "min": "Min",
     "minutes": "min",
     "main_title": "Services principaux",
     "combo_title": "Forfaits combinés",
@@ -86,11 +208,16 @@
     }
   },
   "about": {
-    "title": "À propos de nous",
+    "title": "Nos soins",
     "story_title": "Experts en guérison spécialisés dans la relaxation profonde",
     "story_p1": "Lively Foot - 活力足 est au service de Happy Valley depuis plus de dix ans. Nous nous consacrons à une seule chose : vous offrir l'expérience de massage la plus profonde et la plus efficace.",
     "story_p2": "Nous sommes spécialisés dans le massage chinois des pieds et le massage corporel complet, avec des maîtres expérimentés de plus de dix ans de pratique. Grâce à des techniques exclusives, nous atteignons en profondeur vos points de fatigue, améliorant efficacement les douleurs lombaires, la raideur des épaules et du cou, entre autres inconforts. Nous ne nous contentons pas de détendre : nous aidons votre corps à retrouver son équilibre et sa santé.",
     "story_p3": "Notre espace est propre et confortable, pour une expérience en toute sérénité. Si vous recherchez un massage professionnel capable de véritablement soulager la fatigue corporelle, Lively Foot - 活力足 est votre premier choix. N'hésitez pas à nous appeler pour réserver.",
+    "treatments_title": "Six soins signature",
+    "hygiene_title": "Engagement qualité et hygiène",
+    "hygiene_1": "Serviettes et linges changés pour chaque client, lavés et désinfectés à haute température",
+    "hygiene_2": "Outils de soin des ongles et de gua sha soigneusement désinfectés après chaque utilisation",
+    "hygiene_3": "Salles nettoyées et aérées régulièrement pour un environnement frais et serein",
     "team_title": "Notre équipe",
     "environment_title": "Notre espace"
   },
@@ -176,7 +303,7 @@
       },
       "location": {
         "q": "Comment accéder à votre établissement ?",
-        "a": "Nous sommes situés au 5/F et mezzanine, King Cheung Mansion, King Kwong Street, Happy Valley. Prenez le tramway jusqu'au terminus de Happy Valley — nous sommes à environ 3 minutes à pied."
+        "a": "Nous sommes situés au M/F, King Cheung Mansion, 5 King Kwong Street, Happy Valley. Prenez le tramway jusqu'au terminus de Happy Valley — nous sommes à environ 3 minutes à pied."
       }
     }
   }

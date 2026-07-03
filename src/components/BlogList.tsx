@@ -14,10 +14,10 @@ export default function BlogList({ posts }: { posts: BlogPost[] }) {
   return (
     <div>
       {/* Hero */}
-      <div className="relative bg-gradient-to-b from-warm-brown-dark via-warm-brown to-warm-brown-light overflow-hidden">
+      <div className="relative bg-gradient-to-b from-spa-ink via-spa-bronze to-spa-olive overflow-hidden">
         <div className="absolute inset-0 overflow-hidden">
           <div className="absolute -top-20 -right-20 w-80 h-80 rounded-full bg-gold/10 blur-3xl" />
-          <div className="absolute bottom-0 left-1/4 w-96 h-96 rounded-full bg-warm-brown-light/20 blur-3xl" />
+          <div className="absolute bottom-0 left-1/4 w-96 h-96 rounded-full bg-spa-olive/20 blur-3xl" />
         </div>
         <div className="max-w-4xl mx-auto px-6 py-16 md:py-24 text-center relative">
           <span className="inline-block w-12 h-px bg-gold-light mb-6" />
@@ -33,7 +33,7 @@ export default function BlogList({ posts }: { posts: BlogPost[] }) {
       <div className="max-w-4xl mx-auto px-4 -mt-8 relative z-10 pb-16">
         {posts.length === 0 ? (
           <div className="bg-white rounded-3xl shadow-lg p-12 text-center">
-            <p className="text-warm-brown-dark/50">{t('empty')}</p>
+            <p className="text-spa-ink/60">{t('empty')}</p>
           </div>
         ) : (
           <div className="space-y-5">
@@ -41,24 +41,24 @@ export default function BlogList({ posts }: { posts: BlogPost[] }) {
               <Link
                 key={post.slug}
                 href={`/blog/${post.slug}`}
-                className="group block bg-white rounded-3xl shadow-sm border border-cream-dark/20 overflow-hidden hover:shadow-lg transition-all duration-300"
+                className="group block bg-white rounded-3xl shadow-sm border border-spa-sand/20 overflow-hidden hover:shadow-lg transition-all duration-300"
               >
                 <div className="flex flex-col md:flex-row">
                   {/* Left accent */}
-                  <div className={`md:w-2 shrink-0 h-1.5 md:h-auto ${i % 2 === 0 ? 'bg-gradient-to-b from-gold to-gold-light' : 'bg-gradient-to-b from-forest to-forest-light'}`} />
+                  <div className={`md:w-2 shrink-0 h-1.5 md:h-auto ${i % 2 === 0 ? 'bg-gradient-to-b from-gold to-gold-light' : 'bg-gradient-to-b from-spa-olive to-spa-sand'}`} />
 
                   <div className="flex-1 p-6 md:p-8">
-                    <div className="flex items-center gap-3 text-sm text-warm-brown-dark/45 mb-3">
+                    <div className="flex items-center gap-3 text-sm text-spa-ink/50 mb-3">
                       <time>{post.date}</time>
-                      <span className="w-1 h-1 rounded-full bg-warm-brown-dark/25" />
+                      <span className="w-1 h-1 rounded-full bg-spa-ink/25" />
                       <span>{t('read_time', { min: estimateReadingTime(post.content) })}</span>
                     </div>
 
-                    <h2 className="text-xl md:text-2xl font-serif font-bold text-warm-brown group-hover:text-warm-brown-dark transition-colors leading-snug">
+                    <h2 className="text-xl md:text-2xl font-serif font-bold text-spa-ink group-hover:text-gold transition-colors leading-snug">
                       {post.title}
                     </h2>
 
-                    <p className="mt-3 text-warm-brown-dark/55 text-sm leading-relaxed line-clamp-2">
+                    <p className="mt-3 text-spa-ink/60 text-sm leading-relaxed line-clamp-2">
                       {post.description}
                     </p>
 

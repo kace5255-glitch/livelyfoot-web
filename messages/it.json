@@ -11,10 +11,16 @@
     "hero_title": "Risveglia il Tuo Corpo dall'Interno",
     "hero_subtitle": "Non vediamo l'ora di offrirti i più professionali servizi di massaggio e cura",
     "hero_cta": "Vedi Servizi",
+    "hero_book": "Contattaci per Prenotare",
+    "hero_image_alt": "Trattamento di massaggio professionale da LivelyFoot",
+    "location_badge": "Happy Valley, Hong Kong",
     "about_badge": "Est. 2012",
     "about_title": "Over a Decade of Professional Experience",
+    "kicker_why": "Why Choose Us",
+    "kicker_pricing": "Pricing",
+    "kicker_faq": "FAQ",
     "features_title": "Why Choose Us",
-    "features_subtitle": "The features we offer to you.",
+    "features_subtitle": "Dieci anni di arte manuale, per un corpo più leggero",
     "feature_experience": "10+ Years",
     "feature_experience_desc": "Serving Happy Valley for over a decade",
     "feature_team": "Expert Team",
@@ -24,7 +30,22 @@
     "feature_comfort": "Comfort",
     "feature_comfort_desc": "Clean, relaxing space",
     "treatments_title": "Trattamenti Professionali",
-    "treatments_subtitle": "Scopri il piano di cura più adatto a te — ringiovanisci dall'interno."
+    "treatments_subtitle": "Scopri il piano di cura più adatto a te — ringiovanisci dall'interno.",
+    "cta_title": "Stasera, lascia che il tuo corpo stacchi per primo",
+    "cta_desc": "Aperti tutti i giorni fino a mezzanotte. Dopo una lunga giornata, affidati ai nostri terapisti esperti. Prenota via WhatsApp o telefono."
+  },
+  "cta": {
+    "title": "Pronto a rilassarti?",
+    "subtitle": "Prenota l'orario che preferisci via WhatsApp o telefono",
+    "whatsapp": "Prenota su WhatsApp",
+    "call": "Chiama per Prenotare",
+    "book_now": "Prenota Ora",
+    "wa_generic": "Salve, vorrei prenotare un massaggio. C'è disponibilità oggi?",
+    "wa_service": "Salve, vorrei prenotare un {service}. C'è disponibilità oggi?"
+  },
+  "openStatus": {
+    "open_now": "Aperto ora · fino alle 00:00",
+    "closed_now": "Chiuso · apre alle 10:00"
   },
   "treatments": {
     "foot_reflex": {
@@ -34,6 +55,10 @@
     "body_acupoint": {
       "name": "Digitopressione Corpo Intero",
       "description": "Mira ai dolori di spalle, collo e schiena causati da posture scorrette prolungate. I terapisti utilizzano pressione digitale e tecniche di impastamento per localizzare con precisione i punti di agopuntura, rilasciando in profondità i muscoli tesi e sbloccando i meridiani."
+    },
+    "oil_body": {
+      "name": "Massaggio Aromaterapico Corpo Intero",
+      "description": "Unisce oli essenziali e tecniche professionali, con movimenti lunghi e fluidi che rilassano in profondità i muscoli, alleviano stress e tensioni e nutrono la pelle — restituendo equilibrio a corpo e mente."
     },
     "lymph": {
       "name": "Massaggio Drenaggio Linfatico",
@@ -52,11 +77,108 @@
       "description": "Stimola i meridiani sulla superficie del corpo per espellere tossine e calore accumulati. Allevia efficacemente i primi sintomi del raffreddore, la rigidità di collo e spalle e i colpi di calore, rafforzando la resistenza dell'organismo."
     }
   },
+  "serviceDetail": {
+    "common": {
+      "steps_title": "Come si Svolge",
+      "suitable_title": "Ideale Per",
+      "notes_title": "Da Sapere",
+      "others_title": "Altri Trattamenti"
+    },
+    "foot": {
+      "steps": {
+        "1": "Pediluvio caldo rilassante mentre il terapista conosce le tue esigenze",
+        "2": "Applicazione della crema da massaggio, con riscaldamento graduale dalle caviglie alle piante dei piedi",
+        "3": "Pressione profonda con le nocche sulle zone riflesse per regolare le funzioni dell'organismo",
+        "4": "Distensione dei meridiani dei polpacci e tocchi finali con un asciugamano caldo"
+      },
+      "suitable": {
+        "1": "Chi sta in piedi o cammina a lungo, con gambe stanche e gonfie",
+        "2": "Chi soffre di sonno di scarsa qualità o ha mani e piedi freddi",
+        "3": "Chi vive sotto stress e ha bisogno di un rilassamento profondo"
+      },
+      "notes": {
+        "1": "Sconsigliato in presenza di ferite aperte, vene varicose gravi o affezioni cutanee ai piedi",
+        "2": "Ti consigliamo di attendere circa un'ora dopo i pasti prima del massaggio"
+      },
+      "aftercare": "Dopo il trattamento bevi molta acqua tiepida per favorire il metabolismo ed evita docce fredde la sera stessa."
+    },
+    "body": {
+      "steps": {
+        "1": "Il terapista individua i tuoi punti dolenti e la pressione che preferisci",
+        "2": "Si parte da spalle e collo, sciogliendo gradualmente i muscoli contratti",
+        "3": "Digitopressione profonda lungo schiena e zona lombare per sbloccare i meridiani",
+        "4": "Allungamenti su tutto il corpo e una chiusura delicata per ritrovare l'equilibrio"
+      },
+      "suitable": {
+        "1": "Chi lavora alla scrivania e soffre di dolori a spalle, collo e schiena",
+        "2": "Chi ha muscoli contratti dopo lo sport e cerca un rilascio profondo",
+        "3": "Chi si sente spesso affaticato o rigido"
+      },
+      "notes": {
+        "1": "Sconsigliato in caso di febbre, distorsioni acute o osteoporosi grave",
+        "2": "Puoi chiedere al terapista di regolare la pressione in qualsiasi momento"
+      },
+      "aftercare": "Un lieve indolenzimento in alcune zone è normale dopo un lavoro profondo — bevi acqua tiepida e riposa bene."
+    },
+    "oil_body": {
+      "steps": {
+        "1": "Scegli il tuo olio da massaggio mentre il terapista conosce le tue esigenze",
+        "2": "Olio riscaldato applicato con movimenti lunghi per risvegliare i muscoli della schiena",
+        "3": "Movimenti lenti e profondi su tutto il corpo per liberare stress e fatica accumulati",
+        "4": "Una chiusura delicata, poi qualche minuto di quiete mentre l'olio nutre la pelle"
+      },
+      "suitable": {
+        "1": "Chi vive sotto stress e tensione e cerca un rilassamento profondo",
+        "2": "Chi ha la pelle secca e ama una cura dolce e nutriente",
+        "3": "Chi preferisce movimenti fluidi a una pressione intensa"
+      },
+      "notes": {
+        "1": "Ti preghiamo di segnalarci in anticipo eventuali allergie a oli o fragranze",
+        "2": "Alle future mamme consigliamo il nostro massaggio prenatale dedicato"
+      },
+      "aftercare": "L'olio può restare sulla pelle per continuare a nutrirla — ti suggeriamo di attendere qualche ora prima di fare la doccia."
+    },
+    "lymph": {
+      "steps": {
+        "1": "Il terapista valuta le tue condizioni e le zone di gonfiore",
+        "2": "Movimenti dolci e ritmici lungo le vie linfatiche",
+        "3": "Drenaggio mirato per guidare il flusso linfatico ed eliminare le scorie metaboliche",
+        "4": "Una chiusura rilassante con asciugamani caldi"
+      },
+      "suitable": {
+        "1": "Chi tende a gonfiarsi stando seduto o in piedi tutto il giorno",
+        "2": "Chi ha un metabolismo lento e desidera migliorare la propria costituzione",
+        "3": "Chi preferisce un tocco delicato a una pressione profonda"
+      },
+      "notes": {
+        "1": "Sconsigliato in caso di infezioni acute, febbre o gravi patologie cardiache o renali",
+        "2": "Un maggiore bisogno di andare in bagno dopo il trattamento è una normale risposta metabolica"
+      },
+      "aftercare": "Dopo il trattamento bevi molta acqua tiepida per sostenere il drenaggio linfatico e potenziarne i benefici."
+    },
+    "prenatal": {
+      "steps": {
+        "1": "Il terapista si informa sulla fase della gravidanza e sulle tue condizioni",
+        "2": "Posizione laterale sicura, sostenuta da morbidi cuscini",
+        "3": "Sollievo delicato per la pressione lombare, il gonfiore alle gambe e i crampi muscolari",
+        "4": "Una chiusura dolce, con aiuto per rialzarti lentamente e riposare"
+      },
+      "suitable": {
+        "1": "Future mamme oltre il primo trimestre con mal di schiena o gambe gonfie",
+        "2": "Chi dorme male o soffre di crampi notturni alle gambe",
+        "3": "Chi in gravidanza cerca un rilassamento sicuro e delicato"
+      },
+      "notes": {
+        "1": "Consigliato dopo il primo trimestre; per gravidanze a rischio consulta prima il tuo medico",
+        "2": "Segnala subito al terapista qualsiasi disagio durante il trattamento"
+      },
+      "aftercare": "Dopo il trattamento rialzati lentamente e bevi acqua tiepida. In caso di malessere consulta il tuo medico."
+    }
+  },
   "services": {
     "title": "Listino Prezzi",
-    "subtitle": "Prezzi",
+    "subtitle": "Prezzi chiari, scelte serene",
     "currency": "$",
-    "min": "Min",
     "minutes": "min",
     "main_title": "Servizi Principali",
     "combo_title": "Pacchetti Combinati",
@@ -86,11 +208,16 @@
     }
   },
   "about": {
-    "title": "Chi Siamo",
+    "title": "I Nostri Trattamenti",
     "story_title": "Esperti di guarigione specializzati nel rilassamento profondo",
     "story_p1": "Lively Foot - 活力足 serve Happy Valley da oltre dieci anni. Ci dedichiamo esclusivamente a una cosa: offrirvi l'esperienza di massaggio più profonda ed efficace.",
     "story_p2": "Siamo specializzati nel massaggio cinese dei piedi e nel massaggio corporeo completo, con maestri esperti con oltre dieci anni di pratica. Con tecniche esclusive, raggiungiamo in profondità i vostri punti di affaticamento, migliorando efficacemente il mal di schiena, la rigidità di spalle e collo e altri disturbi. Non ci limitiamo a rilassare: aiutiamo il vostro corpo a ritrovare equilibrio e salute.",
     "story_p3": "Il nostro spazio è pulito e confortevole, per un'esperienza in totale serenità. Se cercate un massaggio professionale che risolva davvero la stanchezza fisica, Lively Foot - 活力足 è la vostra prima scelta. Chiamateci per prenotare.",
+    "treatments_title": "Sei Trattamenti Signature",
+    "hygiene_title": "Impegno per Qualità e Igiene",
+    "hygiene_1": "Asciugamani e lenzuola cambiati per ogni ospite, lavati e igienizzati ad alta temperatura",
+    "hygiene_2": "Strumenti per la cura delle unghie e il gua sha disinfettati a fondo dopo ogni utilizzo",
+    "hygiene_3": "Sale pulite e arieggiate regolarmente, per un ambiente fresco e sereno",
     "team_title": "Il Nostro Team",
     "environment_title": "Il Nostro Spazio"
   },
@@ -176,7 +303,7 @@
       },
       "location": {
         "q": "Come raggiungo il vostro centro?",
-        "a": "Ci troviamo al 5/F & Cockloft, King Cheung Mansion, King Kwong Street, Happy Valley. Prendi il tram fino al capolinea di Happy Valley — siamo a circa 3 minuti a piedi."
+        "a": "Ci troviamo al M/F, King Cheung Mansion, 5 King Kwong Street, Happy Valley. Prendi il tram fino al capolinea di Happy Valley — siamo a circa 3 minuti a piedi."
       }
     }
   }

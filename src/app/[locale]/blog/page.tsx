@@ -4,6 +4,7 @@ import { getAllPosts } from '@/lib/blog';
 import { BreadcrumbJsonLd } from '@/components/JsonLd';
 import BlogList from '@/components/BlogList';
 import Breadcrumb from '@/components/Breadcrumb';
+import { buildAlternates, buildOpenGraph } from '@/lib/seo';
 
 const BASE_URL = 'https://livelyfoot-hk.com';
 
@@ -14,11 +15,19 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'blog' });
+  const brand = (await getTranslations({ locale }))('brand');
 
   return {
     title: t('title'),
     description: t('subtitle'),
-    alternates: { canonical: `${BASE_URL}/${locale}/blog` },
+    alternates: buildAlternates('/blog', locale),
+    openGraph: buildOpenGraph({
+      title: t('title'),
+      description: t('subtitle'),
+      path: '/blog',
+      locale,
+      siteName: brand,
+    }),
   };
 }
 

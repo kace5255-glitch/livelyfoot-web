@@ -4,8 +4,8 @@ export default function NotFound() {
       <body>
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', minHeight: '100vh', fontFamily: 'system-ui' }}>
           <div style={{ textAlign: 'center' }}>
-            <h1 style={{ fontSize: '4rem', margin: 0, color: '#8B6F47' }}>404</h1>
-            <p style={{ color: '#6B5535', marginTop: '1rem' }}>Page not found</p>
+            <h1 style={{ fontSize: '4rem', margin: 0, color: '#B38E5D' }}>404</h1>
+            <p style={{ color: '#2C2A26', marginTop: '1rem' }}>Page not found</p>
           </div>
         </div>
       </body>

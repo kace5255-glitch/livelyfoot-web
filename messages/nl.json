@@ -11,10 +11,16 @@
     "hero_title": "Ontwaak Uw Lichaam Van Binnenuit",
     "hero_subtitle": "Wij kijken ernaar uit u de meest professionele massage- en verzorgingsdiensten te bieden",
     "hero_cta": "Bekijk Diensten",
+    "hero_book": "Neem Contact Op om te Reserveren",
+    "hero_image_alt": "Professionele massagebehandeling bij LivelyFoot",
+    "location_badge": "Happy Valley, Hong Kong",
     "about_badge": "Est. 2012",
     "about_title": "Over a Decade of Professional Experience",
+    "kicker_why": "Why Choose Us",
+    "kicker_pricing": "Pricing",
+    "kicker_faq": "FAQ",
     "features_title": "Why Choose Us",
-    "features_subtitle": "The features we offer to you.",
+    "features_subtitle": "Tien jaar vakmanschap, voor een lichter gevoel",
     "feature_experience": "10+ Years",
     "feature_experience_desc": "Serving Happy Valley for over a decade",
     "feature_team": "Expert Team",
@@ -24,7 +30,22 @@
     "feature_comfort": "Comfort",
     "feature_comfort_desc": "Clean, relaxing space",
     "treatments_title": "Professionele Behandelingen",
-    "treatments_subtitle": "Ontdek het verzorgingsplan dat bij u past — verjong van binnenuit."
+    "treatments_subtitle": "Ontdek het verzorgingsplan dat bij u past — verjong van binnenuit.",
+    "cta_title": "Laat Vanavond Uw Lichaam Eerst Vrijaf Nemen",
+    "cta_desc": "Dagelijks geopend tot middernacht. Na een lange dag laat u het met een gerust hart over aan onze ervaren therapeuten. Reserveer via WhatsApp of telefoon."
+  },
+  "cta": {
+    "title": "Klaar om te Ontspannen?",
+    "subtitle": "Reserveer uw gewenste tijdstip via WhatsApp of telefoon",
+    "whatsapp": "Reserveer via WhatsApp",
+    "call": "Bel om te Reserveren",
+    "book_now": "Reserveer Nu",
+    "wa_generic": "Hallo, ik wil graag een massage reserveren. Is er vandaag plaats?",
+    "wa_service": "Hallo, ik wil graag een {service} reserveren. Is er vandaag plaats?"
+  },
+  "openStatus": {
+    "open_now": "Nu geopend · tot 00:00",
+    "closed_now": "Gesloten · opent om 10:00"
   },
   "treatments": {
     "foot_reflex": {
@@ -34,6 +55,10 @@
     "body_acupoint": {
       "name": "Volledige Lichaam Acupressuur",
       "description": "Richt zich op schouder-, nek- en rugpijn veroorzaakt door langdurige slechte houding. Therapeuten gebruiken vingerdruk en kneedtechnieken om acupunctuurpunten nauwkeurig te lokaliseren, gespannen spieren diep los te maken en meridianen te deblokkeren."
+    },
+    "oil_body": {
+      "name": "Aromatherapie Volledige Lichaamsmassage",
+      "description": "Combineert essentiële oliën met professionele technieken. Lange, vloeiende streken ontspannen de spieren diepgaand, verlichten stress en spanning en voeden tegelijkertijd de huid — zodat lichaam en geest hun balans hervinden."
     },
     "lymph": {
       "name": "Lymfedrainage Massage",
@@ -52,11 +77,108 @@
       "description": "Stimuleert meridianen op het lichaamsoppervlak om opgehoopte gifstoffen en hitte te verdrijven. Verlicht effectief vroege verkoudheidssymptomen, nek- en schouderstijfheid en hitteberoerte, en versterkt de weerstand van het lichaam."
     }
   },
+  "serviceDetail": {
+    "common": {
+      "steps_title": "Verloop van de Behandeling",
+      "suitable_title": "Geschikt Voor",
+      "notes_title": "Goed om te Weten",
+      "others_title": "Andere Behandelingen"
+    },
+    "foot": {
+      "steps": {
+        "1": "Een warm voetbad om te ontspannen, terwijl uw therapeut uw wensen en conditie bespreekt",
+        "2": "Massagecrème wordt aangebracht en de voeten worden van enkel tot voetzool opgewarmd",
+        "3": "Diepe druk met de knokkels op de reflexzones om de lichaamsfuncties te reguleren",
+        "4": "Vrijmaken van de kuitmeridianen en een verzorgende afsluiting met een warme handdoek"
+      },
+      "suitable": {
+        "1": "Wie lang staat of loopt en last heeft van vermoeide, gezwollen benen",
+        "2": "Wie slecht slaapt of koude handen en voeten heeft",
+        "3": "Drukbezette stedelingen die diepe ontspanning nodig hebben"
+      },
+      "notes": {
+        "1": "Niet geschikt bij open wonden, ernstige spataderen of huidaandoeningen aan de voeten",
+        "2": "Wacht na de maaltijd bij voorkeur ongeveer een uur met uw massage"
+      },
+      "aftercare": "Drink na afloop voldoende warm water om de stofwisseling te ondersteunen en vermijd die avond koud douchen."
+    },
+    "body": {
+      "steps": {
+        "1": "Uw therapeut bespreekt uw pijnpunten en gewenste drukintensiteit",
+        "2": "Vanaf de schouders en nek worden gespannen spieren stap voor stap losgemaakt",
+        "3": "Diepe acupressuur langs rug en lenden om de meridianen te deblokkeren",
+        "4": "Rekkingen over het hele lichaam en een zachte afsluiting voor hernieuwde balans"
+      },
+      "suitable": {
+        "1": "Bureauwerkers met schouder-, nek- en rugklachten",
+        "2": "Wie na het sporten gespannen spieren heeft en diepe ontspanning zoekt",
+        "3": "Wie zich vaak vermoeid of stijf voelt"
+      },
+      "notes": {
+        "1": "Niet geschikt bij koorts, acute verstuikingen of ernstige osteoporose",
+        "2": "Vraag uw therapeut gerust op elk moment de druk aan te passen"
+      },
+      "aftercare": "Lichte spierpijn op sommige plekken is normaal na diepe weefselmassage — drink warm water en rust goed uit."
+    },
+    "oil_body": {
+      "steps": {
+        "1": "Kies uw massageolie terwijl uw therapeut uw wensen bespreekt",
+        "2": "Verwarmde olie wordt met lange streken aangebracht om de rugspieren te ontwaken",
+        "3": "Langzame, diepe streken over het hele lichaam om opgebouwde stress en vermoeidheid los te laten",
+        "4": "Een zachte afsluiting, gevolgd door enkele rustige minuten waarin de olie uw huid voedt"
+      },
+      "suitable": {
+        "1": "Wie onder stress en spanning staat en diepe ontspanning nodig heeft",
+        "2": "Wie een droge huid heeft en houdt van zachte, voedende verzorging",
+        "3": "Wie de voorkeur geeft aan vloeiende streken boven stevige druk"
+      },
+      "notes": {
+        "1": "Laat het ons vooraf weten als u allergisch bent voor oliën of geurstoffen",
+        "2": "Aanstaande moeders kiezen bij voorkeur onze speciale prenatale massage"
+      },
+      "aftercare": "De olie mag op de huid blijven om deze verder te voeden — wij adviseren enkele uren te wachten voordat u doucht."
+    },
+    "lymph": {
+      "steps": {
+        "1": "Uw therapeut beoordeelt uw conditie en eventuele zones met vochtophoping",
+        "2": "Zachte, ritmische streken die de lymfebanen volgen",
+        "3": "Gerichte drainage om de lymfestroom te stimuleren en afvalstoffen af te voeren",
+        "4": "Een ontspannende afsluiting met warme handdoeken"
+      },
+      "suitable": {
+        "1": "Wie snel vocht vasthoudt door lang zitten of staan",
+        "2": "Wie een trage stofwisseling heeft en de constitutie wil verbeteren",
+        "3": "Wie de voorkeur geeft aan een zachte aanraking boven diepe druk"
+      },
+      "notes": {
+        "1": "Niet geschikt bij acute infecties, koorts of ernstige hart- of nieraandoeningen",
+        "2": "Vaker naar het toilet moeten na de behandeling is een normale metabolische reactie"
+      },
+      "aftercare": "Drink na afloop ruim warm water om de lymfedrainage te ondersteunen en het resultaat te versterken."
+    },
+    "prenatal": {
+      "steps": {
+        "1": "Uw therapeut bespreekt uw zwangerschapsfase en conditie",
+        "2": "Een veilige zijligging, ondersteund door zachte kussens",
+        "3": "Zachte verlichting van lumbale druk, gezwollen benen en spierkrampen",
+        "4": "Een zachte afsluiting, met hulp bij rustig opstaan en nagenieten"
+      },
+      "suitable": {
+        "1": "Aanstaande moeders na het eerste trimester met rugpijn of gezwollen benen",
+        "2": "Wie slecht slaapt of 's nachts last heeft van beenkrampen",
+        "3": "Wie tijdens de zwangerschap veilige, zachte ontspanning zoekt"
+      },
+      "notes": {
+        "1": "Aanbevolen na het eerste trimester; raadpleeg bij een risicozwangerschap eerst uw arts",
+        "2": "Meld het uw therapeut onmiddellijk als u zich tijdens de behandeling niet comfortabel voelt"
+      },
+      "aftercare": "Sta na de behandeling rustig op en drink warm water. Raadpleeg uw arts als u zich niet goed voelt."
+    }
+  },
   "services": {
     "title": "Prijslijst Diensten",
-    "subtitle": "Prijzen",
+    "subtitle": "Transparante prijzen, reserveer met vertrouwen",
     "currency": "$",
-    "min": "Min",
     "minutes": "min",
     "main_title": "Hoofddiensten",
     "combo_title": "Combopakketten",
@@ -86,11 +208,16 @@
     }
   },
   "about": {
-    "title": "Over Ons",
+    "title": "Onze Behandelingen",
     "story_title": "Genezingsexperts gespecialiseerd in diepe ontspanning",
     "story_p1": "Lively Foot - 活力足 bedient Happy Valley al meer dan tien jaar. Wij richten ons uitsluitend op één ding: u de diepste en meest effectieve massage-ervaring bieden.",
     "story_p2": "Wij zijn gespecialiseerd in Chinese voetmassage en volledige lichaamsmassage, uitgevoerd door ervaren meesters met meer dan tien jaar praktijkervaring. Met exclusieve technieken bereiken wij uw vermoeidheidspunten diep, en verbeteren wij effectief rugpijn, schouder- en nekstijfheid en andere klachten. Wij bieden niet alleen ontspanning — wij helpen uw lichaam zijn balans en gezondheid te herstellen.",
     "story_p3": "Onze ruimte is schoon en comfortabel, voor een ervaring in alle rust. Als u op zoek bent naar een professionele massage die lichamelijke vermoeidheid echt oplost, is Lively Foot - 活力足 uw eerste keuze. Bel ons gerust om een afspraak te maken.",
+    "treatments_title": "Zes Signatuurbehandelingen",
+    "hygiene_title": "Onze Kwaliteits- en Hygiënebelofte",
+    "hygiene_1": "Handdoeken en lakens worden voor elke gast verschoond en op hoge temperatuur gewassen en gedesinfecteerd",
+    "hygiene_2": "Nagelverzorgings- en gua sha-instrumenten worden na elk gebruik grondig gedesinfecteerd",
+    "hygiene_3": "Ruimtes worden regelmatig gereinigd en geventileerd voor een frisse omgeving in alle rust",
     "team_title": "Ons Team",
     "environment_title": "Onze Ruimte"
   },
@@ -176,7 +303,7 @@
       },
       "location": {
         "q": "Hoe kom ik bij uw locatie?",
-        "a": "Wij bevinden ons op 5/F & Cockloft, King Cheung Mansion, King Kwong Street, Happy Valley. Neem de tram naar het eindpunt Happy Valley — wij zijn ongeveer 3 minuten lopen."
+        "a": "Wij bevinden ons op M/F, King Cheung Mansion, 5 King Kwong Street, Happy Valley. Neem de tram naar het eindpunt Happy Valley — wij zijn ongeveer 3 minuten lopen."
       }
     }
   }
